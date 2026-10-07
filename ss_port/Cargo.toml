@@ -1,0 +1,25 @@
+[package]
+name = "ss_port"
+version = "0.1.0"
+edition = "2024"
+description = "1:1 Rust/Bevy port of Subway Surfers (web), validated against oracle traces"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "ss_port"
+path = "src/main.rs"
+
+[dependencies]
+bevy = { version = "0.19.1", features = ["webp", "jpeg"] }
+miniz_oxide = "0.8"
+ttf-parser = "0.25"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = { version = "1.0.151", features = ["float_roundtrip"] }
+# the window icon at run time (the same winit Bevy uses)
+winit = { version = "0.30", default-features = false }
+
+[build-dependencies]
+# the .exe icon on Windows (assets/icon/icon.ico)
+embed-resource = "3"

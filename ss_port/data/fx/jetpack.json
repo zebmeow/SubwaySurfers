@@ -1,0 +1,2109 @@
+{
+ "boost": {
+  "time": 1.5,
+  "rotation": [
+   -1,
+   0,
+   0
+  ],
+  "scale": [
+   0,
+   0,
+   2
+  ],
+  "curve": [
+   {
+    "time": 0,
+    "value": 0,
+    "inTangent": 2.0282204,
+    "outTangent": 2.0282204
+   },
+   {
+    "time": 0.05613843,
+    "value": 0.4730943,
+    "inTangent": 2.9176197,
+    "outTangent": 2.9176197
+   },
+   {
+    "time": 0.501,
+    "value": 0.9989222,
+    "inTangent": 0.0070672147,
+    "outTangent": 0.0070672147
+   },
+   {
+    "time": 1,
+    "value": 0,
+    "inTangent": 0.0067686746,
+    "outTangent": 0.0067686746
+   }
+  ]
+ },
+ "sides": {
+  "left": {
+   "wobble": {
+    "offset": 5,
+    "speed": 5,
+    "intensity": 5.5
+   },
+   "particles": [
+    {
+     "name": "PS_Jetpack_Puff_Startburst_Left",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0
+     ],
+     "material": "common_Jetpack",
+     "config": {
+      "main": {
+       "duration": 5,
+       "loop": false,
+       "startDelay": 0,
+       "playOnAwake": true,
+       "startLifetime": {
+        "mode": 3,
+        "values": [
+         0.3499999940395355,
+         0.5
+        ],
+        "range": 5
+       },
+       "startSpeed": {
+        "mode": 3,
+        "values": [
+         10,
+         15
+        ],
+        "range": 5
+       },
+       "startSize": {
+        "mode": 3,
+        "values": [
+         10,
+         15
+        ],
+        "range": 5
+       },
+       "startRotation": {
+        "mode": 3,
+        "values": [
+         1.570796251296997,
+         -1.570796251296997
+        ],
+        "range": 5
+       },
+       "startRotation3D": true,
+       "startRotationX": {
+        "mode": 3,
+        "values": [
+         0,
+         0
+        ],
+        "range": 5
+       },
+       "startRotationY": {
+        "mode": 3,
+        "values": [
+         0,
+         0
+        ],
+        "range": 5
+       },
+       "startRotationZ": {
+        "mode": 3,
+        "values": [
+         1.570796251296997,
+         -1.570796251296997
+        ],
+        "range": 5
+       },
+       "gravityModifier": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 5
+       },
+       "startColor": {
+        "mode": 4,
+        "colors": [],
+        "gradients": [
+         {
+          "fixedGradient": false,
+          "colorTimes": [
+           0,
+           0.15646600723266602,
+           0.31087204813957214,
+           0.4793316423892975,
+           0.6309300661087036,
+           0.8300144672393799,
+           1
+          ],
+          "colorValues": [
+           {
+            "r": 0.02352941408753395,
+            "g": 0.8274510502815247,
+            "b": 0.8901961445808411,
+            "a": 1
+           },
+           {
+            "r": 1,
+            "g": 0,
+            "b": 0.9941978454589844,
+            "a": 1
+           },
+           {
+            "r": 0.9568628072738647,
+            "g": 0.062745101749897,
+            "b": 0.02352941408753395,
+            "a": 1
+           },
+           {
+            "r": 0.8000000715255737,
+            "g": 0.6039215922355652,
+            "b": 0,
+            "a": 1
+           },
+           {
+            "r": 0.6431372761726379,
+            "g": 0.8509804606437683,
+            "b": 0.003921568859368563,
+            "a": 1
+           },
+           {
+            "r": 0.29019609093666077,
+            "g": 0.9686275124549866,
+            "b": 0.062745101749897,
+            "a": 1
+           },
+           {
+            "r": 0.02352941408753395,
+            "g": 0.8274510502815247,
+            "b": 0.8901961445808411,
+            "a": 1
+           }
+          ],
+          "alphaTimes": [
+           0,
+           1
+          ],
+          "alphaValues": [
+           1,
+           1
+          ]
+         }
+        ]
+       },
+       "simulationSpeed": 1,
+       "maxParticles": 10,
+       "simulationSpace": 0,
+       "scalingMode": 1
+      },
+      "emission": {
+       "enabled": true,
+       "rateOverTime": {
+        "mode": 2,
+        "values": [
+         0.535218358039856,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "range": 1
+       },
+       "rateOverDistance": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 1
+       },
+       "bursts": []
+      },
+      "shape": {
+       "enabled": true,
+       "shapeType": 10,
+       "angle": 25,
+       "radius": 0.009999999776482582,
+       "radiusThickness": 0.25,
+       "donutRadius": 0.20000000298023224,
+       "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       },
+       "mesh": "",
+       "meshShapeType": 0,
+       "meshSpawnMode": 0
+      },
+      "velocityOverLifetime": {
+       "enabled": true,
+       "space": 0,
+       "linear": [
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          5
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          -30
+         ],
+         "range": 1
+        }
+       ],
+       "orbital": [
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        }
+       ],
+       "orbitalOffset": [
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        }
+       ],
+       "radial": {
+        "mode": 0,
+        "values": [
+         1
+        ],
+        "range": 1
+       },
+       "speedModifier": {
+        "mode": 0,
+        "values": [
+         5
+        ],
+        "range": 1
+       }
+      },
+      "forceOverLifetime": {
+       "enabled": false,
+       "space": 0,
+       "force": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "randomized": false
+      },
+      "limitVelocityOverLifetime": {
+       "enabled": true,
+       "speed": {
+        "mode": 1,
+        "values": [
+         0,
+         -0.0011974744265899062,
+         -0.00020569562911987305,
+         0.009851638227701187,
+         0.03585083410143852,
+         0.08466819673776627,
+         0.16317999362945557,
+         0.28823962807655334,
+         0.5603538155555725,
+         1
+        ],
+        "range": 1
+       },
+       "dampen": 0.10000000149011612,
+       "drag": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 1
+       },
+       "multiplyDragByParticleSize": true,
+       "multiplyDragByParticleVelocity": true
+      },
+      "colorOverLifetime": {
+       "enabled": true,
+       "color": {
+        "mode": 1,
+        "colors": [],
+        "gradients": [
+         {
+          "fixedGradient": false,
+          "colorTimes": [
+           0,
+           1
+          ],
+          "colorValues": [
+           {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+           },
+           {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+           }
+          ],
+          "alphaTimes": [
+           0,
+           0.2500038146972656,
+           1
+          ],
+          "alphaValues": [
+           1,
+           1,
+           0
+          ]
+         }
+        ]
+       }
+      },
+      "sizeOverLifetime": {
+       "enabled": true,
+       "size": {
+        "mode": 1,
+        "values": [
+         0.6294507384300232,
+         0.8038694262504578,
+         0.942816972732544,
+         1.0591235160827637,
+         1.1656196117401123,
+         1.2751352787017822,
+         1.4005008935928345,
+         1.554546594619751,
+         1.7501029968261719,
+         2
+        ],
+        "range": 1
+       }
+      },
+      "rotationOverLifetime": {
+       "enabled": false,
+       "separateAxes": false,
+       "x": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "y": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "z": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "noise": {
+       "enabled": false,
+       "strength": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "frequency": 0,
+       "damping": false,
+       "quality": 0,
+       "positionAmount": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "renderer": {
+       "mode": 0,
+       "alignment": 0,
+       "meshes": [],
+       "cameraScale": 0,
+       "speedScale": 0,
+       "lengthScale": 0,
+       "materialName": "common_Jetpack"
+      },
+      "subEmitters": {
+       "subEmitters": []
+      },
+      "textureSheetAnimation": {
+       "enabled": false,
+       "mode": 0,
+       "uvChannelMask": 0,
+       "numTilesX": 0,
+       "numTilesY": 0,
+       "animation": 0,
+       "frameOverTime": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "frameOverTimeMultiplier": 0,
+       "startFrame": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "startFrameMultiplier": 0,
+       "cycleCount": 0,
+       "rowMode": 0,
+       "rowIndex": 0,
+       "timeMode": 0,
+       "fps": 0,
+       "speedRange": {
+        "x": 0,
+        "y": 0
+       },
+       "flipU": false,
+       "flipV": false,
+       "spriteCount": 0
+      }
+     }
+    },
+    {
+     "name": "PS_Jetpack_Paint",
+     "position": [
+      0,
+      0,
+      -0.11
+     ],
+     "rotation": [
+      -0.000005,
+      189.692993,
+      180
+     ],
+     "material": "common_Jetpack 1",
+     "config": {
+      "main": {
+       "duration": 1.5,
+       "loop": true,
+       "startDelay": 0.10000000149011612,
+       "playOnAwake": true,
+       "startLifetime": {
+        "mode": 3,
+        "values": [
+         0.4000000059604645,
+         0.6000000238418579
+        ],
+        "range": 1.5
+       },
+       "startSpeed": {
+        "mode": 3,
+        "values": [
+         10,
+         12
+        ],
+        "range": 1.5
+       },
+       "startSize": {
+        "mode": 3,
+        "values": [
+         2,
+         3
+        ],
+        "range": 1.5
+       },
+       "startRotation": {
+        "mode": 3,
+        "values": [
+         0,
+         6.283185005187988
+        ],
+        "range": 1.5
+       },
+       "startRotation3D": false,
+       "startRotationX": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "startRotationY": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "startRotationZ": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "gravityModifier": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 1.5
+       },
+       "startColor": {
+        "mode": 1,
+        "colors": [],
+        "gradients": [
+         {
+          "fixedGradient": false,
+          "colorTimes": [
+           0,
+           1
+          ],
+          "colorValues": [
+           {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+           },
+           {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+           }
+          ],
+          "alphaTimes": [
+           0,
+           1
+          ],
+          "alphaValues": [
+           1,
+           1
+          ]
+         }
+        ]
+       },
+       "simulationSpeed": 1,
+       "maxParticles": 20,
+       "simulationSpace": 0,
+       "scalingMode": 1
+      },
+      "emission": {
+       "enabled": true,
+       "rateOverTime": {
+        "mode": 0,
+        "values": [
+         10
+        ],
+        "range": 1
+       },
+       "rateOverDistance": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 1
+       },
+       "bursts": []
+      },
+      "shape": {
+       "enabled": true,
+       "shapeType": 4,
+       "angle": 6.239999771118164,
+       "radius": 0.3100000023841858,
+       "radiusThickness": 0,
+       "donutRadius": 0.20000000298023224,
+       "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       },
+       "mesh": "",
+       "meshShapeType": 0,
+       "meshSpawnMode": 0
+      },
+      "velocityOverLifetime": {
+       "enabled": false,
+       "space": 0,
+       "linear": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "orbital": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "orbitalOffset": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "radial": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "speedModifier": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "forceOverLifetime": {
+       "enabled": false,
+       "space": 0,
+       "force": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "randomized": false
+      },
+      "limitVelocityOverLifetime": {
+       "enabled": false,
+       "speed": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "dampen": 0,
+       "drag": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "multiplyDragByParticleSize": false,
+       "multiplyDragByParticleVelocity": false
+      },
+      "colorOverLifetime": {
+       "enabled": true,
+       "color": {
+        "mode": 1,
+        "colors": [],
+        "gradients": [
+         {
+          "fixedGradient": false,
+          "colorTimes": [
+           0,
+           0.34470129013061523,
+           0.8152895569801331
+          ],
+          "colorValues": [
+           {
+            "r": 0.8901961445808411,
+            "g": 0.9372549653053284,
+            "b": 0.7647059559822083,
+            "a": 1
+           },
+           {
+            "r": 0,
+            "g": 0.8792452812194824,
+            "b": 0.15792439877986908,
+            "a": 1
+           },
+           {
+            "r": 0.12156860530376434,
+            "g": 0.4467472732067108,
+            "b": 0.9843137264251709,
+            "a": 1
+           }
+          ],
+          "alphaTimes": [
+           0,
+           0.7047073841094971,
+           1
+          ],
+          "alphaValues": [
+           1,
+           1,
+           0
+          ]
+         }
+        ]
+       }
+      },
+      "sizeOverLifetime": {
+       "enabled": true,
+       "size": {
+        "mode": 1,
+        "values": [
+         0.19183661043643951,
+         0.3617401123046875,
+         0.5055484771728516,
+         0.6258624196052551,
+         0.7252825498580933,
+         0.8064096570014954,
+         0.8718442320823669,
+         0.9241870641708374,
+         0.966038703918457,
+         1
+        ],
+        "range": 1
+       }
+      },
+      "rotationOverLifetime": {
+       "enabled": false,
+       "separateAxes": false,
+       "x": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "y": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "z": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "noise": {
+       "enabled": false,
+       "strength": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "frequency": 0,
+       "damping": false,
+       "quality": 0,
+       "positionAmount": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "renderer": {
+       "mode": 0,
+       "alignment": 0,
+       "meshes": [],
+       "cameraScale": 0,
+       "speedScale": 0,
+       "lengthScale": 0,
+       "materialName": "common_Jetpack 1"
+      },
+      "subEmitters": {
+       "subEmitters": []
+      },
+      "textureSheetAnimation": {
+       "enabled": false,
+       "mode": 0,
+       "uvChannelMask": 0,
+       "numTilesX": 0,
+       "numTilesY": 0,
+       "animation": 0,
+       "frameOverTime": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "frameOverTimeMultiplier": 0,
+       "startFrame": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "startFrameMultiplier": 0,
+       "cycleCount": 0,
+       "rowMode": 0,
+       "rowIndex": 0,
+       "timeMode": 0,
+       "fps": 0,
+       "speedRange": {
+        "x": 0,
+        "y": 0
+       },
+       "flipU": false,
+       "flipV": false,
+       "spriteCount": 0
+      }
+     }
+    }
+   ],
+   "trail": {
+    "position": [
+     0.05,
+     0,
+     0.83
+    ],
+    "material": "common_Jetpack_trail",
+    "data": {
+     "time": 0.09000000357627869,
+     "minVertexDistance": 0.30000001192092896,
+     "widthMultiplier": 7,
+     "widthCurve": [
+      {
+       "time": 0,
+       "value": 0.20355224609375,
+       "inTangent": 2.115814208984375,
+       "outTangent": 2.115814208984375
+      },
+      {
+       "time": 0.48049378395080566,
+       "value": 0.6768606305122375,
+       "inTangent": 0.6608946919441223,
+       "outTangent": 0.6608946919441223
+      },
+      {
+       "time": 0.9748923778533936,
+       "value": 1,
+       "inTangent": 0.7706103324890137,
+       "outTangent": 0.7706103324890137
+      }
+     ],
+     "color": {
+      "fixedGradient": false,
+      "colorTimes": [
+       0,
+       0.21293964982032776,
+       0.6976425051689148,
+       1
+      ],
+      "colorValues": [
+       {
+        "r": 0.8901961445808411,
+        "g": 0.9372549653053284,
+        "b": 0.7647059559822083,
+        "a": 1
+       },
+       {
+        "r": 0,
+        "g": 0.8792452812194824,
+        "b": 0.15792439877986908,
+        "a": 1
+       },
+       {
+        "r": 0.12156860530376434,
+        "g": 0.4467472732067108,
+        "b": 0.9843137264251709,
+        "a": 1
+       },
+       {
+        "r": 0.12156863510608673,
+        "g": 0.44705885648727417,
+        "b": 0.9843137860298157,
+        "a": 1
+       }
+      ],
+      "alphaTimes": [
+       0,
+       0.5611810684204102,
+       1
+      ],
+      "alphaValues": [
+       1,
+       0.8470588326454163,
+       0
+      ]
+     }
+    }
+   },
+   "flame": {
+    "position": [
+     0.95,
+     -0.3,
+     2.66
+    ],
+    "rotation": [
+     78.931,
+     0,
+     0
+    ],
+    "scale": 0.6,
+    "material": "common_Jetpack_VFX"
+   }
+  },
+  "right": {
+   "wobble": {
+    "offset": 0,
+    "speed": 4.9,
+    "intensity": 5.5
+   },
+   "particles": [
+    {
+     "name": "PS_Jetpack_Paint (1)",
+     "position": [
+      0.29,
+      0,
+      -0.11
+     ],
+     "rotation": [
+      -0.000005,
+      189.692993,
+      180
+     ],
+     "material": "common_Jetpack 1",
+     "config": {
+      "main": {
+       "duration": 1.5,
+       "loop": true,
+       "startDelay": 0.10000000149011612,
+       "playOnAwake": true,
+       "startLifetime": {
+        "mode": 3,
+        "values": [
+         0.4000000059604645,
+         0.6000000238418579
+        ],
+        "range": 1.5
+       },
+       "startSpeed": {
+        "mode": 3,
+        "values": [
+         10,
+         12
+        ],
+        "range": 1.5
+       },
+       "startSize": {
+        "mode": 3,
+        "values": [
+         2,
+         3
+        ],
+        "range": 1.5
+       },
+       "startRotation": {
+        "mode": 3,
+        "values": [
+         0,
+         6.283185005187988
+        ],
+        "range": 1.5
+       },
+       "startRotation3D": false,
+       "startRotationX": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "startRotationY": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "startRotationZ": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "gravityModifier": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 1.5
+       },
+       "startColor": {
+        "mode": 1,
+        "colors": [],
+        "gradients": [
+         {
+          "fixedGradient": false,
+          "colorTimes": [
+           0,
+           1
+          ],
+          "colorValues": [
+           {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+           },
+           {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+           }
+          ],
+          "alphaTimes": [
+           0,
+           1
+          ],
+          "alphaValues": [
+           1,
+           1
+          ]
+         }
+        ]
+       },
+       "simulationSpeed": 1,
+       "maxParticles": 20,
+       "simulationSpace": 0,
+       "scalingMode": 1
+      },
+      "emission": {
+       "enabled": true,
+       "rateOverTime": {
+        "mode": 0,
+        "values": [
+         10
+        ],
+        "range": 1
+       },
+       "rateOverDistance": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 1
+       },
+       "bursts": []
+      },
+      "shape": {
+       "enabled": true,
+       "shapeType": 4,
+       "angle": 6.239999771118164,
+       "radius": 0.3100000023841858,
+       "radiusThickness": 0,
+       "donutRadius": 0.20000000298023224,
+       "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       },
+       "mesh": "",
+       "meshShapeType": 0,
+       "meshSpawnMode": 0
+      },
+      "velocityOverLifetime": {
+       "enabled": false,
+       "space": 0,
+       "linear": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "orbital": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "orbitalOffset": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "radial": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "speedModifier": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "forceOverLifetime": {
+       "enabled": false,
+       "space": 0,
+       "force": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "randomized": false
+      },
+      "limitVelocityOverLifetime": {
+       "enabled": false,
+       "speed": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "dampen": 0,
+       "drag": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "multiplyDragByParticleSize": false,
+       "multiplyDragByParticleVelocity": false
+      },
+      "colorOverLifetime": {
+       "enabled": true,
+       "color": {
+        "mode": 1,
+        "colors": [],
+        "gradients": [
+         {
+          "fixedGradient": false,
+          "colorTimes": [
+           0,
+           0.22705425322055817,
+           0.8223544955253601
+          ],
+          "colorValues": [
+           {
+            "r": 0.8901961445808411,
+            "g": 0.9372549653053284,
+            "b": 0.7647059559822083,
+            "a": 1
+           },
+           {
+            "r": 0.9843137860298157,
+            "g": 0.8823530077934265,
+            "b": 0.12156863510608673,
+            "a": 1
+           },
+           {
+            "r": 0.9568628072738647,
+            "g": 0.062745101749897,
+            "b": 0.02352941408753395,
+            "a": 1
+           }
+          ],
+          "alphaTimes": [
+           0,
+           0.7282367944717407,
+           1
+          ],
+          "alphaValues": [
+           1,
+           1,
+           0
+          ]
+         }
+        ]
+       }
+      },
+      "sizeOverLifetime": {
+       "enabled": true,
+       "size": {
+        "mode": 1,
+        "values": [
+         0.19183661043643951,
+         0.3617401123046875,
+         0.5055484771728516,
+         0.6258624196052551,
+         0.7252825498580933,
+         0.8064096570014954,
+         0.8718442320823669,
+         0.9241870641708374,
+         0.966038703918457,
+         1
+        ],
+        "range": 1
+       }
+      },
+      "rotationOverLifetime": {
+       "enabled": false,
+       "separateAxes": false,
+       "x": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "y": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "z": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "noise": {
+       "enabled": false,
+       "strength": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "frequency": 0,
+       "damping": false,
+       "quality": 0,
+       "positionAmount": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "renderer": {
+       "mode": 0,
+       "alignment": 0,
+       "meshes": [],
+       "cameraScale": 0,
+       "speedScale": 0,
+       "lengthScale": 0,
+       "materialName": "common_Jetpack 1"
+      },
+      "subEmitters": {
+       "subEmitters": []
+      },
+      "textureSheetAnimation": {
+       "enabled": false,
+       "mode": 0,
+       "uvChannelMask": 0,
+       "numTilesX": 0,
+       "numTilesY": 0,
+       "animation": 0,
+       "frameOverTime": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "frameOverTimeMultiplier": 0,
+       "startFrame": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "startFrameMultiplier": 0,
+       "cycleCount": 0,
+       "rowMode": 0,
+       "rowIndex": 0,
+       "timeMode": 0,
+       "fps": 0,
+       "speedRange": {
+        "x": 0,
+        "y": 0
+       },
+       "flipU": false,
+       "flipV": false,
+       "spriteCount": 0
+      }
+     }
+    },
+    {
+     "name": "PS_Jetpack_Puff_Startburst_Right",
+     "position": [
+      0,
+      0,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0
+     ],
+     "material": "common_Jetpack",
+     "config": {
+      "main": {
+       "duration": 5,
+       "loop": false,
+       "startDelay": 0,
+       "playOnAwake": true,
+       "startLifetime": {
+        "mode": 3,
+        "values": [
+         0.3499999940395355,
+         0.5
+        ],
+        "range": 5
+       },
+       "startSpeed": {
+        "mode": 3,
+        "values": [
+         10,
+         15
+        ],
+        "range": 5
+       },
+       "startSize": {
+        "mode": 3,
+        "values": [
+         10,
+         15
+        ],
+        "range": 5
+       },
+       "startRotation": {
+        "mode": 3,
+        "values": [
+         1.570796251296997,
+         -1.570796251296997
+        ],
+        "range": 5
+       },
+       "startRotation3D": true,
+       "startRotationX": {
+        "mode": 3,
+        "values": [
+         0,
+         0
+        ],
+        "range": 5
+       },
+       "startRotationY": {
+        "mode": 3,
+        "values": [
+         0,
+         0
+        ],
+        "range": 5
+       },
+       "startRotationZ": {
+        "mode": 3,
+        "values": [
+         1.570796251296997,
+         -1.570796251296997
+        ],
+        "range": 5
+       },
+       "gravityModifier": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 5
+       },
+       "startColor": {
+        "mode": 4,
+        "colors": [],
+        "gradients": [
+         {
+          "fixedGradient": false,
+          "colorTimes": [
+           0,
+           0.1271076500415802,
+           0.31087204813957214,
+           0.4793316423892975,
+           0.6309300661087036,
+           0.8300144672393799,
+           1
+          ],
+          "colorValues": [
+           {
+            "r": 0.02352941408753395,
+            "g": 0.8274510502815247,
+            "b": 0.8901961445808411,
+            "a": 1
+           },
+           {
+            "r": 0.38823533058166504,
+            "g": 0.4431372880935669,
+            "b": 0.5490196347236633,
+            "a": 1
+           },
+           {
+            "r": 0.9568628072738647,
+            "g": 0.062745101749897,
+            "b": 0.02352941408753395,
+            "a": 1
+           },
+           {
+            "r": 0.8000000715255737,
+            "g": 0.6039215922355652,
+            "b": 0,
+            "a": 1
+           },
+           {
+            "r": 0.6431372761726379,
+            "g": 0.8509804606437683,
+            "b": 0.003921568859368563,
+            "a": 1
+           },
+           {
+            "r": 0.29019609093666077,
+            "g": 0.9686275124549866,
+            "b": 0.062745101749897,
+            "a": 1
+           },
+           {
+            "r": 0.02352941408753395,
+            "g": 0.8274510502815247,
+            "b": 0.8901961445808411,
+            "a": 1
+           }
+          ],
+          "alphaTimes": [
+           0,
+           1
+          ],
+          "alphaValues": [
+           1,
+           1
+          ]
+         }
+        ]
+       },
+       "simulationSpeed": 1,
+       "maxParticles": 10,
+       "simulationSpace": 0,
+       "scalingMode": 1
+      },
+      "emission": {
+       "enabled": true,
+       "rateOverTime": {
+        "mode": 2,
+        "values": [
+         0.535218358039856,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0,
+         0
+        ],
+        "range": 1
+       },
+       "rateOverDistance": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 1
+       },
+       "bursts": []
+      },
+      "shape": {
+       "enabled": true,
+       "shapeType": 10,
+       "angle": 25,
+       "radius": 0.009999999776482582,
+       "radiusThickness": 0.25,
+       "donutRadius": 0.20000000298023224,
+       "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       },
+       "mesh": "",
+       "meshShapeType": 0,
+       "meshSpawnMode": 0
+      },
+      "velocityOverLifetime": {
+       "enabled": true,
+       "space": 0,
+       "linear": [
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          5
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          -30
+         ],
+         "range": 1
+        }
+       ],
+       "orbital": [
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        }
+       ],
+       "orbitalOffset": [
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        },
+        {
+         "mode": 0,
+         "values": [
+          0
+         ],
+         "range": 1
+        }
+       ],
+       "radial": {
+        "mode": 0,
+        "values": [
+         1
+        ],
+        "range": 1
+       },
+       "speedModifier": {
+        "mode": 0,
+        "values": [
+         5
+        ],
+        "range": 1
+       }
+      },
+      "forceOverLifetime": {
+       "enabled": false,
+       "space": 0,
+       "force": [
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        },
+        {
+         "mode": 0,
+         "values": [],
+         "range": 0
+        }
+       ],
+       "randomized": false
+      },
+      "limitVelocityOverLifetime": {
+       "enabled": true,
+       "speed": {
+        "mode": 1,
+        "values": [
+         0,
+         -0.0011974744265899062,
+         -0.00020569562911987305,
+         0.009851638227701187,
+         0.03585083410143852,
+         0.08466819673776627,
+         0.16317999362945557,
+         0.28823962807655334,
+         0.5603538155555725,
+         1
+        ],
+        "range": 1
+       },
+       "dampen": 0.10000000149011612,
+       "drag": {
+        "mode": 0,
+        "values": [
+         0
+        ],
+        "range": 1
+       },
+       "multiplyDragByParticleSize": true,
+       "multiplyDragByParticleVelocity": true
+      },
+      "colorOverLifetime": {
+       "enabled": true,
+       "color": {
+        "mode": 1,
+        "colors": [],
+        "gradients": [
+         {
+          "fixedGradient": false,
+          "colorTimes": [
+           0,
+           1
+          ],
+          "colorValues": [
+           {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+           },
+           {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+           }
+          ],
+          "alphaTimes": [
+           0,
+           0.2500038146972656,
+           1
+          ],
+          "alphaValues": [
+           1,
+           1,
+           0
+          ]
+         }
+        ]
+       }
+      },
+      "sizeOverLifetime": {
+       "enabled": true,
+       "size": {
+        "mode": 1,
+        "values": [
+         0.6294507384300232,
+         0.8038694262504578,
+         0.942816972732544,
+         1.0591235160827637,
+         1.1656196117401123,
+         1.2751352787017822,
+         1.4005008935928345,
+         1.554546594619751,
+         1.7501029968261719,
+         2
+        ],
+        "range": 1
+       }
+      },
+      "rotationOverLifetime": {
+       "enabled": false,
+       "separateAxes": false,
+       "x": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "y": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "z": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "noise": {
+       "enabled": false,
+       "strength": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "frequency": 0,
+       "damping": false,
+       "quality": 0,
+       "positionAmount": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       }
+      },
+      "renderer": {
+       "mode": 0,
+       "alignment": 0,
+       "meshes": [],
+       "cameraScale": 0,
+       "speedScale": 0,
+       "lengthScale": 0,
+       "materialName": "common_Jetpack"
+      },
+      "subEmitters": {
+       "subEmitters": []
+      },
+      "textureSheetAnimation": {
+       "enabled": false,
+       "mode": 0,
+       "uvChannelMask": 0,
+       "numTilesX": 0,
+       "numTilesY": 0,
+       "animation": 0,
+       "frameOverTime": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "frameOverTimeMultiplier": 0,
+       "startFrame": {
+        "mode": 0,
+        "values": [],
+        "range": 0
+       },
+       "startFrameMultiplier": 0,
+       "cycleCount": 0,
+       "rowMode": 0,
+       "rowIndex": 0,
+       "timeMode": 0,
+       "fps": 0,
+       "speedRange": {
+        "x": 0,
+        "y": 0
+       },
+       "flipU": false,
+       "flipV": false,
+       "spriteCount": 0
+      }
+     }
+    }
+   ],
+   "trail": {
+    "position": [
+     0.2,
+     0,
+     0.83
+    ],
+    "material": "common_Jetpack_trail 1",
+    "data": {
+     "time": 0.09000000357627869,
+     "minVertexDistance": 0.30000001192092896,
+     "widthMultiplier": 7,
+     "widthCurve": [
+      {
+       "time": 0,
+       "value": 0.20355224609375,
+       "inTangent": 2.115814208984375,
+       "outTangent": 2.115814208984375
+      },
+      {
+       "time": 0.48049378395080566,
+       "value": 0.6768606305122375,
+       "inTangent": 0.6608946919441223,
+       "outTangent": 0.6608946919441223
+      },
+      {
+       "time": 0.9748923778533936,
+       "value": 1,
+       "inTangent": 0.7706103324890137,
+       "outTangent": 0.7706103324890137
+      }
+     ],
+     "color": {
+      "fixedGradient": false,
+      "colorTimes": [
+       0,
+       0.18471045792102814,
+       0.6500037908554077,
+       1
+      ],
+      "colorValues": [
+       {
+        "r": 0.8901961445808411,
+        "g": 0.9372549653053284,
+        "b": 0.7647059559822083,
+        "a": 1
+       },
+       {
+        "r": 0.9843137860298157,
+        "g": 0.8823530077934265,
+        "b": 0.12156863510608673,
+        "a": 1
+       },
+       {
+        "r": 0.9568628072738647,
+        "g": 0.062745101749897,
+        "b": 0.02352941408753395,
+        "a": 1
+       },
+       {
+        "r": 0.9568628072738647,
+        "g": 0.062745101749897,
+        "b": 0.02352941408753395,
+        "a": 1
+       }
+      ],
+      "alphaTimes": [
+       0,
+       0.6500037908554077,
+       1
+      ],
+      "alphaValues": [
+       1,
+       1,
+       0
+      ]
+     }
+    }
+   }
+  }
+ },
+ "materials": {
+  "common_Jetpack": {
+   "texture": "jetpack-puff",
+   "additive": false,
+   "multiplier": 1.05,
+   "uvScale": [
+    1,
+    1
+   ],
+   "renderQueue": 3206
+  },
+  "common_Jetpack 1": {
+   "texture": "jetpack-puff2",
+   "additive": false,
+   "multiplier": 1.3,
+   "uvScale": [
+    1,
+    1
+   ],
+   "renderQueue": 3207
+  },
+  "common_Jetpack_trail": {
+   "texture": "jetpack-trail",
+   "additive": false,
+   "multiplier": 1.2,
+   "uvScale": [
+    1,
+    1
+   ],
+   "scrollSpeed": [
+    -30,
+    0
+   ],
+   "renderQueue": 3207
+  },
+  "common_Jetpack_trail 1": {
+   "texture": "jetpack-trail",
+   "additive": false,
+   "multiplier": 1.2,
+   "uvScale": [
+    1,
+    -1
+   ],
+   "scrollSpeed": [
+    -30,
+    0
+   ],
+   "renderQueue": 3208
+  },
+  "common_Jetpack_VFX": {
+   "texture": "jetpack-flame",
+   "additive": true,
+   "multiplier": 1,
+   "scrollSpeed": [
+    60,
+    0
+   ],
+   "uvScale": [
+    1,
+    1
+   ],
+   "renderQueue": 3206
+  }
+ }
+}

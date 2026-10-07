@@ -1,0 +1,1242 @@
+{
+ "avatar": {
+  "idle": {
+   "file": "idle",
+   "fps": 30,
+   "clips": {
+    "paintIdle": {
+     "frames": [
+      0,
+      707
+     ]
+    },
+    "popupIdle": {
+     "frames": [
+      616,
+      684
+     ]
+    }
+   }
+  },
+  "sources": {
+   "movement": {
+    "file": "movement",
+    "fps": 24,
+    "clips": {
+     "introRun": {
+      "frames": [
+       -50,
+       -21
+      ]
+     },
+     "run": {
+      "frames": [
+       -16,
+       -6
+      ]
+     },
+     "jump2": {
+      "frames": [
+       60,
+       78
+      ]
+     },
+     "IconJump": {
+      "frames": [
+       63,
+       63.1
+      ]
+     },
+     "hangtime2": {
+      "frames": [
+       65,
+       78
+      ]
+     },
+     "landing2": {
+      "frames": [
+       78,
+       84
+      ]
+     },
+     "jump": {
+      "frames": [
+       87,
+       103
+      ]
+     },
+     "hangtime": {
+      "frames": [
+       106,
+       118
+      ]
+     },
+     "landing": {
+      "frames": [
+       120,
+       124
+      ]
+     },
+     "roll": {
+      "frames": [
+       151,
+       164
+      ]
+     },
+     "IconRoll": {
+      "frames": [
+       154,
+       154.1
+      ]
+     },
+     "dodgeLeft": {
+      "frames": [
+       200,
+       212
+      ]
+     },
+     "dodgeRight": {
+      "frames": [
+       230,
+       242
+      ]
+     },
+     "hold_magnet": {
+      "frames": [
+       280,
+       281
+      ]
+     },
+     "stumbleCornerRight": {
+      "frames": [
+       291,
+       311
+      ]
+     },
+     "stumbleCornerLeft": {
+      "frames": [
+       311,
+       330
+      ]
+     },
+     "stumble": {
+      "frames": [
+       335,
+       355
+      ]
+     },
+     "stumbleSideRight": {
+      "frames": [
+       362,
+       372
+      ]
+     },
+     "stumbleSideLeft": {
+      "frames": [
+       382,
+       392
+      ]
+     },
+     "death_bounce": {
+      "frames": [
+       400,
+       416
+      ]
+     },
+     "death_upper": {
+      "frames": [
+       420,
+       428
+      ]
+     },
+     "death_lower": {
+      "frames": [
+       440,
+       452
+      ]
+     },
+     "death_movingTrain": {
+      "frames": [
+       460,
+       495
+      ]
+     },
+     "h_run": {
+      "frames": [
+       514,
+       538
+      ]
+     },
+     "h_jump": {
+      "frames": [
+       551,
+       553
+      ]
+     },
+     "h_hangtime": {
+      "frames": [
+       556,
+       568
+      ]
+     },
+     "h_landing": {
+      "frames": [
+       570,
+       578
+      ]
+     },
+     "h_roll": {
+      "frames": [
+       581,
+       594
+      ]
+     },
+     "h_left": {
+      "frames": [
+       610,
+       623
+      ]
+     },
+     "h_right": {
+      "frames": [
+       640,
+       653
+      ]
+     },
+     "h_Grind1_land": {
+      "frames": [
+       661,
+       670
+      ]
+     },
+     "h_Grind1": {
+      "frames": [
+       670,
+       684
+      ]
+     },
+     "h_Grind2_land": {
+      "frames": [
+       691,
+       700
+      ]
+     },
+     "h_Grind2": {
+      "frames": [
+       700,
+       720
+      ]
+     },
+     "superRun": {
+      "frames": [
+       740,
+       760
+      ]
+     },
+     "h_skate_on": {
+      "frames": [
+       770,
+       781
+      ]
+     },
+     "h_jump2_kickflip_flip": {
+      "frames": [
+       800,
+       820
+      ]
+     },
+     "h_jump3_bs360grab": {
+      "frames": [
+       830,
+       850
+      ]
+     },
+     "h_jump4_360_flip": {
+      "frames": [
+       866,
+       889
+      ]
+     },
+     "h_Grind3_land": {
+      "frames": [
+       904,
+       923
+      ]
+     },
+     "h_Grind3": {
+      "frames": [
+       923,
+       943
+      ]
+     },
+     "run2": {
+      "frames": [
+       960,
+       970
+      ]
+     },
+     "run3": {
+      "frames": [
+       1000,
+       1010
+      ]
+     },
+     "run4_long": {
+      "frames": [
+       1070,
+       1180
+      ]
+     },
+     "stumble_low": {
+      "frames": [
+       1200,
+       1215
+      ]
+     },
+     "jump_salto": {
+      "frames": [
+       1300,
+       1324
+      ]
+     },
+     "h_jump5_Impossible_flip": {
+      "frames": [
+       1400,
+       1423
+      ]
+     },
+     "h_jump6_nollie": {
+      "frames": [
+       1430,
+       1457
+      ]
+     },
+     "h_jump7_heelflip_flip": {
+      "frames": [
+       1500,
+       1524
+      ]
+     },
+     "h_jump8_pop_shuvit_flip": {
+      "frames": [
+       1560,
+       1583
+      ]
+     },
+     "h_jump9_fs360grab": {
+      "frames": [
+       1600,
+       1628
+      ]
+     },
+     "h_jump10_heel360_flip": {
+      "frames": [
+       1650,
+       1674
+      ]
+     },
+     "h_jump11_fs_salto": {
+      "frames": [
+       1690,
+       1718
+      ]
+     },
+     "jump3": {
+      "frames": [
+       1720,
+       1738
+      ]
+     },
+     "hangtime3": {
+      "frames": [
+       1725,
+       1738
+      ]
+     },
+     "landing3": {
+      "frames": [
+       1739,
+       1744
+      ]
+     },
+     "DoubleJump_Jump": {
+      "frames": [
+       1750,
+       1754
+      ]
+     },
+     "DoubleJump_Hangtime_01_star": {
+      "frames": [
+       1756,
+       1778
+      ]
+     },
+     "DoubleJump_Hangtime_02_BackFlip": {
+      "frames": [
+       1780,
+       1802
+      ]
+     },
+     "DoubleJump_Hangtime_03_360": {
+      "frames": [
+       1805,
+       1831
+      ]
+     },
+     "run_HighScore_main": {
+      "frames": [
+       1950,
+       1989
+      ]
+     },
+     "run_HighScore_hatadjust": {
+      "frames": [
+       2005,
+       2044
+      ]
+     },
+     "run_HighScore_xianHat": {
+      "frames": [
+       2060,
+       2099
+      ]
+     },
+     "run_HighScore_Yutani": {
+      "frames": [
+       2110,
+       2149
+      ]
+     },
+     "run_HighScore_Ninja": {
+      "frames": [
+       2160,
+       2199
+      ]
+     },
+     "run_HighScore_Tagbot": {
+      "frames": [
+       2210,
+       2249
+      ]
+     },
+     "run_HighScore_VeniceMain": {
+      "frames": [
+       2260,
+       2299
+      ]
+     },
+     "run_HighScore_HolidayMainandOutfit1": {
+      "frames": [
+       2310,
+       2349
+      ]
+     },
+     "run_HighScore_MexicoOutfit1": {
+      "frames": [
+       2360,
+       2399
+      ]
+     }
+    }
+   },
+   "catch": {
+    "file": "catch",
+    "fps": 25,
+    "clips": {
+     "Avatar_Caught_Left_Leg": {
+      "frames": [
+       2,
+       100
+      ]
+     },
+     "Avatar_Caught_Fall_on_face": {
+      "frames": [
+       110,
+       130
+      ]
+     },
+     "Avatar_Caught_Right_Leg": {
+      "frames": [
+       150,
+       248
+      ]
+     },
+     "Avatar_Caught_Shoulder": {
+      "frames": [
+       300,
+       400
+      ]
+     },
+     "Avatar_Caught_Right_Neck": {
+      "frames": [
+       480,
+       578
+      ]
+     },
+     "Avatar_Caught_Left_Neck": {
+      "frames": [
+       630,
+       728
+      ]
+     }
+    }
+   },
+   "hoverboards": {
+    "file": "hoverboards",
+    "fps": 25,
+    "clips": {
+     "Hotrod_Run_Small": {
+      "frames": [
+       0,
+       24
+      ]
+     },
+     "Hoverboard_M_Grind4_land": {
+      "frames": [
+       40,
+       50
+      ]
+     },
+     "Hoverboard_M_Grind4": {
+      "frames": [
+       50,
+       60
+      ]
+     },
+     "Hotrod_Grind1_land": {
+      "frames": [
+       66,
+       80
+      ]
+     },
+     "Hotrod_Grind1": {
+      "frames": [
+       80,
+       88
+      ]
+     },
+     "Hotrod_Run": {
+      "frames": [
+       106,
+       130
+      ]
+     },
+     "Hoverboard_L_Down1": {
+      "frames": [
+       172,
+       187
+      ]
+     },
+     "Hoverboard_L_Superman": {
+      "frames": [
+       260,
+       289
+      ]
+     },
+     "Hoverboard_L_Frontflip": {
+      "frames": [
+       294,
+       315
+      ]
+     },
+     "Hoverboard_M_Frontflip": {
+      "frames": [
+       294,
+       315
+      ]
+     },
+     "Snowboard_Run": {
+      "frames": [
+       340,
+       364
+      ]
+     },
+     "Snowboard_Jump1_jump": {
+      "frames": [
+       376,
+       391
+      ]
+     },
+     "Snowboard_Jump1_land": {
+      "frames": [
+       391,
+       400
+      ]
+     },
+     "Snowboard_Down": {
+      "frames": [
+       406,
+       421
+      ]
+     },
+     "Snowboard_ChangeLane_left": {
+      "frames": [
+       436,
+       448
+      ]
+     },
+     "Snowboard_ChangeLane_right": {
+      "frames": [
+       466,
+       478
+      ]
+     },
+     "Snowboard_Grind1_land": {
+      "frames": [
+       487,
+       496
+      ]
+     },
+     "Snowboard_Grind1": {
+      "frames": [
+       496,
+       510
+      ]
+     },
+     "Snowboard_Grind2_land": {
+      "frames": [
+       517,
+       526
+      ]
+     },
+     "Snowboard_Grind2": {
+      "frames": [
+       526,
+       546
+      ]
+     },
+     "Snowboard_Board_on": {
+      "frames": [
+       550,
+       561
+      ]
+     },
+     "Snowboard_bs_360_grab": {
+      "frames": [
+       610,
+       637
+      ]
+     },
+     "Snowboard_Grind3_land": {
+      "frames": [
+       680,
+       695
+      ]
+     },
+     "Snowboard_Grind3": {
+      "frames": [
+       695,
+       728
+      ]
+     },
+     "Snowboard_Jump2": {
+      "frames": [
+       774,
+       801
+      ]
+     },
+     "Snowboard_fs_360_grab": {
+      "frames": [
+       875,
+       902
+      ]
+     },
+     "Snowboard_Backflip_grab": {
+      "frames": [
+       950,
+       977
+      ]
+     },
+     "Snowboard_Frontflip": {
+      "frames": [
+       989,
+       1011
+      ]
+     },
+     "Snowboard_bs_360_tailgrab": {
+      "frames": [
+       1020,
+       1047
+      ]
+     },
+     "Hoverboard_M_bs_tailgrab_footkick": {
+      "frames": [
+       1067,
+       1094
+      ]
+     },
+     "Hoverboard_M_360_pop_Shove_it": {
+      "frames": [
+       1100,
+       1123
+      ]
+     },
+     "Hoverboard_L_fs_360_grab": {
+      "frames": [
+       1140,
+       1167
+      ]
+     },
+     "Hoverboard_L_bs_360_grab": {
+      "frames": [
+       1170,
+       1197
+      ]
+     },
+     "Hoverboard_L_Backflip_grab": {
+      "frames": [
+       1210,
+       1237
+      ]
+     },
+     "Hoverboard_L_Down2": {
+      "frames": [
+       1244,
+       1259
+      ]
+     },
+     "Lowrider_Run": {
+      "frames": [
+       1271,
+       1294
+      ]
+     },
+     "Lowrider_Jump1": {
+      "frames": [
+       1307,
+       1327
+      ]
+     },
+     "Lowrider_Changelane_Left1": {
+      "frames": [
+       1332,
+       1344
+      ]
+     },
+     "Lowrider_Changelane_Right1": {
+      "frames": [
+       1345,
+       1357
+      ]
+     },
+     "Lowrider_Jump_3_Starfish_Frontflip": {
+      "frames": [
+       1358,
+       1384
+      ]
+     },
+     "Lowrider_Grind1_land": {
+      "frames": [
+       1418,
+       1427
+      ]
+     },
+     "Lowrider_Grind1": {
+      "frames": [
+       1427,
+       1441
+      ]
+     },
+     "Lowrider_Fat_Grind2_land": {
+      "frames": [
+       1448,
+       1459
+      ]
+     },
+     "Lowrider_Grind2": {
+      "frames": [
+       1459,
+       1477
+      ]
+     },
+     "Lowrider_Board_on": {
+      "frames": [
+       1481,
+       1492
+      ]
+     },
+     "Lowrider_Down": {
+      "frames": [
+       1498,
+       1513
+      ]
+     },
+     "Lowrider_Jump_2_BarrelRoll": {
+      "frames": [
+       1515,
+       1538
+      ]
+     },
+     "Lowrider_Jump_4_Handstand": {
+      "frames": [
+       1543,
+       1569
+      ]
+     },
+     "Snowboard_Run_small": {
+      "frames": [
+       1592,
+       1615
+      ]
+     },
+     "Hoverboard_M_Run_small": {
+      "frames": [
+       1620.0001,
+       1644
+      ]
+     },
+     "Surfboard_L_Run_small": {
+      "frames": [
+       1650,
+       1674
+      ]
+     },
+     "Lowrider_Run_small": {
+      "frames": [
+       1679.9999,
+       1703.0001
+      ]
+     },
+     "Lowrider_Fat_Grind2": {
+      "frames": [
+       1710,
+       1728.0001
+      ]
+     },
+     "JumpBoard_Air": {
+      "frames": [
+       1729.9999,
+       1764
+      ]
+     },
+     "DareDevil_Run": {
+      "frames": [
+       1779.9999,
+       1803.0001
+      ]
+     },
+     "DareDevil_Down": {
+      "frames": [
+       1810,
+       1825
+      ]
+     },
+     "DareDevil_Jump_Airwalk": {
+      "frames": [
+       1829.9999,
+       1875
+      ]
+     },
+     "DareDevil_Jump_Landing": {
+      "frames": [
+       1879.9999,
+       1886
+      ]
+     },
+     "DareDevil_Jump_360_Hug": {
+      "frames": [
+       1890,
+       1935
+      ]
+     },
+     "DareDevil_Run_Small": {
+      "frames": [
+       1940,
+       1962.9999
+      ]
+     },
+     "Hoverboard_M_Gazelle_Flip": {
+      "frames": [
+       1979.9999,
+       2010
+      ]
+     },
+     "Custom_Teleport": {
+      "frames": [
+       2040,
+       2125
+      ]
+     },
+     "Custom_Trail": {
+      "frames": [
+       2150,
+       2220
+      ]
+     },
+     "Custom_DoubleJump": {
+      "frames": [
+       2250,
+       2325
+      ]
+     },
+     "Custom_SuperJump": {
+      "frames": [
+       2350,
+       2400
+      ]
+     },
+     "Custom_HighSpeed": {
+      "frames": [
+       2425,
+       2510
+      ]
+     },
+     "Custom_StayLow": {
+      "frames": [
+       2525,
+       2610
+      ]
+     },
+     "Custom_SmoothDrift": {
+      "frames": [
+       2625,
+       2700
+      ]
+     },
+     "Lowrider_Landing_2": {
+      "frames": [
+       2720,
+       2728
+      ]
+     },
+     "FlyingCarpet_L_Run_Small": {
+      "frames": [
+       2740,
+       2764
+      ]
+     },
+     "FlyingCarpet_L_Run_Small_land": {
+      "frames": [
+       2740,
+       2764
+      ]
+     },
+     "Custom_Rotation_left": {
+      "frames": [
+       2825,
+       2900
+      ]
+     },
+     "Custom_Rotation_right": {
+      "frames": [
+       2910,
+       2985
+      ]
+     }
+    }
+   },
+   "jetpack": {
+    "file": "jetpack",
+    "fps": 25,
+    "clips": {
+     "Jetpack_forward": {
+      "frames": [
+       1,
+       12
+      ]
+     },
+     "Jetpack_BarrelRoll_right": {
+      "frames": [
+       20,
+       30
+      ]
+     },
+     "Jetpack_BarrelRoll_left": {
+      "frames": [
+       40,
+       50
+      ]
+     },
+     "Jetpack_changeLane_left": {
+      "frames": [
+       60,
+       70
+      ]
+     },
+     "Jetpack_changeLane_right": {
+      "frames": [
+       80,
+       90
+      ]
+     },
+     "Jetpack_forward_2": {
+      "frames": [
+       100,
+       123
+      ]
+     },
+     "Double_Headstart": {
+      "frames": [
+       130,
+       172
+      ]
+     },
+     "Triple_Headstart": {
+      "frames": [
+       202,
+       242
+      ]
+     }
+    }
+   },
+   "pogostick": {
+    "file": "pogostick",
+    "fps": 25,
+    "clips": {
+     "pogostick_SpinMove": {
+      "frames": [
+       11,
+       40
+      ]
+     },
+     "pogostick_kicking": {
+      "frames": [
+       60,
+       72
+      ]
+     },
+     "pogostick_Hangtime_kick": {
+      "frames": [
+       82,
+       102
+      ]
+     },
+     "pogostick_changeLane_right": {
+      "frames": [
+       120,
+       126
+      ]
+     },
+     "pogostick_changeLane_left": {
+      "frames": [
+       132,
+       138
+      ]
+     },
+     "pogostick_Hangtime_flying": {
+      "frames": [
+       150,
+       183
+      ]
+     },
+     "pogostick_Hangtime_front_flip1": {
+      "frames": [
+       200,
+       233
+      ]
+     }
+    }
+   }
+  }
+ },
+ "guard": {
+  "sceneKey": "guard",
+  "modelFile": "model-guard",
+  "texture": "enemies",
+  "sources": {
+   "movement": {
+    "file": "enemy-guard-movement",
+    "texture": "enemies",
+    "fps": 25,
+    "clips": {
+     "Guard_run": {
+      "frames": [
+       1,
+       13
+      ]
+     },
+     "Guard_grap_after": {
+      "frames": [
+       24,
+       48
+      ]
+     },
+     "Guard_jump": {
+      "frames": [
+       52,
+       75
+      ]
+     },
+     "Guard_hangtime": {
+      "frames": [
+       59,
+       65
+      ]
+     },
+     "Guard_landing": {
+      "frames": [
+       71,
+       77
+      ]
+     },
+     "Guard_dodgeRight": {
+      "frames": [
+       80,
+       93
+      ]
+     },
+     "Guard_dodgeLeft": {
+      "frames": [
+       100,
+       113
+      ]
+     },
+     "Guard_whistle": {
+      "frames": [
+       125,
+       149
+      ]
+     },
+     "Guard_death_movingTrain": {
+      "frames": [
+       173,
+       210
+      ]
+     },
+     "Guard_playIntro": {
+      "frames": [
+       -50,
+       -21
+      ]
+     },
+     "Guard_roll": {
+      "frames": [
+       220,
+       228
+      ]
+     }
+    }
+   },
+   "catch": {
+    "file": "enemy-guard-catch",
+    "texture": "enemies",
+    "fps": 25,
+    "clips": {
+     "Guard_Caught_Shoulder": {
+      "frames": [
+       300,
+       400
+      ]
+     },
+     "Guard_Caught_Right_Leg": {
+      "frames": [
+       150,
+       248
+      ]
+     },
+     "Guard_Caught_Left_Leg": {
+      "frames": [
+       2,
+       100
+      ]
+     }
+    }
+   }
+  }
+ },
+ "dog": {
+  "sceneKey": "dog",
+  "modelFile": "model-dog",
+  "texture": "enemies",
+  "sources": {
+   "movement": {
+    "file": "enemy-dog-movement",
+    "texture": "enemies",
+    "fps": 25,
+    "clips": {
+     "Dog_run": {
+      "frames": [
+       1,
+       12
+      ]
+     },
+     "Dog_Fast Run": {
+      "frames": [
+       20,
+       40
+      ]
+     },
+     "Dog_Run offset": {
+      "frames": [
+       -6,
+       6
+      ]
+     },
+     "Dog_jump": {
+      "frames": [
+       52,
+       75
+      ]
+     },
+     "Dog_hangtime": {
+      "frames": [
+       37,
+       46
+      ]
+     },
+     "Dog_landing": {
+      "frames": [
+       46,
+       51
+      ]
+     },
+     "Dog_dodgeRight": {
+      "frames": [
+       80,
+       93
+      ]
+     },
+     "Dog_dodgeLeft": {
+      "frames": [
+       100,
+       113
+      ]
+     },
+     "Dog_death_movingTrain": {
+      "frames": [
+       173,
+       210
+      ]
+     },
+     "Dog_playIntro": {
+      "frames": [
+       -50,
+       -21
+      ]
+     },
+     "Dog_Bite_After": {
+      "frames": [
+       120,
+       145
+      ]
+     }
+    }
+   },
+   "catch": {
+    "file": "enemy-dog-catch",
+    "texture": "enemies",
+    "fps": 25,
+    "clips": {
+     "Dog_Caught_Shoulder": {
+      "frames": [
+       300,
+       400
+      ]
+     },
+     "Dog_Caught_Right": {
+      "frames": [
+       150,
+       248
+      ]
+     },
+     "Dog_Caught_Left": {
+      "frames": [
+       2,
+       100
+      ]
+     }
+    }
+   }
+  }
+ }
+}

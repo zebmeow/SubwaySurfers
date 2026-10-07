@@ -1,0 +1,401 @@
+{
+ "missions": [
+  {
+   "id": "mission-pickup-coins",
+   "amount": 500
+  },
+  {
+   "id": "mission-score-onerun",
+   "amount": 1000
+  },
+  {
+   "id": "mission-pickup-powerups",
+   "amount": 2
+  },
+  {
+   "id": "mission-pickup-coins-onerun",
+   "amount": 200
+  },
+  {
+   "id": "mission-jump",
+   "amount": 20
+  },
+  {
+   "id": "mission-pickup-sneakers",
+   "amount": 2
+  },
+  {
+   "id": "mission-coins-mystery",
+   "amount": 2000
+  },
+  {
+   "id": "mission-roll",
+   "amount": 30
+  },
+  {
+   "id": "mission-spend-coins",
+   "amount": 2000
+  },
+  {
+   "id": "mission-daily-challenges",
+   "amount": 1
+  },
+  {
+   "id": "mission-dodge",
+   "amount": 20
+  },
+  {
+   "id": "mission-score-onerun",
+   "amount": 6000
+  },
+  {
+   "id": "mission-pickup-coins",
+   "amount": 2500
+  },
+  {
+   "id": "mission-jump-onerun",
+   "amount": 30
+  },
+  {
+   "id": "mission-buy-mystery",
+   "amount": 1
+  },
+  {
+   "id": "mission-hoverboard",
+   "amount": 1
+  },
+  {
+   "id": "mission-pickup-magnets",
+   "amount": 5
+  },
+  {
+   "id": "mission-high-score",
+   "amount": 1
+  },
+  {
+   "id": "mission-pickup-jetpacks",
+   "amount": 2
+  },
+  {
+   "id": "mission-pickup-coins-jetpack",
+   "amount": 50
+  },
+  {
+   "id": "mission-headstart",
+   "amount": 1
+  },
+  {
+   "id": "mission-bump-trains-onerun",
+   "amount": 3
+  },
+  {
+   "id": "mission-pickup-coins-magnet",
+   "amount": 40
+  },
+  {
+   "id": "mission-get-caught",
+   "amount": 1
+  },
+  {
+   "id": "mission-hoverboard-nocrash",
+   "amount": 1
+  },
+  {
+   "id": "mission-pickup-mystery",
+   "amount": 2
+  },
+  {
+   "id": "mission-roll-onerun",
+   "amount": 30
+  },
+  {
+   "id": "mission-score-onerun",
+   "amount": 20000
+  },
+  {
+   "id": "mission-pickup-powerups",
+   "amount": 12
+  },
+  {
+   "id": "mission-jump-trains",
+   "amount": 2
+  },
+  {
+   "id": "mission-score-nocoins",
+   "amount": 4000
+  },
+  {
+   "id": "mission-roll-lane",
+   "amount": 50
+  },
+  {
+   "id": "mission-pickup-coins",
+   "amount": 5000
+  },
+  {
+   "id": "mission-daily-challenges",
+   "amount": 2
+  },
+  {
+   "id": "mission-dodge",
+   "amount": 40
+  },
+  {
+   "id": "mission-pickup-sneakers",
+   "amount": 5
+  },
+  {
+   "id": "mission-scoreBooster",
+   "amount": 4
+  },
+  {
+   "id": "mission-pickup-coins-magnet",
+   "amount": 160
+  },
+  {
+   "id": "mission-pickup-magnets-onerun",
+   "amount": 2
+  },
+  {
+   "id": "mission-pickup-pogos",
+   "amount": 4
+  },
+  {
+   "id": "mission-roll-onerun",
+   "amount": 40
+  },
+  {
+   "id": "mission-pickup-coins-onerun",
+   "amount": 400
+  },
+  {
+   "id": "mission-score",
+   "amount": 100000
+  },
+  {
+   "id": "mission-pickup-jetpacks",
+   "amount": 5
+  },
+  {
+   "id": "mission-bump-lights",
+   "amount": 12
+  },
+  {
+   "id": "mission-daily-challenges",
+   "amount": 3
+  },
+  {
+   "id": "mission-pickup-sneakers-onerun",
+   "amount": 3
+  },
+  {
+   "id": "mission-jump-trains",
+   "amount": 4
+  },
+  {
+   "id": "mission-score-onerun",
+   "amount": 50000
+  },
+  {
+   "id": "mission-spend-coins",
+   "amount": 4000
+  },
+  {
+   "id": "mission-pickup-magnets",
+   "amount": 15
+  },
+  {
+   "id": "mission-pickup-jetpacks-onerun",
+   "amount": 2
+  },
+  {
+   "id": "mission-bump-trains-onerun",
+   "amount": 6
+  },
+  {
+   "id": "mission-hoverboard-nocrash",
+   "amount": 3
+  },
+  {
+   "id": "mission-pickup-keys",
+   "amount": 3
+  },
+  {
+   "id": "mission-pickup-magnets-onerun",
+   "amount": 3
+  },
+  {
+   "id": "mission-coins-mystery",
+   "amount": 5000
+  },
+  {
+   "id": "mission-score",
+   "amount": 250000
+  },
+  {
+   "id": "mission-jump-onerun",
+   "amount": 40
+  },
+  {
+   "id": "mission-pickup-pogos-onerun",
+   "amount": 4
+  },
+  {
+   "id": "mission-bump-barriers",
+   "amount": 15
+  },
+  {
+   "id": "mission-buy-mystery",
+   "amount": 3
+  },
+  {
+   "id": "mission-pickup-coins-magnet",
+   "amount": 240
+  },
+  {
+   "id": "mission-dodge",
+   "amount": 80
+  },
+  {
+   "id": "mission-spend-coins",
+   "amount": 8000
+  },
+  {
+   "id": "mission-pickup-sneakers-onerun",
+   "amount": 4
+  },
+  {
+   "id": "mission-pickup-coins-air",
+   "amount": 50
+  },
+  {
+   "id": "mission-jump-trains",
+   "amount": 10
+  },
+  {
+   "id": "mission-pickup-jetpacks",
+   "amount": 15
+  },
+  {
+   "id": "mission-pickup-coins-pogo",
+   "amount": 500
+  },
+  {
+   "id": "mission-roll-lane",
+   "amount": 200
+  },
+  {
+   "id": "mission-daily-challenges",
+   "amount": 4
+  },
+  {
+   "id": "mission-pickup-coins",
+   "amount": 15000
+  },
+  {
+   "id": "mission-score-onerun",
+   "amount": 120000
+  },
+  {
+   "id": "mission-bump-trains-onerun",
+   "amount": 3
+  },
+  {
+   "id": "mission-roll-onerun",
+   "amount": 50
+  },
+  {
+   "id": "mission-score",
+   "amount": 500000
+  },
+  {
+   "id": "mission-score-nocoins",
+   "amount": 12000
+  },
+  {
+   "id": "mission-coins-mystery",
+   "amount": 10000
+  },
+  {
+   "id": "mission-buy-mystery",
+   "amount": 6
+  },
+  {
+   "id": "mission-bump-lights",
+   "amount": 20
+  },
+  {
+   "id": "mission-jump-onerun",
+   "amount": 50
+  },
+  {
+   "id": "mission-hoverboard",
+   "amount": 12
+  },
+  {
+   "id": "mission-hoverboard-nocrash",
+   "amount": 4
+  },
+  {
+   "id": "mission-pickup-coins-onerun",
+   "amount": 750
+  },
+  {
+   "id": "mission-bump-barriers",
+   "amount": 25
+  },
+  {
+   "id": "mission-score-onerun",
+   "amount": 250000
+  }
+ ],
+ "text": {
+  "completed": "Completed",
+  "missions": "Missions",
+  "mission-set": "MISSION SET {{num}}",
+  "mission-pickup-coins": "Collect {{amount}} Coins",
+  "mission-pickup-coins-onerun": "Collect {{amount}} Coins in one run",
+  "mission-pickup-coins-jetpack": "Pick up {{amount}} coins with Jetpack",
+  "mission-pickup-coins-magnet": "Pick up {{amount}} coins with Magnet",
+  "mission-pickup-coins-pogo": "Pick up {{amount}} coins with Power Jumper",
+  "mission-pickup-coins-air": "Pick up {{amount}} coins without touching the ground",
+  "mission-coins-mystery": "Get {{amount}} coins from Mystery Box",
+  "mission-spend-coins": "Spend {{amount}} Coins",
+  "mission-score": "Collects {{amount}} points",
+  "mission-score-onerun": "Score {{amount}} points in one run",
+  "mission-score-nocoins": "Score {{amount}} points without collecting coins",
+  "mission-pickup-powerups": "Pick up {{amount}} Powerups",
+  "mission-pickup-sneakers": "Pick up {{amount}} Super Sneakers",
+  "mission-pickup-sneakers-onerun": "Pick up {{amount}} Super Sneakers in one run",
+  "mission-pickup-magnets": "Pick up {{amount}} Magnets",
+  "mission-pickup-magnets-onerun": "Pick up {{amount}} Magnets in one run",
+  "mission-pickup-jetpacks": "Pick up {{amount}} Jetpacks",
+  "mission-pickup-jetpacks-onerun": "Pick up {{amount}} Jetpacks in one run",
+  "mission-pickup-pogos": "Pick up {{amount}} Power Jumpers",
+  "mission-pickup-pogos-onerun": "Pick up {{amount}} Power Jumpers in one run",
+  "mission-pickup-keys": "Pick up {{amount}} Keys",
+  "mission-pickup-mystery": "Pick up {{amount}} Mystery Boxes",
+  "mission-character-tokens": "Get {{amount}} character tokens from Mystery Box",
+  "mission-daily-challenges": "Complete {{amount}} Daily Challenges",
+  "mission-buy-mystery": "Buy {{amount}} Mystery Boxes",
+  "mission-dodge": "Dodge {{amount}} barriers",
+  "mission-jump": "Jump {{amount}} times",
+  "mission-jump-onerun": "Jump {{amount}} times in one run",
+  "mission-jump-trains": "Jump over {{amount}} trains",
+  "mission-jump-trains-onerun": "Jump over {{amount}} trains in one run",
+  "mission-roll": "Roll {{amount}} times in total",
+  "mission-roll-onerun": "Roll {{amount}} times in one run",
+  "mission-roll-lane": "Roll {{amount}} times in center lane",
+  "mission-hoverboard": "Use {{amount}} Hoverboards",
+  "mission-hoverboard-nocrash": "Use {{amount}} Hoverboards without crashing",
+  "mission-headstart": "Use {{amount}} Headstarts",
+  "mission-scoreBooster": "Use {{amount}} Score Boosters",
+  "mission-bump-lights": "Bump into {{amount}} light signals",
+  "mission-bump-barriers": "Stumble into {{amount}} barriers",
+  "mission-bump-trains-onerun": "Bump into {{amount}} trains in one run",
+  "mission-high-score": "Beat your own High Score",
+  "mission-get-caught": "Get caught in first 10 seconds of run",
+  "skip-mission": "Skip this Mission",
+  "mission-complete": "Mission Complete"
+ }
+}

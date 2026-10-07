@@ -1,0 +1,3937 @@
+{
+ "trace": "oracle/traces/seed1-god/trace.jsonl",
+ "seed": 1,
+ "query": {
+  "god": "1"
+ },
+ "autopilot": true,
+ "frames": 3600,
+ "first_frame": 6,
+ "last_frame": 3605,
+ "distance": 7320.883301,
+ "final_z": -7325.741699,
+ "coins": 52,
+ "chunks": [
+  {
+   "chunk": 1,
+   "f": 5,
+   "name": "intro",
+   "anchor_z": 0,
+   "length": 90,
+   "despawn_f": null
+  },
+  {
+   "chunk": 2,
+   "f": 7,
+   "name": "routeChunk_default_choice",
+   "anchor_z": -90,
+   "length": 720,
+   "despawn_f": 851
+  },
+  {
+   "chunk": 3,
+   "f": 7,
+   "name": "routeChunk_default_train_tops_1",
+   "anchor_z": -810,
+   "length": 900,
+   "despawn_f": 1292
+  },
+  {
+   "chunk": 4,
+   "f": 7,
+   "name": "routeChunk_default_pogostick_start",
+   "anchor_z": -1710,
+   "length": 180,
+   "despawn_f": 1313
+  },
+  {
+   "chunk": 5,
+   "f": 637,
+   "name": "routeChunk_default_tunnel_notrain",
+   "anchor_z": -1890,
+   "length": 360,
+   "despawn_f": 1544
+  },
+  {
+   "chunk": 6,
+   "f": 826,
+   "name": "routeChunk_default_s-s-s-s",
+   "anchor_z": -2250,
+   "length": 720,
+   "despawn_f": 1943
+  },
+  {
+   "chunk": 7,
+   "f": 1183,
+   "name": "routeChunk_default_choice",
+   "anchor_z": -2970,
+   "length": 720,
+   "despawn_f": 2258
+  },
+  {
+   "chunk": 8,
+   "f": 1561,
+   "name": "routeChunk_default_s-s-s-s",
+   "anchor_z": -3690,
+   "length": 720,
+   "despawn_f": 2552
+  },
+  {
+   "chunk": 9,
+   "f": 1897,
+   "name": "routeChunk_default_train_tops_moving_multiple",
+   "anchor_z": -4410,
+   "length": 1800,
+   "despawn_f": 3287
+  },
+  {
+   "chunk": 10,
+   "f": 2716,
+   "name": "routeChunk_default_fallback",
+   "anchor_z": -6210,
+   "length": 180,
+   "despawn_f": 3371
+  },
+  {
+   "chunk": 11,
+   "f": 2800,
+   "name": "routeChunk_default_s-s-s-s",
+   "anchor_z": -6390,
+   "length": 720,
+   "despawn_f": null
+  },
+  {
+   "chunk": 12,
+   "f": 3115,
+   "name": "routeChunk_default_choice",
+   "anchor_z": -7110,
+   "length": 720,
+   "despawn_f": null
+  },
+  {
+   "chunk": 13,
+   "f": 3409,
+   "name": "routeChunk_default_4_units_3_tracks_s-b-s-b",
+   "anchor_z": -7830,
+   "length": 540,
+   "despawn_f": null
+  }
+ ],
+ "entities_spawned": 667,
+ "entities_despawned": 528,
+ "event_counts": {
+  "sfx": 120,
+  "input": 103,
+  "hero_state": 97,
+  "anim_play": 95,
+  "pickup": 53,
+  "collision": 33,
+  "die": 26,
+  "lane_changed": 25,
+  "stumble": 17,
+  "crash": 16,
+  "guard_state": 12,
+  "trigger": 7,
+  "bump_sideways": 7,
+  "queue_chunk": 3,
+  "game_runWithIntro": 1,
+  "game_idle": 1,
+  "game_runFromIntro": 1,
+  "powerup": 1
+ },
+ "hits": [
+  {
+   "kind": "crash",
+   "hit_type": "lower",
+   "obstacle": "eo",
+   "count": 8
+  },
+  {
+   "kind": "stumble",
+   "hit_type": "bounce",
+   "obstacle": "eo",
+   "count": 5
+  },
+  {
+   "kind": "stumble",
+   "hit_type": "bounce",
+   "obstacle": "do",
+   "count": 5
+  },
+  {
+   "kind": "crash",
+   "hit_type": "upper",
+   "obstacle": "xr",
+   "count": 3
+  },
+  {
+   "kind": "crash",
+   "hit_type": "lower",
+   "obstacle": "do",
+   "count": 3
+  },
+  {
+   "kind": "stumble",
+   "hit_type": "lower",
+   "obstacle": "do",
+   "count": 3
+  },
+  {
+   "kind": "crash",
+   "hit_type": "bounce",
+   "obstacle": "eo",
+   "count": 2
+  },
+  {
+   "kind": "stumble",
+   "hit_type": "lower",
+   "obstacle": "eo",
+   "count": 2
+  },
+  {
+   "kind": "stumble",
+   "hit_type": "lower",
+   "obstacle": "oo",
+   "count": 2
+  }
+ ],
+ "pickups": {
+  "e": 52,
+  "Wa": 1
+ },
+ "guard_distance": {
+  "min": 10,
+  "max": 100
+ },
+ "anim_clips": [
+  "jake-dodgeLeft",
+  "jake-dodgeRight",
+  "jake-hangtime2",
+  "jake-hangtime3",
+  "jake-introRun",
+  "jake-pogostick_Hangtime_front_flip1",
+  "jake-pogostick_kicking",
+  "jake-roll",
+  "jake-run3"
+ ],
+ "hero_states": [
+  "descending",
+  "dodging",
+  "empty",
+  "hangtime",
+  "idle",
+  "rolling",
+  "running"
+ ],
+ "distinct_meshes": 99,
+ "meshes": [
+  {
+   "mesh": "Mesh",
+   "pk": "avatar_jake.pk",
+   "instances": 1,
+   "visible_instances": 0,
+   "entity_classes": {
+    "Gp": 1
+   },
+   "groups": [],
+   "chunks": [],
+   "textures": [
+    "assets/characters-idle/jake-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    0
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "Mesh.001",
+   "pk": "avatar_jake.pk",
+   "instances": 1,
+   "visible_instances": 0,
+   "entity_classes": {
+    "Gp": 1
+   },
+   "groups": [],
+   "chunks": [],
+   "textures": [
+    "assets/characters-idle/jake-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    0
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "Mesh.002",
+   "pk": "avatar_jake.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Gp": 1
+   },
+   "groups": [],
+   "chunks": [],
+   "textures": [
+    "assets/characters-idle/jake-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    0
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "SkinnedMesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "Mesh.003",
+   "pk": "avatar_jake.pk",
+   "instances": 1,
+   "visible_instances": 0,
+   "entity_classes": {
+    "Gp": 1
+   },
+   "groups": [],
+   "chunks": [],
+   "textures": [
+    "assets/characters-idle/jake-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    0
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "SkinnedMesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "Mesh.004",
+   "pk": "avatar_jake.pk",
+   "instances": 1,
+   "visible_instances": 0,
+   "entity_classes": {
+    "Gp": 1
+   },
+   "groups": [],
+   "chunks": [],
+   "textures": [
+    "assets/characters-idle/jake-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    0
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "SkinnedMesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "Mesh.005",
+   "pk": "avatar_jake.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Gp": 1
+   },
+   "groups": [],
+   "chunks": [],
+   "textures": [
+    "assets/characters-idle/jake-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    0
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "SkinnedMesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "Mesh.005#1",
+   "pk": "avatar_jake.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Gp": 1
+   },
+   "groups": [],
+   "chunks": [],
+   "textures": [
+    "assets/characters-idle/jake-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    0
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "SkinnedMesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "blocker_jump",
+   "pk": "environment-basic.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "yr": 4
+   },
+   "groups": [
+    "blocker_jump"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 3115
+  },
+  {
+   "mesh": "blocker_jump.001",
+   "pk": "environment-basic.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "yr": 4
+   },
+   "groups": [
+    "blocker_jump"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 3115
+  },
+  {
+   "mesh": "blocker_roll",
+   "pk": "environment-basic.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "br": 4
+   },
+   "groups": [
+    "blocker_roll"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "blocker_roll.001",
+   "pk": "environment-basic.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "br": 4
+   },
+   "groups": [
+    "blocker_roll"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "blocker_standard",
+   "pk": "environment-basic.pk",
+   "instances": 8,
+   "visible_instances": 8,
+   "entity_classes": {
+    "xr": 6,
+    "gates_right_group_place": 2
+   },
+   "groups": [
+    "blocker_standard"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "blocker_standard.001",
+   "pk": "environment-basic.pk",
+   "instances": 8,
+   "visible_instances": 8,
+   "entity_classes": {
+    "xr": 6,
+    "gates_right_group_place": 2
+   },
+   "groups": [
+    "blocker_standard"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "gates_base",
+   "pk": "environment-basic.pk",
+   "instances": 2,
+   "visible_instances": 2,
+   "entity_classes": {
+    "Ri": 2
+   },
+   "groups": [
+    "gates_base"
+   ],
+   "chunks": [
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 637
+  },
+  {
+   "mesh": "med_02_right",
+   "pk": "environment-basic.pk",
+   "instances": 5,
+   "visible_instances": 5,
+   "entity_classes": {
+    "gi": 5
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "sl_monument_1",
+   "pk": "environment-basic.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "wm": 1
+   },
+   "groups": [
+    "sl_monument_1"
+   ],
+   "chunks": [
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "glow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 80
+  },
+  {
+   "mesh": "Extra_01",
+   "pk": "environment-full.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Po": 1
+   },
+   "groups": [
+    "Extra_01"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment_glow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    1
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 826
+  },
+  {
+   "mesh": "Extra_01.001",
+   "pk": "environment-full.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Po": 1
+   },
+   "groups": [
+    "Extra_01"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 826
+  },
+  {
+   "mesh": "Extra_02",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "Po": 4
+   },
+   "groups": [
+    "Extra_02"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "Extra_03",
+   "pk": "environment-full.pk",
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "Po": 3
+   },
+   "groups": [
+    "Extra_03"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment_glow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    1
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "Extra_03.001",
+   "pk": "environment-full.pk",
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "Po": 3
+   },
+   "groups": [
+    "Extra_03"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "Flag_04",
+   "pk": "environment-full.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "ui": 1
+   },
+   "groups": [
+    "Flag_04"
+   ],
+   "chunks": [
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "Flag_05",
+   "pk": "environment-full.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "ui": 1
+   },
+   "groups": [
+    "Flag_05"
+   ],
+   "chunks": [
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "Gas_sign",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "hi": 4
+   },
+   "groups": [
+    "Gas_sign"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "Guard_ad",
+   "pk": "environment-full.pk",
+   "instances": 2,
+   "visible_instances": 2,
+   "entity_classes": {
+    "gi": 2
+   },
+   "groups": [
+    "Guard_ad"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1183
+  },
+  {
+   "mesh": "Monkey_On_SkateBoard",
+   "pk": "environment-full.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Po": 1
+   },
+   "groups": [
+    "Monkey_On_SkateBoard"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 826
+  },
+  {
+   "mesh": "gates_right",
+   "pk": "environment-full.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "gates_right_group_place": 1
+   },
+   "groups": [
+    "gates_right"
+   ],
+   "chunks": [
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 637
+  },
+  {
+   "mesh": "high_01_left",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "ui": 4
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_01_right",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 0,
+   "entity_classes": {
+    "vi": 4
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_01_right_var2",
+   "pk": "environment-full.pk",
+   "instances": 2,
+   "visible_instances": 2,
+   "entity_classes": {
+    "vi": 2
+   },
+   "groups": [
+    "high_01_right_var2"
+   ],
+   "chunks": [
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_01_right_var3",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "bi": 2,
+    "vi": 2
+   },
+   "groups": [
+    "high_01_right_var3"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_02_left",
+   "pk": "environment-full.pk",
+   "instances": 6,
+   "visible_instances": 0,
+   "entity_classes": {
+    "di": 6
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_fallback",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_02_left_var1",
+   "pk": "environment-full.pk",
+   "instances": 5,
+   "visible_instances": 5,
+   "entity_classes": {
+    "di": 4,
+    "fi": 1
+   },
+   "groups": [
+    "high_02_left_var1"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_02_left_var2",
+   "pk": "environment-full.pk",
+   "instances": 6,
+   "visible_instances": 6,
+   "entity_classes": {
+    "fi": 4,
+    "di": 2
+   },
+   "groups": [
+    "high_02_left_var2"
+   ],
+   "chunks": [
+    "routeChunk_default_fallback",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_02_right",
+   "pk": "environment-full.pk",
+   "instances": 6,
+   "visible_instances": 0,
+   "entity_classes": {
+    "yi": 6
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_fallback",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_02_right_var1",
+   "pk": "environment-full.pk",
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "bi": 2,
+    "yi": 1
+   },
+   "groups": [
+    "high_02_right_var1"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_02_right_var2",
+   "pk": "environment-full.pk",
+   "instances": 6,
+   "visible_instances": 6,
+   "entity_classes": {
+    "yi": 5,
+    "bi": 1
+   },
+   "groups": [
+    "high_02_right_var2"
+   ],
+   "chunks": [
+    "routeChunk_default_fallback",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_03_left",
+   "pk": "environment-full.pk",
+   "instances": 5,
+   "visible_instances": 0,
+   "entity_classes": {
+    "fi": 5
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "high_03_right",
+   "pk": "environment-full.pk",
+   "instances": 5,
+   "visible_instances": 0,
+   "entity_classes": {
+    "bi": 5
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "lightSignal",
+   "pk": "environment-full.pk",
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "Hi": 3
+   },
+   "groups": [
+    "lightSignal"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "lightSignal.001",
+   "pk": "environment-full.pk",
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "Hi": 3
+   },
+   "groups": [
+    "lightSignal"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "low_01_left",
+   "pk": "environment-full.pk",
+   "instances": 5,
+   "visible_instances": 0,
+   "entity_classes": {
+    "ai": 5
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_pogostick_start",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "low_01_left_var01",
+   "pk": "environment-full.pk",
+   "instances": 2,
+   "visible_instances": 2,
+   "entity_classes": {
+    "oi": 2
+   },
+   "groups": [
+    "low_01_left_var01"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1561
+  },
+  {
+   "mesh": "low_01_left_var02",
+   "pk": "environment-full.pk",
+   "instances": 5,
+   "visible_instances": 5,
+   "entity_classes": {
+    "ai": 5
+   },
+   "groups": [
+    "low_01_left_var02"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_pogostick_start",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "low_01_right",
+   "pk": "environment-full.pk",
+   "instances": 5,
+   "visible_instances": 0,
+   "entity_classes": {
+    "pi": 5
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_pogostick_start",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "low_01_right_var01",
+   "pk": "environment-full.pk",
+   "instances": 2,
+   "visible_instances": 2,
+   "entity_classes": {
+    "pi": 2
+   },
+   "groups": [
+    "low_01_right_var01"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1561
+  },
+  {
+   "mesh": "low_01_right_var02",
+   "pk": "environment-full.pk",
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "pi": 3
+   },
+   "groups": [
+    "low_01_right_var02"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_pogostick_start",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "low_02_left",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 0,
+   "entity_classes": {
+    "oi": 4
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1561
+  },
+  {
+   "mesh": "low_02_left_var01",
+   "pk": "environment-full.pk",
+   "instances": 2,
+   "visible_instances": 2,
+   "entity_classes": {
+    "oi": 2
+   },
+   "groups": [
+    "low_02_left_var01"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1561
+  },
+  {
+   "mesh": "low_02_right",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 0,
+   "entity_classes": {
+    "mi": 4
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1561
+  },
+  {
+   "mesh": "low_02_right_var01",
+   "pk": "environment-full.pk",
+   "instances": 2,
+   "visible_instances": 2,
+   "entity_classes": {
+    "mi": 2
+   },
+   "groups": [
+    "low_02_right_var01"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1561
+  },
+  {
+   "mesh": "low_02_right_var02",
+   "pk": "environment-full.pk",
+   "instances": 2,
+   "visible_instances": 2,
+   "entity_classes": {
+    "mi": 2
+   },
+   "groups": [
+    "low_02_right_var02"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1561
+  },
+  {
+   "mesh": "med_01_left",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "si": 4
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "med_01_right",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "hi": 4
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "med_01_right_var01",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "hi": 4
+   },
+   "groups": [
+    "med_01_right_var01"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "med_01_right_var02",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "hi": 4
+   },
+   "groups": [
+    "med_01_right_var02"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "med_03_left",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "li": 4
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "med_03_right",
+   "pk": "environment-full.pk",
+   "instances": 4,
+   "visible_instances": 4,
+   "entity_classes": {
+    "_i": 4
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "track_gates",
+   "pk": "environment-full.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Pi": 1
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 637
+  },
+  {
+   "mesh": "tube_end.001",
+   "pk": "environment-full.pk",
+   "instances": 5,
+   "visible_instances": 2,
+   "entity_classes": {
+    "Po": 5
+   },
+   "groups": [
+    "tube"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "tube_mid",
+   "pk": "environment-full.pk",
+   "instances": 8,
+   "visible_instances": 8,
+   "entity_classes": {
+    "Po": 8
+   },
+   "groups": [
+    "tube"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "assets/game-basic/caustic.webp"
+   ],
+   "pk_materials": [
+    "environment_water"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "tube_mid.001",
+   "pk": "environment-full.pk",
+   "instances": 8,
+   "visible_instances": 8,
+   "entity_classes": {
+    "Po": 8
+   },
+   "groups": [
+    "tube"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "tube_start",
+   "pk": "environment-full.pk",
+   "instances": 8,
+   "visible_instances": 2,
+   "entity_classes": {
+    "Po": 8
+   },
+   "groups": [
+    "tube"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "med_02_left",
+   "pk": "environment-idle.pk",
+   "instances": 5,
+   "visible_instances": 5,
+   "entity_classes": {
+    "ci": 5
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "track",
+   "pk": "environment-idle.pk",
+   "instances": 111,
+   "visible_instances": 111,
+   "entity_classes": {
+    "Si": 111
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_fallback",
+    "routeChunk_default_pogostick_start",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "lightSignal_light_green",
+   "pk": "props-extra.pk",
+   "instances": 3,
+   "visible_instances": 2,
+   "entity_classes": {
+    "Hi": 3
+   },
+   "groups": [
+    "lightSignal_light_green"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "assets/game-basic/effects-tex.webp"
+   ],
+   "pk_materials": [
+    "lightSignal_light"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    1
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "sprayCan",
+   "pk": "props-start.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Gp": 1
+   },
+   "groups": [
+    "sprayCan"
+   ],
+   "chunks": [],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "startScreen_bag_base",
+   "pk": "props-start.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "co": 1
+   },
+   "groups": [
+    "startScreen_bag_base"
+   ],
+   "chunks": [],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "S",
+   "pk": "props.pk",
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "Ja": 3
+   },
+   "groups": [
+    "S"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "S#1",
+   "pk": "props.pk",
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "Ja": 3
+   },
+   "groups": [
+    "S"
+   ],
+   "chunks": [
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1"
+   ],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "currency_coin",
+   "pk": "props.pk",
+   "instances": 244,
+   "visible_instances": 244,
+   "entity_classes": {
+    "e": 244
+   },
+   "groups": [
+    "currency_coin"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_pogostick_start",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple",
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "powBoost",
+   "pk": "props.pk",
+   "instances": 6,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Ja": 3,
+    "Wa": 1,
+    "qa": 1,
+    "Ka": 1
+   },
+   "groups": [
+    "powBoost"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_pogostick_start",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "assets/game-basic/effects-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    1
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "powerups_2xMultiplier",
+   "pk": "props.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "qa": 1
+   },
+   "groups": [
+    "powerups_2xMultiplier"
+   ],
+   "chunks": [
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1087
+  },
+  {
+   "mesh": "powerups_2xMultiplier#1",
+   "pk": "props.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "qa": 1
+   },
+   "groups": [
+    "powerups_2xMultiplier"
+   ],
+   "chunks": [
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1087
+  },
+  {
+   "mesh": "powerups_rocketPogo",
+   "pk": "props.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Wa": 1
+   },
+   "groups": [
+    "powerups_rocketPogo"
+   ],
+   "chunks": [
+    "routeChunk_default_pogostick_start"
+   ],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "powerups_rocketPogo#1",
+   "pk": "props.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Wa": 1
+   },
+   "groups": [
+    "powerups_rocketPogo"
+   ],
+   "chunks": [
+    "routeChunk_default_pogostick_start"
+   ],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "powerups_superSneakers",
+   "pk": "props.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Ka": 1
+   },
+   "groups": [
+    "powerups_superSneakers"
+   ],
+   "chunks": [
+    "routeChunk_default_choice"
+   ],
+   "textures": [
+    "assets/game-idle/props-tex.webp"
+   ],
+   "pk_materials": [],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1183
+  },
+  {
+   "mesh": "train_freight_LOD0",
+   "pk": "trains-basic.pk",
+   "instances": 35,
+   "visible_instances": 35,
+   "entity_classes": {
+    "Do": 18,
+    "Oo": 17
+   },
+   "groups": [
+    "train_freight"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple",
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "trains_shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_freight_LOD0.001",
+   "pk": "trains-basic.pk",
+   "instances": 35,
+   "visible_instances": 35,
+   "entity_classes": {
+    "Do": 18,
+    "Oo": 17
+   },
+   "groups": [
+    "train_freight"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple",
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_ramp_LOD0",
+   "pk": "trains-basic.pk",
+   "instances": 11,
+   "visible_instances": 11,
+   "entity_classes": {
+    "so": 11
+   },
+   "groups": [
+    "train_ramp"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "trains_shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_ramp_LOD0.001",
+   "pk": "trains-basic.pk",
+   "instances": 11,
+   "visible_instances": 11,
+   "entity_classes": {
+    "so": 11
+   },
+   "groups": [
+    "train_ramp"
+   ],
+   "chunks": [
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_sub_wagon_LOD0",
+   "pk": "trains-basic.pk",
+   "instances": 28,
+   "visible_instances": 28,
+   "entity_classes": {
+    "Oo": 28
+   },
+   "groups": [
+    "train_sub_wagon"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "trains_shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_sub_wagon_LOD0.001",
+   "pk": "trains-basic.pk",
+   "instances": 28,
+   "visible_instances": 28,
+   "entity_classes": {
+    "Oo": 28
+   },
+   "groups": [
+    "train_sub_wagon"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_light_freight",
+   "pk": "trains-full.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Oo": 1
+   },
+   "groups": [
+    "train_light_freight"
+   ],
+   "chunks": [
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    1
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "train_light_standard",
+   "pk": "trains-full.pk",
+   "instances": 3,
+   "visible_instances": 1,
+   "entity_classes": {
+    "Eo": 3
+   },
+   "groups": [
+    "train_light_standard"
+   ],
+   "chunks": [
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    1
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 1897
+  },
+  {
+   "mesh": "train_standard_LOD0",
+   "pk": "trains-full.pk",
+   "instances": 14,
+   "visible_instances": 14,
+   "entity_classes": {
+    "Eo": 14
+   },
+   "groups": [
+    "train_standard"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "trains_shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_standard_LOD0.001",
+   "pk": "trains-full.pk",
+   "instances": 14,
+   "visible_instances": 14,
+   "entity_classes": {
+    "Eo": 14
+   },
+   "groups": [
+    "train_standard"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_standard_wagon_LOD0",
+   "pk": "trains-full.pk",
+   "instances": 30,
+   "visible_instances": 30,
+   "entity_classes": {
+    "Eo": 30
+   },
+   "groups": [
+    "train_standard_wagon"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "trains_shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_standard_wagon_LOD0.001",
+   "pk": "trains-full.pk",
+   "instances": 30,
+   "visible_instances": 30,
+   "entity_classes": {
+    "Eo": 30
+   },
+   "groups": [
+    "train_standard_wagon"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 7
+  },
+  {
+   "mesh": "train_cargo01_LOD0",
+   "pk": "trains-idle.pk",
+   "instances": 18,
+   "visible_instances": 18,
+   "entity_classes": {
+    "Do": 18
+   },
+   "groups": [
+    "train_cargo01"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "trains_shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "train_cargo01_LOD0.001",
+   "pk": "trains-idle.pk",
+   "instances": 18,
+   "visible_instances": 18,
+   "entity_classes": {
+    "Do": 18
+   },
+   "groups": [
+    "train_cargo01"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "train_cargo02_LOD0",
+   "pk": "trains-idle.pk",
+   "instances": 17,
+   "visible_instances": 17,
+   "entity_classes": {
+    "Do": 17
+   },
+   "groups": [
+    "train_cargo02"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "trains_shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 826
+  },
+  {
+   "mesh": "train_cargo02_LOD0.001",
+   "pk": "trains-idle.pk",
+   "instances": 17,
+   "visible_instances": 17,
+   "entity_classes": {
+    "Do": 17
+   },
+   "groups": [
+    "train_cargo02"
+   ],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_moving_multiple"
+   ],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 826
+  },
+  {
+   "mesh": "train_start",
+   "pk": "trains-idle.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "vg": 1
+   },
+   "groups": [
+    "train_start"
+   ],
+   "chunks": [],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "bag"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "train_start.001",
+   "pk": "trains-idle.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "vg": 1
+   },
+   "groups": [
+    "train_start"
+   ],
+   "chunks": [],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "environment"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "train_start.002",
+   "pk": "trains-idle.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "vg": 1
+   },
+   "groups": [
+    "train_start"
+   ],
+   "chunks": [],
+   "textures": [
+    "bundles/bali/game-idle/train-start.png"
+   ],
+   "pk_materials": [
+    "trainstart"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    "normal"
+   ],
+   "depth_write": [
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "train_start.003",
+   "pk": "trains-idle.pk",
+   "instances": 1,
+   "visible_instances": 1,
+   "entity_classes": {
+    "vg": 1
+   },
+   "groups": [
+    "train_start"
+   ],
+   "chunks": [],
+   "textures": [
+    "bundles/bali/game-idle/environment-tex@2x.webp"
+   ],
+   "pk_materials": [
+    "trains_shadow"
+   ],
+   "side": [
+    "front"
+   ],
+   "culling": [
+    true
+   ],
+   "blend_mode": [
+    2
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "<procedural:BufferGeometry>",
+   "pk": null,
+   "instances": 246,
+   "visible_instances": 31,
+   "entity_classes": {
+    "e": 244,
+    "vg": 1,
+    "Sf": 1
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_4_units_3_tracks_s-b-s-b",
+    "routeChunk_default_choice",
+    "routeChunk_default_pogostick_start",
+    "routeChunk_default_s-s-s-s",
+    "routeChunk_default_train_tops_1",
+    "routeChunk_default_train_tops_moving_multiple",
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    "<Bi>",
+    "assets/game-basic/halo.webp",
+    null
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    false
+   ],
+   "blend_mode": [
+    1,
+    5,
+    "normal"
+   ],
+   "depth_write": [
+    false,
+    true
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 5
+  },
+  {
+   "mesh": "<procedural:InstancedBufferGeometry>",
+   "pk": null,
+   "instances": 3,
+   "visible_instances": 3,
+   "entity_classes": {
+    "gates_right_group_place": 2,
+    "Tf": 1
+   },
+   "groups": [],
+   "chunks": [
+    "routeChunk_default_tunnel_notrain"
+   ],
+   "textures": [
+    null
+   ],
+   "pk_materials": [],
+   "side": [
+    "double"
+   ],
+   "culling": [
+    false
+   ],
+   "blend_mode": [
+    5,
+    6
+   ],
+   "depth_write": [
+    false
+   ],
+   "kinds": [
+    "Mesh"
+   ],
+   "first_frame": 637
+  }
+ ]
+}

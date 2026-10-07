@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="//game-cdn.poki.com/scripts/v2/poki-sdk.js"></script>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Font faces inlined to avoid Vite publicDir import error -->
+    <style>
+        @font-face {
+            font-family: 'titan-one';
+            src: url('./assets/font/titan-one.woff2') format('woff2'),
+                 url('./assets/font/titan-one.woff') format('woff');
+            font-style: normal;
+            font-stretch: normal;
+        }
+        @font-face {
+            font-family: 'lilita-one';
+            src: url('./assets/font/lilita-one.woff2') format('woff2'),
+                 url('./assets/font/lilita-one.woff') format('woff');
+            font-style: normal;
+            font-stretch: normal;
+        }
+        @font-face {
+            font-family: 'stencilia';
+            src: url('./assets/font/stencilia.woff2') format('woff2'),
+                 url('./assets/font/stencilia.woff') format('woff');
+            font-style: normal;
+            font-stretch: normal;
+        }
+    </style>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover" />
+    <meta name="description" content="">
+
+    <link rel="preload" href="assets/preload/splash.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="manifest" href="./assets/subwaysurfers-CPasN4VK.webmanifest">
+    <link rel="icon" href="assets/images/app-icon-16.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/app-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/app-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/images/app-icon-57.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/app-icon-57.png">
+
+    <title>Subway Surfers Web</title>
+    <style>
+        body, html {
+            margin: 0;
+            height: 100%;
+            background-color: #0b316b;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            width: min(457px, calc(100vw - 32px));
+            aspect-ratio: 457 / 235;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: calc(50% - 117.5px);
+            background-image: url('assets/preload/splash.webp');
+            background-size: contain;
+            background-repeat: no-repeat;
+            pointer-events: none;
+        }
+
+        #message {
+            text-align: center;
+            font-size: 8px;
+            z-index: 5;
+            font-family: "Verdana", sans-serif;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            z-index: 9999;
+        }
+
+        .dot {
+            display: inline;
+            margin-left: 0.2em;
+            margin-right: 0.2em;
+            position: relative;
+            top: -1em;
+            font-size: 3.5em;
+            opacity: 0;
+            animation: showHideDot 2.5s ease-in-out infinite;
+        }
+
+        .dot.one { animation-delay: 0.2s; }
+        .dot.two { animation-delay: 0.4s; }
+        .dot.three { animation-delay: 0.6s; }
+
+        @keyframes showHideDot {
+            0% { opacity: 0; }
+            50% { opacity: 1; }
+            60% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+    </style>
+  <script type="module" crossorigin src="./assets/index-QNpTjs8S.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-Dw2cE7zH.js">
+  <link rel="modulepreload" crossorigin href="./assets/pixi-PPVap1u1.js">
+  <link rel="modulepreload" crossorigin href="./assets/three-dhrglqPP.js">
+  <link rel="modulepreload" crossorigin href="./assets/ResourceBridge-D6JPsONt.js">
+  <link rel="modulepreload" crossorigin href="./assets/grind-CPn6vp7S.js">
+  <link rel="modulepreload" crossorigin href="./assets/pogo-wGRmkqbh.js">
+  <link rel="modulepreload" crossorigin href="./assets/reviveHoverboard-CbbeyMkJ.js">
+  <link rel="modulepreload" crossorigin href="./assets/reviveSmoke-HpGCK0HE.js">
+</head>
+<body>
+    <script>
+        window.NOSW = true;
+        window.GAME_CONFIG = {
+            pokiSdkDebug: false,
+            leaderboard: 'mockup',
+            bundlesPath: './bundles',
+        }
+        // Capture console for debugging
+        window._logs = [];
+        const _origWarn = console.warn;
+        const _origError = console.error;
+        const _origLog = console.log;
+        console.warn = function() { window._logs.push({t:'W', m: Array.from(arguments).map(String).join(' ')}); _origWarn.apply(console, arguments); };
+        console.error = function() { window._logs.push({t:'E', m: Array.from(arguments).map(String).join(' ')}); _origError.apply(console, arguments); };
+        console.log = function() { window._logs.push({t:'L', m: Array.from(arguments).map(String).join(' ')}); _origLog.apply(console, arguments); };
+        window.addEventListener('error', e => window._logs.push({t:'X', m: e.message + ' @ ' + e.filename + ':' + e.lineno}));
+        window.addEventListener('unhandledrejection', e => window._logs.push({t:'P', m: (e.reason?.message || String(e.reason))}));
+    </script>
+    <div id="message">
+        <h1>Loading</h1>
+        <h1 class="dot one">.</h1><h1 class="dot two">.</h1><h1 class="dot three">.</h1>
+    </div>
+    <script>/* eslint-disable prefer-template */
+/* eslint-disable func-names */
+/* eslint-disable no-var */
+
+function LoadingBar()
+{
+    var showing = false;
+    var total = 0;
+    var preInitActive = true;
+    var preInitStartedAt = 0;
+    var preInitFrame = 0;
+
+    var container = document.createElement('div');
+
+    container.style.position = 'fixed';
+    container.style.width = 'min(300px, calc(100% - 128px))';
+    container.style.minWidth = '160px';
+    container.style.height = '30px';
+    container.style.zIndex = 999;
+
+    var base = document.createElement('div');
+
+    base.style.position = 'absolute';
+    base.style.width = '100%';
+    base.style.height = '100%';
+    base.style.backgroundColor = 'rgba(0, 0, 0, 0.75)';
+    container.appendChild(base);
+
+    var bar = document.createElement('div');
+
+    bar.style.position = 'absolute';
+    bar.style.left = '4px';
+    bar.style.top = '4px';
+    bar.style.width = 'calc(100% - 8px)';
+    bar.style.height = 'calc(100% - 8px)';
+    bar.style.backgroundColor = '#f65000';
+    bar.style.transformOrigin = 'left';
+    container.appendChild(bar);
+
+    var label = document.createElement('div');
+
+    label.style.position = 'absolute';
+    label.style.width = '100%';
+    label.style.height = '100%';
+    label.style.lineHeight = '30px';
+    label.style.textAlign = 'center';
+    label.style.color = '#FFFFFF';
+    label.style.fontWeight = 'bold';
+    label.style.fontSize = '12px';
+    label.style.fontFamily = '"Verdana", sans-serif';
+    container.appendChild(label);
+
+    function resize()
+    {
+        container.style.left = '50%';
+        container.style.transform = 'translateX(-50%)';
+        container.style.top = ((window.innerHeight * 0.5) + 120) + 'px';
+    }
+
+    function show()
+    {
+        if (showing) return;
+        showing = true;
+        document.body.appendChild(container);
+        window.addEventListener('resize', resize);
+        setProgress(0);
+        resize();
+
+        if (preInitActive)
+        {
+            preInitStartedAt = performance.now();
+            preInitFrame = requestAnimationFrame(updatePreInitProgress);
+        }
+    }
+
+    function hide()
+    {
+        if (!showing) return;
+        showing = false;
+        container.remove();
+        window.removeEventListener('resize', resize);
+        cancelAnimationFrame(preInitFrame);
+    }
+
+    function setTotal(mbs)
+    {
+        total = mbs;
+    }
+
+    function renderProgress(ratio, loadedRatio)
+    {
+        if (ratio < 0) ratio = 0;
+        if (ratio > 1) ratio = 1;
+        if (loadedRatio === undefined) loadedRatio = ratio;
+
+        var percent = Math.round(ratio * 100) + '%';
+
+        bar.style.transform = 'scaleX(' + ratio + ')';
+
+        if (total)
+        {
+            var loaded = (total * loadedRatio).toFixed(1);
+            var mbs = loaded + '/' + total + ' MB';
+
+            label.innerText = percent + ' - ' + mbs;
+        }
+        else
+        {
+            label.innerText = percent;
+        }
+    }
+
+    function updatePreInitProgress(now)
+    {
+        if (!showing || !preInitActive) return;
+
+        var elapsed = now - preInitStartedAt;
+        var ratio = 0.49 * (1 - Math.exp(-elapsed / 1600));
+
+        renderProgress(ratio);
+        preInitFrame = requestAnimationFrame(updatePreInitProgress);
+    }
+
+    function completePreInit()
+    {
+        if (!preInitActive) return;
+        preInitActive = false;
+        cancelAnimationFrame(preInitFrame);
+        renderProgress(0.5);
+    }
+
+    function setInitialProgress(ratio)
+    {
+        completePreInit();
+        if (ratio < 0) ratio = 0;
+        if (ratio > 1) ratio = 1;
+        renderProgress(0.5 + (ratio * 0.5), ratio);
+    }
+
+    function setProgress(ratio)
+    {
+        renderProgress(ratio);
+    }
+
+    show();
+    this.show = show;
+    this.hide = hide;
+    this.setTotal = setTotal;
+    this.setProgress = setProgress;
+    this.completePreInit = completePreInit;
+    this.setInitialProgress = setInitialProgress;
+}
+
+window.loadingBar = new LoadingBar();
+</script>
+    <!-- Vite entry point -->
+</body>
+</html>

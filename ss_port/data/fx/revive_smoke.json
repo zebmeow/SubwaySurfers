@@ -1,0 +1,344 @@
+{
+ "main": {
+  "duration": 1,
+  "loop": false,
+  "startDelay": 0,
+  "playOnAwake": false,
+  "startLifetime": {
+   "mode": 3,
+   "values": [
+    0.5,
+    0.699999988079071
+   ],
+   "range": 1
+  },
+  "startSpeed": {
+   "mode": 3,
+   "values": [
+    5,
+    15
+   ],
+   "range": 1
+  },
+  "startSize": {
+   "mode": 3,
+   "values": [
+    5,
+    15
+   ],
+   "range": 1
+  },
+  "startRotation": {
+   "mode": 3,
+   "values": [
+    0,
+    6.283185005187988
+   ],
+   "range": 1
+  },
+  "startRotation3D": false,
+  "startRotationX": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "startRotationY": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "startRotationZ": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "gravityModifier": {
+   "mode": 0,
+   "values": [
+    0
+   ],
+   "range": 1
+  },
+  "startColor": {
+   "mode": 2,
+   "colors": [
+    {
+     "r": 0.32549020648002625,
+     "g": 0.8666666746139526,
+     "b": 0.9960784316062927,
+     "a": 1
+    },
+    {
+     "r": 0.03529411926865578,
+     "g": 0.3960784375667572,
+     "b": 0.772549033164978,
+     "a": 1
+    }
+   ],
+   "gradients": []
+  },
+  "simulationSpeed": 1,
+  "maxParticles": 35
+ },
+ "emission": {
+  "enabled": true,
+  "rateOverTime": {
+   "mode": 0,
+   "values": [
+    0
+   ],
+   "range": 1
+  },
+  "bursts": [
+   {
+    "time": 0,
+    "count": {
+     "mode": 0,
+     "values": [
+      35
+     ],
+     "range": 1
+    }
+   }
+  ]
+ },
+ "shape": {
+  "enabled": true,
+  "shapeType": 4,
+  "angle": 46.20000076293945,
+  "radius": 1.9500000476837158,
+  "radiusThickness": 1,
+  "donutRadius": 0.20000000298023224,
+  "position": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "rotation": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "scale": {
+   "x": 1,
+   "y": 1,
+   "z": 1
+  },
+  "mesh": "",
+  "meshShapeType": 0,
+  "meshSpawnMode": 0
+ },
+ "velocityOverLifetime": {
+  "enabled": false,
+  "linear": [
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   }
+  ],
+  "orbital": [
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   }
+  ],
+  "orbitalOffset": [
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   }
+  ]
+ },
+ "limitVelocityOverLifetime": {
+  "enabled": false,
+  "speed": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "dampen": 0,
+  "drag": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "multiplyDragByParticleSize": false,
+  "multiplyDragByParticleVelocity": false
+ },
+ "colorOverLifetime": {
+  "enabled": true,
+  "color": {
+   "mode": 1,
+   "colors": [],
+   "gradients": [
+    {
+     "fixedGradient": false,
+     "colorTimes": [
+      0,
+      1
+     ],
+     "colorValues": [
+      {
+       "r": 1,
+       "g": 1,
+       "b": 1,
+       "a": 1
+      },
+      {
+       "r": 1,
+       "g": 1,
+       "b": 1,
+       "a": 1
+      }
+     ],
+     "alphaTimes": [
+      0.800000011920929,
+      1
+     ],
+     "alphaValues": [
+      1,
+      0
+     ]
+    }
+   ]
+  }
+ },
+ "sizeOverLifetime": {
+  "enabled": true,
+  "size": {
+   "mode": 1,
+   "values": [
+    0.29903146624565125,
+    0.3230701684951782,
+    0.38749387860298157,
+    0.4807640314102173,
+    0.5913420915603638,
+    0.7076894044876099,
+    0.8182674646377563,
+    0.9115375280380249,
+    0.9759612083435059,
+    1
+   ],
+   "range": 1
+  }
+ },
+ "rotationOverLifetime": {
+  "enabled": true,
+  "separateAxes": false,
+  "x": {
+   "mode": 0,
+   "values": [
+    1
+   ],
+   "range": 1
+  },
+  "y": {
+   "mode": 0,
+   "values": [
+    1
+   ],
+   "range": 1
+  },
+  "z": {
+   "mode": 3,
+   "values": [
+    0,
+    0.7853981256484985
+   ],
+   "range": 1
+  }
+ },
+ "noise": {
+  "enabled": false,
+  "strength": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "frequency": 0,
+  "damping": false,
+  "quality": 0,
+  "positionAmount": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  }
+ },
+ "renderer": {
+  "mode": 0,
+  "alignment": 0,
+  "meshes": [],
+  "cameraScale": 0,
+  "speedScale": 0,
+  "lengthScale": 0,
+  "materialName": "effects_tex_mat_Revive (Instance)"
+ },
+ "subEmitters": {
+  "subEmitters": []
+ },
+ "textureSheetAnimation": {
+  "enabled": false,
+  "mode": 0,
+  "uvChannelMask": 0,
+  "numTilesX": 0,
+  "numTilesY": 0,
+  "animation": 0,
+  "frameOverTime": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "frameOverTimeMultiplier": 0,
+  "startFrame": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "startFrameMultiplier": 0,
+  "cycleCount": 0,
+  "rowMode": 0,
+  "rowIndex": 0,
+  "timeMode": 0,
+  "fps": 0,
+  "speedRange": {
+   "x": 0,
+   "y": 0
+  },
+  "flipU": false,
+  "flipV": false,
+  "spriteCount": 0
+ }
+}

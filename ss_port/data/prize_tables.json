@@ -1,0 +1,281 @@
+{
+ "source": "deobfuscated.js Yi (10112) mini, Xi (10179) mystery box, Zi (10266) super; entries in source order",
+ "mini": [
+  {
+   "type": "hoverboard",
+   "amount": 1,
+   "chance": 10.67
+  },
+  {
+   "type": "hoverboard",
+   "amount": 2,
+   "chance": 9.33
+  },
+  {
+   "type": "hoverboard",
+   "amount": 3,
+   "chance": 8
+  },
+  {
+   "type": "keys",
+   "amount": 1,
+   "chance": 2.4
+  },
+  {
+   "type": "keys",
+   "amount": 2,
+   "chance": 0.27
+  },
+  {
+   "type": "headstart",
+   "amount": 1,
+   "chance": 0.67
+  },
+  {
+   "type": "scoreBooster",
+   "amount": 1,
+   "chance": 0.67
+  },
+  {
+   "type": "coins",
+   "amount": 100,
+   "chance": 26.67
+  },
+  {
+   "type": "coins",
+   "amount": 200,
+   "chance": 20
+  },
+  {
+   "type": "coins",
+   "amount": 500,
+   "chance": 12
+  },
+  {
+   "type": "coins",
+   "amount": 800,
+   "chance": 6.67
+  },
+  {
+   "type": "coins",
+   "amount": 1000,
+   "chance": 2
+  },
+  {
+   "type": "coins",
+   "amount": 2000,
+   "chance": 0.67
+  }
+ ],
+ "normal": [
+  {
+   "type": "hoverboard",
+   "amount": 1,
+   "chance": 5.56
+  },
+  {
+   "type": "hoverboard",
+   "amount": 2,
+   "chance": 11.11
+  },
+  {
+   "type": "hoverboard",
+   "amount": 3,
+   "chance": 18.52
+  },
+  {
+   "type": "hoverboard",
+   "amount": [
+    4,
+    10
+   ],
+   "chance": 1.85
+  },
+  {
+   "type": "keys",
+   "amount": 1,
+   "chance": 3.7
+  },
+  {
+   "type": "headstart",
+   "amount": 1,
+   "chance": 3.15
+  },
+  {
+   "type": "headstart",
+   "amount": 2,
+   "chance": 0.37
+  },
+  {
+   "type": "headstart",
+   "amount": 3,
+   "chance": 0.19
+  },
+  {
+   "type": "scoreBooster",
+   "amount": 1,
+   "chance": 1.85
+  },
+  {
+   "type": "coins",
+   "amount": [
+    200,
+    300
+   ],
+   "chance": 12.76
+  },
+  {
+   "type": "coins",
+   "amount": 500,
+   "chance": 9.26
+  },
+  {
+   "type": "coins",
+   "amount": 800,
+   "chance": 11.11
+  },
+  {
+   "type": "coins",
+   "amount": 1000,
+   "chance": 12.96
+  },
+  {
+   "type": "coins",
+   "amount": 1500,
+   "chance": 5.56
+  },
+  {
+   "type": "coins",
+   "amount": 2500,
+   "chance": 1.85
+  },
+  {
+   "type": "coins",
+   "amount": 5000,
+   "chance": 0.19
+  },
+  {
+   "type": "coins",
+   "amount": 100000,
+   "chance": 0.02
+  }
+ ],
+ "super": [
+  {
+   "type": "hoverboard",
+   "amount": [
+    4,
+    8
+   ],
+   "chance": 12.5
+  },
+  {
+   "type": "hoverboard",
+   "amount": [
+    10,
+    20
+   ],
+   "chance": 1.09
+  },
+  {
+   "type": "hoverboard",
+   "amount": 40,
+   "chance": 0.47
+  },
+  {
+   "type": "keys",
+   "amount": 1,
+   "chance": 3.91
+  },
+  {
+   "type": "keys",
+   "amount": 2,
+   "chance": 2.34
+  },
+  {
+   "type": "keys",
+   "amount": 3,
+   "chance": 1.56
+  },
+  {
+   "type": "headstart",
+   "amount": 1,
+   "chance": 2.81
+  },
+  {
+   "type": "headstart",
+   "amount": 2,
+   "chance": 1.56
+  },
+  {
+   "type": "headstart",
+   "amount": 3,
+   "chance": 1.25
+  },
+  {
+   "type": "headstart",
+   "amount": 5,
+   "chance": 0.63
+  },
+  {
+   "type": "scoreBooster",
+   "amount": 1,
+   "chance": 4.69
+  },
+  {
+   "type": "scoreBooster",
+   "amount": 2,
+   "chance": 3.13
+  },
+  {
+   "type": "scoreBooster",
+   "amount": 3,
+   "chance": 1.56
+  },
+  {
+   "type": "coins",
+   "amount": 1500,
+   "chance": 24.25
+  },
+  {
+   "type": "coins",
+   "amount": 2000,
+   "chance": 17.19
+  },
+  {
+   "type": "coins",
+   "amount": 3000,
+   "chance": 10.94
+  },
+  {
+   "type": "coins",
+   "amount": 5000,
+   "chance": 6.25
+  },
+  {
+   "type": "coins",
+   "amount": 8000,
+   "chance": 2.34
+  },
+  {
+   "type": "coins",
+   "amount": 15000,
+   "chance": 0.63
+  },
+  {
+   "type": "coins",
+   "amount": 20000,
+   "chance": 0.47
+  },
+  {
+   "type": "coins",
+   "amount": 50000,
+   "chance": 0.31
+  },
+  {
+   "type": "coins",
+   "amount": 300000,
+   "chance": 0.13
+  }
+ ]
+}

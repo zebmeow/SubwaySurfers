@@ -1,0 +1,2743 @@
+{
+ "cache_order": [
+  "assets/preload/splash.webp",
+  "assets/preload/splash.png",
+  "splash.webp",
+  "assets/data/chunks-idle.json",
+  "assets/data/chunks-idle",
+  "chunks-idle.json",
+  "assets/data/chunks-basic.json",
+  "assets/data/chunks-basic",
+  "chunks-basic.json",
+  "assets/data/awards.json",
+  "awards.json",
+  "assets/data/lang-en.json",
+  "lang-en.json",
+  "assets/data/lang-pt-br.json",
+  "lang-pt-br.json",
+  "assets/ui/ui.webp.json",
+  "ui",
+  "ui.webp.json",
+  "bundles/bali/game-idle/environment-tex@2x.webp",
+  "assets/game-idle/environment-tex.png",
+  "environment-tex@2x.webp",
+  "assets/game-idle/props-tex.webp",
+  "assets/game-idle/props-tex.png",
+  "props-tex.webp",
+  "bundles/bali/game-idle/train-start.png",
+  "assets/game-idle/train-start.png",
+  "train-start.png",
+  "assets/game-idle/trains-tex.webp",
+  "assets/game-idle/trains-tex.png",
+  "trains-tex.webp",
+  "assets/game-basic/caustic.webp",
+  "assets/game-basic/caustic.png",
+  "caustic.webp",
+  "assets/game-basic/default-particle.webp",
+  "assets/game-basic/default-particle.png",
+  "default-particle.webp",
+  "assets/game-basic/effects-tex.webp",
+  "assets/game-basic/effects-tex.png",
+  "effects-tex.webp",
+  "assets/game-basic/enemies.webp",
+  "assets/game-basic/enemies.png",
+  "enemies.webp",
+  "assets/game-basic/character_shadow.webp",
+  "assets/game-basic/character_shadow.png",
+  "character_shadow.webp",
+  "assets/game-basic/fountain.webp",
+  "assets/game-basic/fountain.png",
+  "fountain.webp",
+  "assets/game-basic/grindSpark.webp",
+  "assets/game-basic/grindSpark.png",
+  "grindSpark.webp",
+  "assets/game-basic/halo.webp",
+  "assets/game-basic/halo.png",
+  "halo.webp",
+  "assets/game-basic/jetpack-flame.webp",
+  "assets/game-basic/jetpack-flame.png",
+  "jetpack-flame.webp",
+  "assets/game-basic/fog.webp",
+  "assets/game-basic/fog.png",
+  "fog.webp",
+  "assets/game-basic/jetpack-puff2.webp",
+  "assets/game-basic/jetpack-puff2.png",
+  "jetpack-puff2.webp",
+  "assets/game-basic/jetpack-trail.webp",
+  "assets/game-basic/jetpack-trail.png",
+  "jetpack-trail.webp",
+  "assets/game-basic/pogo-cloud.webp",
+  "assets/game-basic/pogo-cloud.png",
+  "pogo-cloud.webp",
+  "assets/game-basic/rainbow.webp",
+  "assets/game-basic/rainbow.png",
+  "rainbow.webp",
+  "assets/game-basic/reflection.webp",
+  "assets/game-basic/reflection.png",
+  "reflection.webp",
+  "assets/game-basic/jetpack-puff.webp",
+  "assets/game-basic/jetpack-puff.png",
+  "jetpack-puff.webp",
+  "assets/game-basic/river.webp",
+  "assets/game-basic/river.png",
+  "river.webp",
+  "assets/game-basic/river2.webp",
+  "assets/game-basic/river2.png",
+  "river2.webp",
+  "assets/game-basic/shadow.webp",
+  "assets/game-basic/shadow.png",
+  "shadow.webp",
+  "assets/game-basic/smoke.webp",
+  "assets/game-basic/smoke.png",
+  "smoke.webp",
+  "assets/game-basic/vfx_spark.webp",
+  "assets/game-basic/vfx_spark.png",
+  "vfx_spark.webp",
+  "assets/game-basic/trains_bag.webp",
+  "assets/game-basic/trains_bag.png",
+  "trains_bag.webp",
+  "assets/game-basic/spark.webp",
+  "assets/game-basic/spark.png",
+  "spark.webp",
+  "assets/game-basic/spray-splash.webp",
+  "assets/game-basic/spray-splash.png",
+  "spray-splash.webp",
+  "assets/game-basic/waterdrop.webp",
+  "assets/game-basic/waterdrop.png",
+  "waterdrop.webp",
+  "assets/game-basic/waterfall.webp",
+  "assets/game-basic/waterfall.png",
+  "waterfall.webp",
+  "assets/game-basic/waterspray.webp",
+  "assets/game-basic/waterspray.png",
+  "waterspray.webp",
+  "assets/game-basic/wave_noise.webp",
+  "assets/game-basic/wave_noise.png",
+  "wave_noise.webp",
+  "assets/game-basic/waves.webp",
+  "assets/game-basic/waves.png",
+  "waves.webp",
+  "assets/characters-idle/jake-tex.webp",
+  "assets/characters-idle/jake-tex.png",
+  "jake-tex.webp",
+  "assets/characters-idle/jake-tex-2.webp",
+  "assets/characters-idle/jake-tex-2.png",
+  "jake-tex-2.webp",
+  "assets/boards/board-greatwhite-tex.webp",
+  "assets/boards/board-greatwhite-tex.png",
+  "board-greatwhite-tex.webp",
+  "assets/characters-idle/jake-tex-1.webp",
+  "assets/characters-idle/jake-tex-1.png",
+  "jake-tex-1.webp",
+  "assets/boards/board-bigkahuna-tex.webp",
+  "assets/boards/board-bigkahuna-tex.png",
+  "board-bigkahuna-tex.webp",
+  "assets/boards/board-bouncer-tex.webp",
+  "assets/boards/board-bouncer-tex.png",
+  "board-bouncer-tex.webp",
+  "assets/boards/board-daredevil-tex.webp",
+  "assets/boards/board-daredevil-tex.png",
+  "board-daredevil-tex.webp",
+  "assets/boards/board-hoverboard-tex.webp",
+  "assets/boards/board-hoverboard-tex.png",
+  "board-hoverboard-tex.webp",
+  "assets/boards/board-hotrod-tex.webp",
+  "assets/boards/board-hotrod-tex.png",
+  "board-hotrod-tex.webp",
+  "assets/boards/board-lowrider-tex.webp",
+  "assets/boards/board-lowrider-tex.png",
+  "board-lowrider-tex.webp",
+  "assets/boards/board-lumberjack-tex.webp",
+  "assets/boards/board-lumberjack-tex.png",
+  "board-lumberjack-tex.webp",
+  "assets/boards/board-monster-tex.webp",
+  "assets/boards/board-monster-tex.png",
+  "board-monster-tex.webp",
+  "assets/boards/board-starboard-tex.webp",
+  "assets/boards/board-starboard-tex.png",
+  "board-starboard-tex.webp",
+  "assets/boards/board-skullfire-tex.webp",
+  "assets/boards/board-skullfire-tex.png",
+  "board-skullfire-tex.webp",
+  "assets/boards/board-scoot-tex.webp",
+  "assets/boards/board-scoot-tex.png",
+  "board-scoot-tex.webp",
+  "notepad-panel.png",
+  "highscorescreen-bg.png",
+  "doubleup-module-panel.png",
+  "prizescreen-bg.png",
+  "freestuff-module-panel.png",
+  "upgrade-panel-bottom.png",
+  "front-icon-top-run.png",
+  "tutorial-arrow.png",
+  "background-stripes-hq.png",
+  "upgrade-panel-middle.png",
+  "mystery-box-icon.png",
+  "front-icon-me.png",
+  "consent-characters-header.png",
+  "background-splat.png",
+  "upgrade-panel-top.png",
+  "missions-splat.png",
+  "icon-white-awards.png",
+  "upgrades-slot.png",
+  "front-icon-shop.png",
+  "boost-headstart.png",
+  "jackpot-coins-1.png",
+  "boost-multiplier.png",
+  "xl-navigation-button-light-green.png",
+  "icon-white-top-run.png",
+  "hoverboard-large.png",
+  "box-fill-blue.png",
+  "scoreboard.png",
+  "icon-triangle.png",
+  "base-blurry.png",
+  "jackpot-coins-2.png",
+  "icon-double-jump.png",
+  "shine-effect.png",
+  "base-grey.png",
+  "base-long.png",
+  "box-border-grey.png",
+  "box-border-grey-small.png",
+  "abc-graffiti-icon.png",
+  "icon-king.png",
+  "front-icon-mytour.png",
+  "base-item-flat.png",
+  "icon-zap-sideways.png",
+  "base-item-large.png",
+  "celebration-stripe.png",
+  "icon-coin.png",
+  "box-fill-orange.png",
+  "icon-sound.png",
+  "large-navigation-button-light-green.png",
+  "splash-new.png",
+  "coin-pouch-icon.png",
+  "box-fill-green.png",
+  "icon-character.png",
+  "spraycan-big-bronze.png",
+  "item-duration-full-bar.png",
+  "checkmark-icon.png",
+  "trophy-fresh-token.png",
+  "btn-base.png",
+  "icon-info.png",
+  "spraycan-big-diamond.png",
+  "spraycan-big-gold.png",
+  "base-item.png",
+  "spraycan-big-silver.png",
+  "icon-tv.png",
+  "icon-board-powerup.png",
+  "navigation-button-blu.png",
+  "navigation-button-green.png",
+  "icon-key-white.png",
+  "btn-close.png",
+  "navigation-button-grey.png",
+  "navigation-button-red.png",
+  "background-superglow.png",
+  "icon-item-scorebooster.png",
+  "icon-item-super-mystery-box.png",
+  "clock-base.png",
+  "coin-pouch-stroke.png",
+  "icon-key-large.png",
+  "stars.png",
+  "clock-fill.png",
+  "thumb-generic.png",
+  "icon-board.png",
+  "base-short.png",
+  "base-slice.png",
+  "icon-outfit.png",
+  "arrow-down-hint.png",
+  "button-arrow-down.png",
+  "icon-white-piggy.png",
+  "trophy-headphones-stroke.png",
+  "base-blue.png",
+  "diagonal.png",
+  "icon-white-house.png",
+  "icon-white-back.png",
+  "box-border-white.png",
+  "coin-pouches-stroke.png",
+  "icon-white-coins.png",
+  "trophy-spike-token.png",
+  "icon-boards.png",
+  "icon-item-magnet.png",
+  "icon-item-hoverboard.png",
+  "icon-speed-up.png",
+  "icon-stay-low.png",
+  "icon-white-high-scores.png",
+  "word-hunt-icon.png",
+  "mission-completed-checkmark.png",
+  "icon-item-headstart.png",
+  "icon-white-upgrades.png",
+  "icon-item-mystery-box.png",
+  "icon-item-jetpack.png",
+  "icon-key.png",
+  "icon-item-multiplier.png",
+  "trophy-tricky-token.png",
+  "btn-base-small.png",
+  "icon-lock-outfit.png",
+  "icon-user.png",
+  "icon-item-mini-mystery-box.png",
+  "icon-white-collect-coins.png",
+  "icon-white-weekly-hunt.png",
+  "trophy-yutani-token.png",
+  "icon-settings.png",
+  "icon-coin-large.png",
+  "icon-pause.png",
+  "notification-icon.png",
+  "mission-multiplier-reward.png",
+  "icon-white-missions.png",
+  "icon-item-sneakers.png",
+  "spraycan-bronze.png",
+  "icon-smooth-drift.png",
+  "icon-owned.png",
+  "spraycan-diamond.png",
+  "spraycan-empty.png",
+  "icon-pink-trail.png",
+  "spraycan-gold.png",
+  "spraycan-outline.png",
+  "spraycan-silver.png",
+  "icon-selected.png",
+  "timer-empty-icon.png",
+  "icon-star-trail.png",
+  "icon-star.png",
+  "icon-super-jump.png",
+  "icon-item-mysterybox.png",
+  "assets/boards/board-windglider-tex.webp",
+  "assets/boards/board-windglider-tex.png",
+  "board-windglider-tex.webp",
+  "assets/boards/board-sunset-tex.webp",
+  "assets/boards/board-sunset-tex.png",
+  "board-sunset-tex.webp",
+  "assets/boards/board-superhero-tex.webp",
+  "assets/boards/board-superhero-tex.png",
+  "board-superhero-tex.webp",
+  "assets/boards/board-teleporter-tex.webp",
+  "assets/boards/board-teleporter-tex.png",
+  "board-teleporter-tex.webp",
+  "assets/boards/board-hoverboard.pk",
+  "assets/boards/board-hoverboard.fbx",
+  "board-hoverboard.pk",
+  "assets/boards/board-superhero.pk",
+  "assets/boards/board-superhero.fbx",
+  "board-superhero.pk",
+  "bundles/bali/game-idle/environment-idle.pk",
+  "assets/game-idle/environment-idle.fbx",
+  "environment-idle.pk",
+  "assets/boards/board-hotrod.pk",
+  "assets/boards/board-hotrod.fbx",
+  "board-hotrod.pk",
+  "assets/game-basic/model-guard.pk",
+  "assets/game-basic/model-guard.fbx",
+  "model-guard.pk",
+  "assets/game-basic/model-dog.pk",
+  "assets/game-basic/model-dog.fbx",
+  "model-dog.pk",
+  "assets/boards/board-greatwhite.pk",
+  "assets/boards/board-greatwhite.fbx",
+  "board-greatwhite.pk",
+  "assets/boards/board-scoot.pk",
+  "assets/boards/board-scoot.fbx",
+  "board-scoot.pk",
+  "assets/boards/board-monster.pk",
+  "assets/boards/board-monster.fbx",
+  "board-monster.pk",
+  "assets/boards/board-daredevil.pk",
+  "assets/boards/board-daredevil.fbx",
+  "board-daredevil.pk",
+  "assets/boards/board-teleporter.pk",
+  "assets/boards/board-teleporter.fbx",
+  "board-teleporter.pk",
+  "assets/boards/board-windglider.pk",
+  "assets/boards/board-windglider.fbx",
+  "board-windglider.pk",
+  "assets/game-idle/props-start.pk",
+  "assets/game-idle/props-start.fbx",
+  "props-start.pk",
+  "assets/animations-basic/pogostick.pk",
+  "assets/animations-basic/pogostick.fbx",
+  "pogostick.pk",
+  "assets/animations-basic/catch.pk",
+  "assets/animations-basic/catch.fbx",
+  "catch.pk",
+  "bundles/bali/game-basic/trains-basic.pk",
+  "assets/game-basic/trains-basic.fbx",
+  "trains-basic.pk",
+  "assets/boards/board-sunset.pk",
+  "assets/boards/board-sunset.fbx",
+  "board-sunset.pk",
+  "assets/characters-idle/avatar_jake.pk",
+  "assets/characters-idle/avatar_jake.fbx",
+  "avatar_jake.pk",
+  "bundles/bali/game-idle/trains-idle.pk",
+  "assets/game-idle/trains-idle.fbx",
+  "trains-idle.pk",
+  "assets/animations-basic/hoverboards.pk",
+  "assets/animations-basic/hoverboards.fbx",
+  "hoverboards.pk",
+  "assets/animations-idle/idle.pk",
+  "assets/animations-idle/idle.fbx",
+  "idle.pk",
+  "bundles/bali/game-basic/environment-basic.pk",
+  "assets/game-basic/environment-basic.fbx",
+  "environment-basic.pk",
+  "assets/animations-basic/enemy-guard-movement.pk",
+  "assets/animations-basic/enemy-guard-movement.fbx",
+  "enemy-guard-movement.pk",
+  "assets/boards/board-bouncer.pk",
+  "assets/boards/board-bouncer.fbx",
+  "board-bouncer.pk",
+  "assets/boards/board-bigkahuna.pk",
+  "assets/boards/board-bigkahuna.fbx",
+  "board-bigkahuna.pk",
+  "assets/boards/board-starboard.pk",
+  "assets/boards/board-starboard.fbx",
+  "board-starboard.pk",
+  "assets/animations-basic/jetpack.pk",
+  "assets/animations-basic/jetpack.fbx",
+  "jetpack.pk",
+  "assets/animations-basic/enemy-guard-catch.pk",
+  "assets/animations-basic/enemy-guard-catch.fbx",
+  "enemy-guard-catch.pk",
+  "assets/game-basic/character-props.pk",
+  "assets/game-basic/character-props.fbx",
+  "character-props.pk",
+  "assets/animations-basic/movement.pk",
+  "assets/animations-basic/movement.fbx",
+  "movement.pk",
+  "assets/game-idle/mystery-box.pk",
+  "assets/game-idle/mystery-box.fbx",
+  "mystery-box.pk",
+  "assets/boards/board-lumberjack.pk",
+  "assets/boards/board-lumberjack.fbx",
+  "board-lumberjack.pk",
+  "assets/boards/board-skullfire.pk",
+  "assets/boards/board-skullfire.fbx",
+  "board-skullfire.pk",
+  "assets/animations-basic/enemy-dog-movement.pk",
+  "assets/animations-basic/enemy-dog-movement.fbx",
+  "enemy-dog-movement.pk",
+  "assets/animations-basic/enemy-dog-catch.pk",
+  "assets/animations-basic/enemy-dog-catch.fbx",
+  "enemy-dog-catch.pk",
+  "assets/boards/board-lowrider.pk",
+  "assets/boards/board-lowrider.fbx",
+  "board-lowrider.pk",
+  "assets/data/chunks-full.json",
+  "assets/data/chunks-full",
+  "chunks-full.json",
+  "bundles/bali/game-full/environment-full.pk",
+  "assets/game-full/environment-full.fbx",
+  "environment-full.pk",
+  "assets/game-full/jetpack-flame.pk",
+  "assets/game-full/jetpack-flame.fbx",
+  "jetpack-flame.pk",
+  "assets/game-full/props-extra.pk",
+  "assets/game-full/props-extra.fbx",
+  "props-extra.pk",
+  "assets/game-full/props.pk",
+  "assets/game-full/props.fbx",
+  "props.pk",
+  "assets/game-full/sheep.pk",
+  "assets/game-full/sheep.fbx",
+  "sheep.pk",
+  "bundles/bali/game-full/trains-full.pk",
+  "assets/game-full/trains-full.fbx",
+  "trains-full.pk",
+  "assets/characters-idle/avatar_tricky.pk",
+  "assets/characters-idle/avatar_tricky.fbx",
+  "avatar_tricky.pk",
+  "assets/characters-idle/avatar_yutani.pk",
+  "assets/characters-idle/avatar_yutani.fbx",
+  "avatar_yutani.pk",
+  "assets/characters-idle/tricky-tex.webp",
+  "assets/characters-idle/tricky-tex.png",
+  "tricky-tex.webp",
+  "assets/characters-idle/yutani-tex.webp",
+  "assets/characters-idle/yutani-tex.png",
+  "yutani-tex.webp",
+  "assets/characters-idle/tricky-tex-2.webp",
+  "assets/characters-idle/tricky-tex-2.png",
+  "tricky-tex-2.webp",
+  "assets/characters-idle/tricky-tex-1.webp",
+  "assets/characters-idle/tricky-tex-1.png",
+  "tricky-tex-1.webp",
+  "assets/characters-idle/tagbot-tex.webp",
+  "assets/characters-idle/tagbot-tex.png",
+  "tagbot-tex.webp",
+  "assets/characters-idle/lucy-tex-2.webp",
+  "assets/characters-idle/lucy-tex-2.png",
+  "lucy-tex-2.webp",
+  "assets/characters-idle/lucy-tex-1.webp",
+  "assets/characters-idle/lucy-tex-1.png",
+  "lucy-tex-1.webp",
+  "assets/characters-idle/lucy-tex.webp",
+  "assets/characters-idle/lucy-tex.png",
+  "lucy-tex.webp",
+  "assets/characters-idle/yutani-tex-1.webp",
+  "assets/characters-idle/yutani-tex-1.png",
+  "yutani-tex-1.webp",
+  "assets/characters-idle/yutani-tex-2.webp",
+  "assets/characters-idle/yutani-tex-2.png",
+  "yutani-tex-2.webp",
+  "assets/characters-idle/ninja-tex.webp",
+  "assets/characters-idle/ninja-tex.png",
+  "ninja-tex.webp",
+  "assets/characters-idle/tagbot-tex-2.webp",
+  "assets/characters-idle/tagbot-tex-2.png",
+  "tagbot-tex-2.webp",
+  "assets/characters-idle/tagbot-tex-1.webp",
+  "assets/characters-idle/tagbot-tex-1.png",
+  "tagbot-tex-1.webp",
+  "assets/characters-idle/tasha-tex.webp",
+  "assets/characters-idle/tasha-tex.png",
+  "tasha-tex.webp",
+  "assets/characters-idle/ninja-tex-1.webp",
+  "assets/characters-idle/ninja-tex-1.png",
+  "ninja-tex-1.webp",
+  "assets/characters-idle/ninja-tex-2.webp",
+  "assets/characters-idle/ninja-tex-2.png",
+  "ninja-tex-2.webp",
+  "assets/characters-idle/tasha-tex-1.webp",
+  "assets/characters-idle/tasha-tex-1.png",
+  "tasha-tex-1.webp",
+  "assets/characters-idle/king-tex.webp",
+  "assets/characters-idle/king-tex.png",
+  "king-tex.webp",
+  "assets/characters-idle/tasha-tex-2.webp",
+  "assets/characters-idle/tasha-tex-2.png",
+  "tasha-tex-2.webp",
+  "assets/characters-idle/avatar_lucy.pk",
+  "assets/characters-idle/avatar_lucy.fbx",
+  "avatar_lucy.pk",
+  "assets/characters-idle/avatar_ninja.pk",
+  "assets/characters-idle/avatar_ninja.fbx",
+  "avatar_ninja.pk",
+  "assets/characters-idle/avatar_tasha.pk",
+  "assets/characters-idle/avatar_tasha.fbx",
+  "avatar_tasha.pk",
+  "assets/characters-idle/king-tex-1.webp",
+  "assets/characters-idle/king-tex-1.png",
+  "king-tex-1.webp",
+  "assets/characters-idle/king-tex-2.webp",
+  "assets/characters-idle/king-tex-2.png",
+  "king-tex-2.webp",
+  "assets/characters-idle/brody-tex-1.webp",
+  "assets/characters-idle/brody-tex-1.png",
+  "brody-tex-1.webp",
+  "assets/characters-idle/brody-tex-2.webp",
+  "assets/characters-idle/brody-tex-2.png",
+  "brody-tex-2.webp",
+  "assets/characters-idle/brody-tex.webp",
+  "assets/characters-idle/brody-tex.png",
+  "brody-tex.webp",
+  "assets/character-previews/loading_wheel.webp",
+  "assets/character-previews/loading_wheel.png",
+  "loading_wheel.webp",
+  "assets/character-previews/preview-costa.webp",
+  "assets/character-previews/preview-costa.png",
+  "preview-costa.webp",
+  "assets/character-previews/preview-boombot.webp",
+  "assets/character-previews/preview-boombot.png",
+  "preview-boombot.webp",
+  "assets/characters-idle/avatar_king.pk",
+  "assets/characters-idle/avatar_king.fbx",
+  "avatar_king.pk",
+  "assets/character-previews/preview-brody.webp",
+  "assets/character-previews/preview-brody.png",
+  "preview-brody.webp",
+  "assets/character-previews/preview-charlie.webp",
+  "assets/character-previews/preview-charlie.png",
+  "preview-charlie.webp",
+  "assets/character-previews/preview-cleo.webp",
+  "assets/character-previews/preview-cleo.png",
+  "preview-cleo.webp",
+  "assets/character-previews/preview-dino.webp",
+  "assets/character-previews/preview-dino.png",
+  "preview-dino.webp",
+  "assets/character-previews/preview-dylan.webp",
+  "assets/character-previews/preview-dylan.png",
+  "preview-dylan.webp",
+  "assets/character-previews/preview-electra.webp",
+  "assets/character-previews/preview-electra.png",
+  "preview-electra.webp",
+  "assets/character-previews/preview-ella.webp",
+  "assets/character-previews/preview-ella.png",
+  "preview-ella.webp",
+  "assets/character-previews/preview-finn.webp",
+  "assets/character-previews/preview-finn.png",
+  "preview-finn.webp",
+  "assets/character-previews/preview-danunder.webp",
+  "assets/character-previews/preview-danunder.png",
+  "preview-danunder.webp",
+  "assets/character-previews/preview-frank.webp",
+  "assets/character-previews/preview-frank.png",
+  "preview-frank.webp",
+  "assets/character-previews/preview-fresh.webp",
+  "assets/character-previews/preview-fresh.png",
+  "preview-fresh.webp",
+  "assets/character-previews/preview-izzy.webp",
+  "assets/character-previews/preview-izzy.png",
+  "preview-izzy.webp",
+  "assets/character-previews/preview-jake.webp",
+  "assets/character-previews/preview-jake.png",
+  "preview-jake.webp",
+  "assets/character-previews/preview-kim.webp",
+  "assets/character-previews/preview-kim.png",
+  "preview-kim.webp",
+  "assets/character-previews/preview-king.webp",
+  "assets/character-previews/preview-king.png",
+  "preview-king.webp",
+  "assets/character-previews/preview-koral.webp",
+  "assets/character-previews/preview-koral.png",
+  "preview-koral.webp",
+  "assets/characters-idle/avatar_brody.pk",
+  "assets/characters-idle/avatar_brody.fbx",
+  "avatar_brody.pk",
+  "assets/characters-idle/avatar_tagbot.pk",
+  "assets/characters-idle/avatar_tagbot.fbx",
+  "avatar_tagbot.pk",
+  "assets/character-previews/preview-jenny.webp",
+  "assets/character-previews/preview-jenny.png",
+  "preview-jenny.webp",
+  "assets/character-previews/preview-kedi.webp",
+  "assets/character-previews/preview-kedi.png",
+  "preview-kedi.webp",
+  "assets/character-previews/preview-lily.webp",
+  "assets/character-previews/preview-lily.png",
+  "preview-lily.webp",
+  "assets/character-previews/preview-lucy.webp",
+  "assets/character-previews/preview-lucy.png",
+  "preview-lucy.webp",
+  "assets/character-previews/preview-missmaia.webp",
+  "assets/character-previews/preview-missmaia.png",
+  "preview-missmaia.webp",
+  "assets/character-previews/preview-lauren.webp",
+  "assets/character-previews/preview-lauren.png",
+  "preview-lauren.webp",
+  "assets/character-previews/preview-olivia.webp",
+  "assets/character-previews/preview-olivia.png",
+  "preview-olivia.webp",
+  "assets/character-previews/preview-noel.webp",
+  "assets/character-previews/preview-noel.png",
+  "preview-noel.webp",
+  "assets/character-previews/preview-nick.webp",
+  "assets/character-previews/preview-nick.png",
+  "preview-nick.webp",
+  "assets/character-previews/preview-ninja.webp",
+  "assets/character-previews/preview-ninja.png",
+  "preview-ninja.webp",
+  "assets/character-previews/preview-rudyrascal.webp",
+  "assets/character-previews/preview-rudyrascal.png",
+  "preview-rudyrascal.webp",
+  "assets/character-previews/preview-phoenix.webp",
+  "assets/character-previews/preview-phoenix.png",
+  "preview-phoenix.webp",
+  "assets/character-previews/preview-princek.webp",
+  "assets/character-previews/preview-princek.png",
+  "preview-princek.webp",
+  "assets/character-previews/preview-tricky.webp",
+  "assets/character-previews/preview-tricky.png",
+  "preview-tricky.webp",
+  "assets/character-previews/preview-tasha.webp",
+  "assets/character-previews/preview-tasha.png",
+  "preview-tasha.webp",
+  "assets/character-previews/preview-sandy.webp",
+  "assets/character-previews/preview-sandy.png",
+  "preview-sandy.webp",
+  "assets/character-previews/preview-spike.webp",
+  "assets/character-previews/preview-spike.png",
+  "preview-spike.webp",
+  "assets/character-previews/preview-tagbot.webp",
+  "assets/character-previews/preview-tagbot.png",
+  "preview-tagbot.webp",
+  "assets/character-previews/preview-yutani.webp",
+  "assets/character-previews/preview-yutani.png",
+  "preview-yutani.webp",
+  "assets/character-previews/preview-zoe.webp",
+  "assets/character-previews/preview-zoe.png",
+  "preview-zoe.webp",
+  "assets/character-previews/preview-vittorio.webp",
+  "assets/character-previews/preview-vittorio.png",
+  "preview-vittorio.webp"
+ ],
+ "pk_order": [
+  "assets/boards/board-hoverboard.pk",
+  "board-hoverboard.pk",
+  "assets/boards/board-superhero.pk",
+  "board-superhero.pk",
+  "bundles/bali/game-idle/environment-idle.pk",
+  "environment-idle.pk",
+  "assets/boards/board-hotrod.pk",
+  "board-hotrod.pk",
+  "assets/game-basic/model-guard.pk",
+  "model-guard.pk",
+  "assets/game-basic/model-dog.pk",
+  "model-dog.pk",
+  "assets/boards/board-greatwhite.pk",
+  "board-greatwhite.pk",
+  "assets/boards/board-scoot.pk",
+  "board-scoot.pk",
+  "assets/boards/board-monster.pk",
+  "board-monster.pk",
+  "assets/boards/board-daredevil.pk",
+  "board-daredevil.pk",
+  "assets/boards/board-teleporter.pk",
+  "board-teleporter.pk",
+  "assets/boards/board-windglider.pk",
+  "board-windglider.pk",
+  "assets/game-idle/props-start.pk",
+  "props-start.pk",
+  "assets/animations-basic/pogostick.pk",
+  "pogostick.pk",
+  "assets/animations-basic/catch.pk",
+  "catch.pk",
+  "bundles/bali/game-basic/trains-basic.pk",
+  "trains-basic.pk",
+  "assets/boards/board-sunset.pk",
+  "board-sunset.pk",
+  "assets/characters-idle/avatar_jake.pk",
+  "avatar_jake.pk",
+  "bundles/bali/game-idle/trains-idle.pk",
+  "trains-idle.pk",
+  "assets/animations-basic/hoverboards.pk",
+  "hoverboards.pk",
+  "assets/animations-idle/idle.pk",
+  "idle.pk",
+  "bundles/bali/game-basic/environment-basic.pk",
+  "environment-basic.pk",
+  "assets/animations-basic/enemy-guard-movement.pk",
+  "enemy-guard-movement.pk",
+  "assets/boards/board-bouncer.pk",
+  "board-bouncer.pk",
+  "assets/boards/board-bigkahuna.pk",
+  "board-bigkahuna.pk",
+  "assets/boards/board-starboard.pk",
+  "board-starboard.pk",
+  "assets/animations-basic/jetpack.pk",
+  "jetpack.pk",
+  "assets/animations-basic/enemy-guard-catch.pk",
+  "enemy-guard-catch.pk",
+  "assets/game-basic/character-props.pk",
+  "character-props.pk",
+  "assets/animations-basic/movement.pk",
+  "movement.pk",
+  "assets/game-idle/mystery-box.pk",
+  "mystery-box.pk",
+  "assets/boards/board-lumberjack.pk",
+  "board-lumberjack.pk",
+  "assets/boards/board-skullfire.pk",
+  "board-skullfire.pk",
+  "assets/animations-basic/enemy-dog-movement.pk",
+  "enemy-dog-movement.pk",
+  "assets/animations-basic/enemy-dog-catch.pk",
+  "enemy-dog-catch.pk",
+  "assets/boards/board-lowrider.pk",
+  "board-lowrider.pk",
+  "bundles/bali/game-full/environment-full.pk",
+  "environment-full.pk",
+  "assets/game-full/jetpack-flame.pk",
+  "jetpack-flame.pk",
+  "assets/game-full/props-extra.pk",
+  "props-extra.pk",
+  "assets/game-full/props.pk",
+  "props.pk",
+  "assets/game-full/sheep.pk",
+  "sheep.pk",
+  "bundles/bali/game-full/trains-full.pk",
+  "trains-full.pk",
+  "assets/characters-idle/avatar_tricky.pk",
+  "avatar_tricky.pk",
+  "assets/characters-idle/avatar_yutani.pk",
+  "avatar_yutani.pk",
+  "assets/characters-idle/avatar_lucy.pk",
+  "avatar_lucy.pk",
+  "assets/characters-idle/avatar_ninja.pk",
+  "avatar_ninja.pk",
+  "assets/characters-idle/avatar_tasha.pk",
+  "avatar_tasha.pk",
+  "assets/characters-idle/avatar_king.pk",
+  "avatar_king.pk",
+  "assets/characters-idle/avatar_brody.pk",
+  "avatar_brody.pk",
+  "assets/characters-idle/avatar_tagbot.pk",
+  "avatar_tagbot.pk"
+ ],
+ "geometryGroups": {
+  "board_default_base": [
+   "board_default_base + "
+  ],
+  "board_superhero_superJump": [
+   "board_superhero_superJump + "
+  ],
+  "board_superhero_zapSideways": [
+   "board_superhero_zapSideways + "
+  ],
+  "board_superhero_base": [
+   "board_superhero_base + "
+  ],
+  "track": [
+   "track + "
+  ],
+  "med_02_left": [
+   "med_02_left + "
+  ],
+  "board_hotRod_base": [
+   "board_hotRod_base + "
+  ],
+  "board_hotRod_thruster": [
+   "board_hotRod_thruster + "
+  ],
+  "Mesh": [
+   "Mesh + ",
+   "Mesh.002 + ",
+   "Mesh.001 + ",
+   "Mesh.005 + ",
+   "Mesh.005 + 1",
+   "Mesh.003 + ",
+   "Mesh.004 + ",
+   "Mesh.007 + ",
+   "Mesh.008 + ",
+   "Mesh.006 + ",
+   "Mesh.004 + 1",
+   "Mesh.001 + 1",
+   "Mesh + 1",
+   "Mesh.003 + 1",
+   "Mesh.007 + 1"
+  ],
+  "board_greatWhite_base": [
+   "board_greatWhite_base + "
+  ],
+  "board_greatWhite_base_wings": [
+   "board_greatWhite_base_wings + "
+  ],
+  "board_greatWhite_speedUp": [
+   "board_greatWhite_speedUp + "
+  ],
+  "board_greatWhite_speedUp_propeller": [
+   "board_greatWhite_speedUp_propeller + "
+  ],
+  "board_greatWhite_smoothDrift_wing_L": [
+   "board_greatWhite_smoothDrift_wing_L + "
+  ],
+  "board_greatWhite_smoothDrift_wing_R": [
+   "board_greatWhite_smoothDrift_wing_R + "
+  ],
+  "board_scoot_speedUp": [
+   "board_scoot_speedUp + "
+  ],
+  "board_scoot_zapSideways": [
+   "board_scoot_zapSideways + "
+  ],
+  "board_scoot_base": [
+   "board_scoot_base + "
+  ],
+  "board_monster_base": [
+   "board_monster_base + "
+  ],
+  "board_monster_speedUp": [
+   "board_monster_speedUp + "
+  ],
+  "board_monster_superJump": [
+   "board_monster_superJump + "
+  ],
+  "board_daredevil_base": [
+   "board_daredevil_base + "
+  ],
+  "board_daredevil_thruster": [
+   "board_daredevil_thruster + "
+  ],
+  "board_teleporter_base": [
+   "board_teleporter_base + "
+  ],
+  "board_windGlider_base": [
+   "board_windGlider_base + "
+  ],
+  "board_windGlider_wing_R": [
+   "board_windGlider_wing_R + "
+  ],
+  "board_windGlider_wing_L": [
+   "board_windGlider_wing_L + "
+  ],
+  "sprayCan": [
+   "sprayCan + "
+  ],
+  "startScreen_bag_zipper": [
+   "startScreen_bag_zipper + "
+  ],
+  "startScreen_bag_base": [
+   "startScreen_bag_base + "
+  ],
+  "startScreen_bag_shadowPlane": [
+   "startScreen_bag_shadowPlane + "
+  ],
+  "train_freight": [
+   "train_freight_LOD0 + ",
+   "train_freight_LOD0.001 + "
+  ],
+  "train_ramp": [
+   "train_ramp_LOD0 + ",
+   "train_ramp_LOD0.001 + "
+  ],
+  "train_sub_wagon": [
+   "train_sub_wagon_LOD0 + ",
+   "train_sub_wagon_LOD0.001 + "
+  ],
+  "board_sunset_base": [
+   "board_sunset_base + "
+  ],
+  "board_sunset_pinkTrail": [
+   "board_sunset_pinkTrail + "
+  ],
+  "board_sunset_smoothDrift_wing_R": [
+   "board_sunset_smoothDrift_wing_R + "
+  ],
+  "board_sunset_smoothDrift_wing_L": [
+   "board_sunset_smoothDrift_wing_L + "
+  ],
+  "board_sunset_smoothDrift": [
+   "board_sunset_smoothDrift + "
+  ],
+  "board_sunset_smoothDrift_FrontWing_L": [
+   "board_sunset_smoothDrift_FrontWing_L + "
+  ],
+  "board_sunset_smoothDrift_FrontWing_R": [
+   "board_sunset_smoothDrift_FrontWing_R + "
+  ],
+  "train_cargo01": [
+   "train_cargo01_LOD0 + ",
+   "train_cargo01_LOD0.001 + "
+  ],
+  "train_cargo02": [
+   "train_cargo02_LOD0 + ",
+   "train_cargo02_LOD0.001 + "
+  ],
+  "train_start": [
+   "train_start + ",
+   "train_start.001 + ",
+   "train_start.002 + ",
+   "train_start.003 + "
+  ],
+  "blocker_jump": [
+   "blocker_jump + ",
+   "blocker_jump.001 + "
+  ],
+  "blocker_roll": [
+   "blocker_roll + ",
+   "blocker_roll.001 + "
+  ],
+  "blocker_standard": [
+   "blocker_standard + ",
+   "blocker_standard.001 + "
+  ],
+  "gates_base": [
+   "gates_base + "
+  ],
+  "gates_mid": [
+   "gates_mid + "
+  ],
+  "sl_monument_1": [
+   "sl_monument_1 + "
+  ],
+  "med_02_right": [
+   "med_02_right + "
+  ],
+  "board_bouncer_base": [
+   "board_bouncer_base + "
+  ],
+  "board_bigKahuna_base": [
+   "board_bigKahuna_base + "
+  ],
+  "board_bigKahuna_stayLow": [
+   "board_bigKahuna_stayLow + "
+  ],
+  "board_bigKahuna_smoothDrift_wing_L": [
+   "board_bigKahuna_smoothDrift_wing_L + "
+  ],
+  "board_bigKahuna_smoothDrift_wing_R": [
+   "board_bigKahuna_smoothDrift_wing_R + "
+  ],
+  "board_star_base": [
+   "board_star_base + "
+  ],
+  "board_star_doubleJump": [
+   "board_star_doubleJump + "
+  ],
+  "board_star_starTrail": [
+   "board_star_starTrail + "
+  ],
+  "lid": [
+   "lid + "
+  ],
+  "box": [
+   "box + "
+  ],
+  "board_lumberJack_doubleJump": [
+   "board_lumberJack_doubleJump + "
+  ],
+  "board_lumberJack": [
+   "board_lumberJack + "
+  ],
+  "board_lumberJack_stayLow": [
+   "board_lumberJack_stayLow + "
+  ],
+  "board_skullfire_base": [
+   "board_skullfire_base + "
+  ],
+  "board_skullfire_speedUp_thrusters": [
+   "board_skullfire_speedUp_thrusters + "
+  ],
+  "board_skullfire_speedUp": [
+   "board_skullfire_speedUp + "
+  ],
+  "board_skullfire_doubleJump": [
+   "board_skullfire_doubleJump + "
+  ],
+  "board_skullfire_doubleJump_thrusters": [
+   "board_skullfire_doubleJump_thrusters + "
+  ],
+  "board_lowrider_base": [
+   "board_lowrider_base + "
+  ],
+  "Extra_01": [
+   "Extra_01 + ",
+   "Extra_01.001 + "
+  ],
+  "Extra_02": [
+   "Extra_02 + "
+  ],
+  "Extra_03": [
+   "Extra_03 + ",
+   "Extra_03.001 + "
+  ],
+  "Monkey_On_SkateBoard": [
+   "Monkey_On_SkateBoard + "
+  ],
+  "bush_1": [
+   "bush_1 + ",
+   "bush_1.001 + "
+  ],
+  "dumpster": [
+   "dumpster + ",
+   "dumpster.001 + "
+  ],
+  "epic_end": [
+   "epic_end + "
+  ],
+  "epic_mid": [
+   "epic_mid + "
+  ],
+  "epic_start": [
+   "epic_start + ",
+   "epic_start.001 + "
+  ],
+  "gates_left": [
+   "gates_left + "
+  ],
+  "gates_right": [
+   "gates_right + "
+  ],
+  "gates_sides": [
+   "gates_sides + "
+  ],
+  "ground": [
+   "ground + "
+  ],
+  "ground_shadow_end": [
+   "ground_shadow_end + "
+  ],
+  "ground_shadow_mid": [
+   "ground_shadow_mid + "
+  ],
+  "ground_shadow_start": [
+   "ground_shadow_start + "
+  ],
+  "ground_shadow_start_end": [
+   "ground_shadow_start_end + "
+  ],
+  "high_01_right": [
+   "high_01_right + "
+  ],
+  "high_02_left": [
+   "high_02_left + "
+  ],
+  "high_02_right": [
+   "high_02_right + "
+  ],
+  "high_03_left": [
+   "high_03_left + "
+  ],
+  "high_03_right": [
+   "high_03_right + "
+  ],
+  "lightSignal": [
+   "lightSignal + ",
+   "lightSignal.001 + "
+  ],
+  "low_01_left": [
+   "low_01_left + "
+  ],
+  "low_01_right": [
+   "low_01_right + "
+  ],
+  "low_02_left": [
+   "low_02_left + "
+  ],
+  "low_02_right": [
+   "low_02_right + "
+  ],
+  "powerBox": [
+   "powerBox + ",
+   "powerBox.001 + "
+  ],
+  "track_gates": [
+   "track_gates + "
+  ],
+  "track_shadow_end": [
+   "track_shadow_end + "
+  ],
+  "track_shadow_mid": [
+   "track_shadow_mid + "
+  ],
+  "track_shadow_short_end": [
+   "track_shadow_short_end + ",
+   "track_shadow_short_end.001 + "
+  ],
+  "track_shadow_short_start": [
+   "track_shadow_short_start + ",
+   "track_shadow_short_start.001 + "
+  ],
+  "track_shadow_start": [
+   "track_shadow_start + "
+  ],
+  "track_shadow_start_end": [
+   "track_shadow_start_end + "
+  ],
+  "tube": [
+   "tube_end +  + 2",
+   "tube_end.001 +  + 2",
+   "tube_mid +  + 1",
+   "tube_mid.001 +  + 1",
+   "tube_start +  + "
+  ],
+  "Boat1": [
+   "Boat1 + "
+  ],
+  "Boat1_line": [
+   "Boat1_line + "
+  ],
+  "Boat1_reflection": [
+   "Boat1_reflection + "
+  ],
+  "Flag_01": [
+   "Flag_01 + "
+  ],
+  "Flag_02": [
+   "Flag_02 + "
+  ],
+  "Flag_03": [
+   "Flag_03 + "
+  ],
+  "Flag_04": [
+   "Flag_04 + "
+  ],
+  "Flag_05": [
+   "Flag_05 + "
+  ],
+  "Flag_06": [
+   "Flag_06 + "
+  ],
+  "Flag_07": [
+   "Flag_07 + "
+  ],
+  "Flag_08": [
+   "Flag_08 + "
+  ],
+  "Gas_sign": [
+   "Gas_sign + "
+  ],
+  "Guard_ad": [
+   "Guard_ad + "
+  ],
+  "high_01_left": [
+   "high_01_left + "
+  ],
+  "high_01_left_var2": [
+   "high_01_left_var2 + "
+  ],
+  "high_01_right_var1": [
+   "high_01_right_var1 + "
+  ],
+  "high_01_right_var2": [
+   "high_01_right_var2 + "
+  ],
+  "high_01_right_var3": [
+   "high_01_right_var3 + "
+  ],
+  "high_02_left_var1": [
+   "high_02_left_var1 + "
+  ],
+  "high_02_left_var2": [
+   "high_02_left_var2 + "
+  ],
+  "high_02_right_var1": [
+   "high_02_right_var1 + "
+  ],
+  "high_02_right_var2": [
+   "high_02_right_var2 + "
+  ],
+  "low_01_left_var01": [
+   "low_01_left_var01 + "
+  ],
+  "low_01_left_var02": [
+   "low_01_left_var02 + "
+  ],
+  "low_01_right_var01": [
+   "low_01_right_var01 + "
+  ],
+  "low_01_right_var02": [
+   "low_01_right_var02 + "
+  ],
+  "low_02_left_var01": [
+   "low_02_left_var01 + "
+  ],
+  "low_02_right_var01": [
+   "low_02_right_var01 + "
+  ],
+  "low_02_right_var02": [
+   "low_02_right_var02 + "
+  ],
+  "med_01_left": [
+   "med_01_left + "
+  ],
+  "med_01_right": [
+   "med_01_right + "
+  ],
+  "med_01_right_var01": [
+   "med_01_right_var01 + "
+  ],
+  "med_01_right_var02": [
+   "med_01_right_var02 + "
+  ],
+  "med_03_left": [
+   "med_03_left + "
+  ],
+  "med_03_right": [
+   "med_03_right + "
+  ],
+  "pillar": [
+   "pillar + "
+  ],
+  "pillars_end": [
+   "pillars_end + "
+  ],
+  "pillars_mid": [
+   "pillars_mid + "
+  ],
+  "pillars_start": [
+   "pillars_start + "
+  ],
+  "station_end": [
+   "station_end + "
+  ],
+  "station_mid": [
+   "station_mid + "
+  ],
+  "station_mid_var01": [
+   "station_mid_var01 + "
+  ],
+  "station_mid_var02": [
+   "station_mid_var02 + "
+  ],
+  "station_platforms": [
+   "station_platforms + "
+  ],
+  "station_start": [
+   "station_start + "
+  ],
+  "powerups_jetpack_FX": [
+   "powerups_jetpack_FX + "
+  ],
+  "fire01": [
+   "fire01 + "
+  ],
+  "fire02": [
+   "fire02 + "
+  ],
+  "fire03": [
+   "fire03 + "
+  ],
+  "fire04": [
+   "fire04 + "
+  ],
+  "fire05": [
+   "fire05 + "
+  ],
+  "fire06": [
+   "fire06 + "
+  ],
+  "fire07": [
+   "fire07 + "
+  ],
+  "fire08": [
+   "fire08 + "
+  ],
+  "fire09": [
+   "fire09 + "
+  ],
+  "fire10": [
+   "fire10 + "
+  ],
+  "fire11": [
+   "fire11 + "
+  ],
+  "fire12": [
+   "fire12 + "
+  ],
+  "fire13": [
+   "fire13 + "
+  ],
+  "fire14": [
+   "fire14 + "
+  ],
+  "fire15": [
+   "fire15 + "
+  ],
+  "fire16": [
+   "fire16 + "
+  ],
+  "fire17": [
+   "fire17 + "
+  ],
+  "fire18": [
+   "fire18 + "
+  ],
+  "fire19": [
+   "fire19 + "
+  ],
+  "fire20": [
+   "fire20 + "
+  ],
+  "fire21": [
+   "fire21 + "
+  ],
+  "fire22": [
+   "fire22 + "
+  ],
+  "fire23": [
+   "fire23 + "
+  ],
+  "northPole_cog_mesh": [
+   "northPole_cog_mesh + "
+  ],
+  "lightSignal_light_red": [
+   "lightSignal_light_red + "
+  ],
+  "lightSignal_light_green": [
+   "lightSignal_light_green + "
+  ],
+  "powerups_jetpack": [
+   "powerups_jetpack + ",
+   "powerups_jetpack + 1"
+  ],
+  "powerups_coinMagnet": [
+   "powerups_coinMagnet + ",
+   "powerups_coinMagnet + 1"
+  ],
+  "powerups_superSneakers": [
+   "powerups_superSneakers + "
+  ],
+  "powerups_rocketPogo": [
+   "powerups_rocketPogo + ",
+   "powerups_rocketPogo + 1"
+  ],
+  "powerups_2xMultiplier": [
+   "powerups_2xMultiplier + ",
+   "powerups_2xMultiplier + 1"
+  ],
+  "mysteryBox_super": [
+   "mysteryBox_super + ",
+   "mysteryBox_super + 1"
+  ],
+  "mysteryBox_default": [
+   "mysteryBox_default + ",
+   "mysteryBox_default + 1"
+  ],
+  "powerups_coinMultiplier": [
+   "powerups_coinMultiplier + ",
+   "powerups_coinMultiplier + 1"
+  ],
+  "powerups_coinMultiplier_arrow": [
+   "powerups_coinMultiplier_arrow + "
+  ],
+  "currency_coin": [
+   "currency_coin + "
+  ],
+  "currency_key": [
+   "currency_key + ",
+   "currency_key + 1"
+  ],
+  "toprunBronze": [
+   "toprunBronze + "
+  ],
+  "toprunSilver": [
+   "toprunSilver + "
+  ],
+  "toprunGold": [
+   "toprunGold + "
+  ],
+  "can_diamond": [
+   "can_diamond + "
+  ],
+  "can_gold": [
+   "can_gold + "
+  ],
+  "can_silver": [
+   "can_silver + "
+  ],
+  "can_bronze": [
+   "can_bronze + "
+  ],
+  "toprunCheckmark": [
+   "toprunCheckmark + "
+  ],
+  "toprun10": [
+   "toprun10 + "
+  ],
+  "toprun9": [
+   "toprun9 + "
+  ],
+  "toprun8": [
+   "toprun8 + "
+  ],
+  "toprun7": [
+   "toprun7 + "
+  ],
+  "toprun6": [
+   "toprun6 + "
+  ],
+  "toprun5": [
+   "toprun5 + "
+  ],
+  "toprun4": [
+   "toprun4 + "
+  ],
+  "toprunDiamond": [
+   "toprunDiamond + "
+  ],
+  "headstartToken": [
+   "headstartToken + "
+  ],
+  "adRemoval_icon": [
+   "adRemoval_icon + "
+  ],
+  "sapphireRing": [
+   "sapphireRing + "
+  ],
+  "emeraldRing": [
+   "emeraldRing + "
+  ],
+  "rubyRing": [
+   "rubyRing + "
+  ],
+  "diamondRing": [
+   "diamondRing + "
+  ],
+  "goldHeadPhones": [
+   "goldHeadPhones + "
+  ],
+  "discoBall": [
+   "discoBall + "
+  ],
+  "tape_green": [
+   "tape_green + "
+  ],
+  "tape_red": [
+   "tape_red + "
+  ],
+  "tape_yellow": [
+   "tape_yellow + "
+  ],
+  "tape_blue": [
+   "tape_blue + "
+  ],
+  "tape_white": [
+   "tape_white + "
+  ],
+  "tape_black": [
+   "tape_black + "
+  ],
+  "lp_green": [
+   "lp_green + "
+  ],
+  "lp_yellow": [
+   "lp_yellow + "
+  ],
+  "lp_red": [
+   "lp_red + "
+  ],
+  "lp_black": [
+   "lp_black + "
+  ],
+  "lp_blue": [
+   "lp_blue + "
+  ],
+  "lp_white": [
+   "lp_white + "
+  ],
+  "goldChain": [
+   "goldChain + "
+  ],
+  "goldChainCross": [
+   "goldChainCross + "
+  ],
+  "goldChainDollar": [
+   "goldChainDollar + "
+  ],
+  "goldChainClock": [
+   "goldChainClock + "
+  ],
+  "gold": [
+   "gold + "
+  ],
+  "sapphire": [
+   "sapphire + "
+  ],
+  "ruby": [
+   "ruby + "
+  ],
+  "moneyBag": [
+   "moneyBag + "
+  ],
+  "emerald": [
+   "emerald + "
+  ],
+  "diamond": [
+   "diamond + "
+  ],
+  "unlocker_fresh": [
+   "unlocker_fresh + "
+  ],
+  "unlocker_spike": [
+   "unlocker_spike + "
+  ],
+  "unlocker_tricky": [
+   "unlocker_tricky + "
+  ],
+  "unlocker_yutani": [
+   "unlocker_yutani + "
+  ],
+  "ScoreBooster": [
+   "ScoreBooster + "
+  ],
+  "microphone": [
+   "microphone + "
+  ],
+  "antlers": [
+   "antlers + "
+  ],
+  "boost1": [
+   "boost1 + "
+  ],
+  "boost2": [
+   "boost2 + "
+  ],
+  "goldSkull": [
+   "goldSkull + "
+  ],
+  "bronze_star": [
+   "bronze_star + "
+  ],
+  "silver_star": [
+   "silver_star + "
+  ],
+  "gold_star": [
+   "gold_star + "
+  ],
+  "gold_medal": [
+   "gold_medal + "
+  ],
+  "silver_medal": [
+   "silver_medal + "
+  ],
+  "bronze_medal": [
+   "bronze_medal + "
+  ],
+  "A_Golden": [
+   "A_Golden + ",
+   "A_Golden + 1"
+  ],
+  "B_Golden": [
+   "B_Golden + ",
+   "B_Golden + 1"
+  ],
+  "C_Golden": [
+   "C_Golden + ",
+   "C_Golden + 1"
+  ],
+  "D_Golden": [
+   "D_Golden + ",
+   "D_Golden + 1"
+  ],
+  "E_Golden": [
+   "E_Golden + ",
+   "E_Golden + 1"
+  ],
+  "F_Golden": [
+   "F_Golden + ",
+   "F_Golden + 1"
+  ],
+  "G_Golden": [
+   "G_Golden + ",
+   "G_Golden + 1"
+  ],
+  "H_Golden": [
+   "H_Golden + ",
+   "H_Golden + 1"
+  ],
+  "I_Golden": [
+   "I_Golden + ",
+   "I_Golden + 1"
+  ],
+  "J_Golden": [
+   "J_Golden + ",
+   "J_Golden + 1"
+  ],
+  "K_Golden": [
+   "K_Golden + ",
+   "K_Golden + 1"
+  ],
+  "L_Golden": [
+   "L_Golden + ",
+   "L_Golden + 1"
+  ],
+  "M_Golden": [
+   "M_Golden + ",
+   "M_Golden + 1"
+  ],
+  "N_Golden": [
+   "N_Golden + ",
+   "N_Golden + 1"
+  ],
+  "O_Golden": [
+   "O_Golden + ",
+   "O_Golden + 1"
+  ],
+  "P_Golden": [
+   "P_Golden + ",
+   "P_Golden + 1"
+  ],
+  "Q_Golden": [
+   "Q_Golden + ",
+   "Q_Golden + 1"
+  ],
+  "R_Golden": [
+   "R_Golden + ",
+   "R_Golden + 1"
+  ],
+  "S_Golden": [
+   "S_Golden + ",
+   "S_Golden + 1"
+  ],
+  "T_Golden": [
+   "T_Golden + ",
+   "T_Golden + 1"
+  ],
+  "U_Golden": [
+   "U_Golden + ",
+   "U_Golden + 1"
+  ],
+  "V_Golden": [
+   "V_Golden + ",
+   "V_Golden + 1"
+  ],
+  "W_Golden": [
+   "W_Golden + ",
+   "W_Golden + 1"
+  ],
+  "X_Golden": [
+   "X_Golden + ",
+   "X_Golden + 1"
+  ],
+  "Y_Golden": [
+   "Y_Golden + ",
+   "Y_Golden + 1"
+  ],
+  "Z_Golden": [
+   "Z_Golden + ",
+   "Z_Golden + 1"
+  ],
+  "A": [
+   "A + ",
+   "A + 1"
+  ],
+  "B": [
+   "B + ",
+   "B + 1"
+  ],
+  "C": [
+   "C + ",
+   "C + 1"
+  ],
+  "D": [
+   "D + ",
+   "D + 1"
+  ],
+  "E": [
+   "E + ",
+   "E + 1"
+  ],
+  "F": [
+   "F + ",
+   "F + 1"
+  ],
+  "G": [
+   "G + ",
+   "G + 1"
+  ],
+  "H": [
+   "H + ",
+   "H + 1"
+  ],
+  "I": [
+   "I + ",
+   "I + 1"
+  ],
+  "J": [
+   "J + ",
+   "J + 1"
+  ],
+  "K": [
+   "K + ",
+   "K + 1"
+  ],
+  "L": [
+   "L + ",
+   "L + 1"
+  ],
+  "M": [
+   "M + ",
+   "M + 1"
+  ],
+  "N": [
+   "N + ",
+   "N + 1"
+  ],
+  "O": [
+   "O + ",
+   "O + 1"
+  ],
+  "P": [
+   "P + ",
+   "P + 1"
+  ],
+  "Q": [
+   "Q + ",
+   "Q + 1"
+  ],
+  "R": [
+   "R + ",
+   "R + 1"
+  ],
+  "S": [
+   "S + ",
+   "S + 1"
+  ],
+  "T": [
+   "T + ",
+   "T + 1"
+  ],
+  "U": [
+   "U + ",
+   "U + 1"
+  ],
+  "V": [
+   "V + ",
+   "V + 1"
+  ],
+  "W": [
+   "W + ",
+   "W + 1"
+  ],
+  "X": [
+   "X + ",
+   "X + 1"
+  ],
+  "Y": [
+   "Y + ",
+   "Y + 1"
+  ],
+  "Z": [
+   "Z + ",
+   "Z + 1"
+  ],
+  "confetti_R": [
+   "confetti_R + "
+  ],
+  "confetti_G": [
+   "confetti_G + "
+  ],
+  "confetti_B": [
+   "confetti_B + "
+  ],
+  "confetti_Y": [
+   "confetti_Y + "
+  ],
+  "note_2": [
+   "note_2 + "
+  ],
+  "note_1": [
+   "note_1 + "
+  ],
+  "star5": [
+   "star5 + "
+  ],
+  "star7": [
+   "star7 + "
+  ],
+  "pow": [
+   "pow + "
+  ],
+  "powBlue": [
+   "powBlue + "
+  ],
+  "powBoost_old": [
+   "powBoost_old + "
+  ],
+  "powRing": [
+   "powRing + "
+  ],
+  "powBoost": [
+   "powBoost + "
+  ],
+  "powRevive": [
+   "powRevive + "
+  ],
+  "lightCone": [
+   "lightCone + "
+  ],
+  "teleboardWarp": [
+   "teleboardWarp + "
+  ],
+  "HollowStar": [
+   "HollowStar + "
+  ],
+  "rocketJumpArrow": [
+   "rocketJumpArrow + "
+  ],
+  "doubleJumper_thruster_green": [
+   "doubleJumper_thruster_green + "
+  ],
+  "doubleJumper_thruster": [
+   "doubleJumper_thruster + "
+  ],
+  "feather": [
+   "feather + "
+  ],
+  "leaf": [
+   "leaf + "
+  ],
+  "shadowPlane": [
+   "shadowPlane + "
+  ],
+  "star_solid": [
+   "star_solid + "
+  ],
+  "jetpackCloud": [
+   "jetpackCloud + "
+  ],
+  "shadowPlane_blob": [
+   "shadowPlane_blob + "
+  ],
+  "speedStripes": [
+   "speedStripes + "
+  ],
+  "speedVignet": [
+   "speedVignet + "
+  ],
+  "arrow": [
+   "arrow + "
+  ],
+  "altRouteVignet_1": [
+   "altRouteVignet_1 + "
+  ],
+  "altRouteVignet_2": [
+   "altRouteVignet_2 + "
+  ],
+  "altRouteVignet_3": [
+   "altRouteVignet_3 + "
+  ],
+  "glitter": [
+   "glitter + "
+  ],
+  "skateparkCelebration": [
+   "skateparkCelebration + "
+  ],
+  "Dizzystar": [
+   "Dizzystar + "
+  ],
+  "grindSpark": [
+   "grindSpark + "
+  ],
+  "wind": [
+   "wind + "
+  ],
+  "Dizzytrail": [
+   "Dizzytrail + "
+  ],
+  "Sheep1": [
+   "Sheep1 + "
+  ],
+  "train_cargo01_low": [
+   "train_cargo01_LOD1 + "
+  ],
+  "train_cargo02_low": [
+   "train_cargo02_LOD1 + "
+  ],
+  "train_freight_low": [
+   "train_freight_LOD1 + "
+  ],
+  "train_light_freight": [
+   "train_light_freight + "
+  ],
+  "train_light_standard": [
+   "train_light_standard + "
+  ],
+  "train_light_sub": [
+   "train_light_sub + "
+  ],
+  "train_ramp_low": [
+   "train_ramp_LOD1 + "
+  ],
+  "train_standard": [
+   "train_standard_LOD0 + ",
+   "train_standard_LOD0.001 + "
+  ],
+  "train_standard_low": [
+   "train_standard_LOD1 + "
+  ],
+  "train_standard_wagon": [
+   "train_standard_wagon_LOD0 + ",
+   "train_standard_wagon_LOD0.001 + "
+  ],
+  "train_standard_wagon_low": [
+   "train_standard_wagon_LOD1 + "
+  ],
+  "train_sub": [
+   "train_sub_LOD0 + ",
+   "train_sub_LOD0.001 + ",
+   "train_sub_LOD0.002 + "
+  ],
+  "train_sub_low": [
+   "train_sub_LOD1 + "
+  ],
+  "train_sub_wagon_low": [
+   "train_sub_wagon_LOD1 + "
+  ]
+ },
+ "geometrySceneNames": {
+  "board_default_base": "board-hoverboard",
+  "board_superhero_superJump": "board-superhero",
+  "board_superhero_zapSideways": "board-superhero",
+  "board_superhero_base": "board-superhero",
+  "track": "environment-idle",
+  "med_02_left": "environment-idle",
+  "board_hotRod_base": "board-hotrod",
+  "board_hotRod_thruster": "board-hotrod",
+  "Mesh": "model-guard",
+  "board_greatWhite_base": "board-greatwhite",
+  "board_greatWhite_base_wings": "board-greatwhite",
+  "board_greatWhite_speedUp": "board-greatwhite",
+  "board_greatWhite_speedUp_propeller": "board-greatwhite",
+  "board_greatWhite_smoothDrift_wing_L": "board-greatwhite",
+  "board_greatWhite_smoothDrift_wing_R": "board-greatwhite",
+  "board_scoot_speedUp": "board-scoot",
+  "board_scoot_zapSideways": "board-scoot",
+  "board_scoot_base": "board-scoot",
+  "board_monster_base": "board-monster",
+  "board_monster_speedUp": "board-monster",
+  "board_monster_superJump": "board-monster",
+  "board_daredevil_base": "board-daredevil",
+  "board_daredevil_thruster": "board-daredevil",
+  "board_teleporter_base": "board-teleporter",
+  "board_windGlider_base": "board-windglider",
+  "board_windGlider_wing_R": "board-windglider",
+  "board_windGlider_wing_L": "board-windglider",
+  "sprayCan": "props-start",
+  "startScreen_bag_zipper": "props-start",
+  "startScreen_bag_base": "props-start",
+  "startScreen_bag_shadowPlane": "props-start",
+  "train_freight": "trains-basic",
+  "train_ramp": "trains-basic",
+  "train_sub_wagon": "trains-basic",
+  "board_sunset_base": "board-sunset",
+  "board_sunset_pinkTrail": "board-sunset",
+  "board_sunset_smoothDrift_wing_R": "board-sunset",
+  "board_sunset_smoothDrift_wing_L": "board-sunset",
+  "board_sunset_smoothDrift": "board-sunset",
+  "board_sunset_smoothDrift_FrontWing_L": "board-sunset",
+  "board_sunset_smoothDrift_FrontWing_R": "board-sunset",
+  "train_cargo01": "trains-idle",
+  "train_cargo02": "trains-idle",
+  "train_start": "trains-idle",
+  "blocker_jump": "environment-basic",
+  "blocker_roll": "environment-basic",
+  "blocker_standard": "environment-basic",
+  "gates_base": "environment-basic",
+  "gates_mid": "environment-basic",
+  "sl_monument_1": "environment-basic",
+  "med_02_right": "environment-basic",
+  "board_bouncer_base": "board-bouncer",
+  "board_bigKahuna_base": "board-bigkahuna",
+  "board_bigKahuna_stayLow": "board-bigkahuna",
+  "board_bigKahuna_smoothDrift_wing_L": "board-bigkahuna",
+  "board_bigKahuna_smoothDrift_wing_R": "board-bigkahuna",
+  "board_star_base": "board-starboard",
+  "board_star_doubleJump": "board-starboard",
+  "board_star_starTrail": "board-starboard",
+  "lid": "mystery-box",
+  "box": "mystery-box",
+  "board_lumberJack_doubleJump": "board-lumberjack",
+  "board_lumberJack": "board-lumberjack",
+  "board_lumberJack_stayLow": "board-lumberjack",
+  "board_skullfire_base": "board-skullfire",
+  "board_skullfire_speedUp_thrusters": "board-skullfire",
+  "board_skullfire_speedUp": "board-skullfire",
+  "board_skullfire_doubleJump": "board-skullfire",
+  "board_skullfire_doubleJump_thrusters": "board-skullfire",
+  "board_lowrider_base": "board-lowrider",
+  "Extra_01": "environment-full",
+  "Extra_02": "environment-full",
+  "Extra_03": "environment-full",
+  "Monkey_On_SkateBoard": "environment-full",
+  "bush_1": "environment-full",
+  "dumpster": "environment-full",
+  "epic_end": "environment-full",
+  "epic_mid": "environment-full",
+  "epic_start": "environment-full",
+  "gates_left": "environment-full",
+  "gates_right": "environment-full",
+  "gates_sides": "environment-full",
+  "ground": "environment-full",
+  "ground_shadow_end": "environment-full",
+  "ground_shadow_mid": "environment-full",
+  "ground_shadow_start": "environment-full",
+  "ground_shadow_start_end": "environment-full",
+  "high_01_right": "environment-full",
+  "high_02_left": "environment-full",
+  "high_02_right": "environment-full",
+  "high_03_left": "environment-full",
+  "high_03_right": "environment-full",
+  "lightSignal": "environment-full",
+  "low_01_left": "environment-full",
+  "low_01_right": "environment-full",
+  "low_02_left": "environment-full",
+  "low_02_right": "environment-full",
+  "powerBox": "environment-full",
+  "track_gates": "environment-full",
+  "track_shadow_end": "environment-full",
+  "track_shadow_mid": "environment-full",
+  "track_shadow_short_end": "environment-full",
+  "track_shadow_short_start": "environment-full",
+  "track_shadow_start": "environment-full",
+  "track_shadow_start_end": "environment-full",
+  "tube": "environment-full",
+  "Boat1": "environment-full",
+  "Boat1_line": "environment-full",
+  "Boat1_reflection": "environment-full",
+  "Flag_01": "environment-full",
+  "Flag_02": "environment-full",
+  "Flag_03": "environment-full",
+  "Flag_04": "environment-full",
+  "Flag_05": "environment-full",
+  "Flag_06": "environment-full",
+  "Flag_07": "environment-full",
+  "Flag_08": "environment-full",
+  "Gas_sign": "environment-full",
+  "Guard_ad": "environment-full",
+  "high_01_left": "environment-full",
+  "high_01_left_var2": "environment-full",
+  "high_01_right_var1": "environment-full",
+  "high_01_right_var2": "environment-full",
+  "high_01_right_var3": "environment-full",
+  "high_02_left_var1": "environment-full",
+  "high_02_left_var2": "environment-full",
+  "high_02_right_var1": "environment-full",
+  "high_02_right_var2": "environment-full",
+  "low_01_left_var01": "environment-full",
+  "low_01_left_var02": "environment-full",
+  "low_01_right_var01": "environment-full",
+  "low_01_right_var02": "environment-full",
+  "low_02_left_var01": "environment-full",
+  "low_02_right_var01": "environment-full",
+  "low_02_right_var02": "environment-full",
+  "med_01_left": "environment-full",
+  "med_01_right": "environment-full",
+  "med_01_right_var01": "environment-full",
+  "med_01_right_var02": "environment-full",
+  "med_03_left": "environment-full",
+  "med_03_right": "environment-full",
+  "pillar": "environment-full",
+  "pillars_end": "environment-full",
+  "pillars_mid": "environment-full",
+  "pillars_start": "environment-full",
+  "station_end": "environment-full",
+  "station_mid": "environment-full",
+  "station_mid_var01": "environment-full",
+  "station_mid_var02": "environment-full",
+  "station_platforms": "environment-full",
+  "station_start": "environment-full",
+  "powerups_jetpack_FX": "jetpack-flame",
+  "fire01": "props-extra",
+  "fire02": "props-extra",
+  "fire03": "props-extra",
+  "fire04": "props-extra",
+  "fire05": "props-extra",
+  "fire06": "props-extra",
+  "fire07": "props-extra",
+  "fire08": "props-extra",
+  "fire09": "props-extra",
+  "fire10": "props-extra",
+  "fire11": "props-extra",
+  "fire12": "props-extra",
+  "fire13": "props-extra",
+  "fire14": "props-extra",
+  "fire15": "props-extra",
+  "fire16": "props-extra",
+  "fire17": "props-extra",
+  "fire18": "props-extra",
+  "fire19": "props-extra",
+  "fire20": "props-extra",
+  "fire21": "props-extra",
+  "fire22": "props-extra",
+  "fire23": "props-extra",
+  "northPole_cog_mesh": "props-extra",
+  "lightSignal_light_red": "props-extra",
+  "lightSignal_light_green": "props-extra",
+  "powerups_jetpack": "props",
+  "powerups_coinMagnet": "props",
+  "powerups_superSneakers": "props",
+  "powerups_rocketPogo": "props",
+  "powerups_2xMultiplier": "props",
+  "mysteryBox_super": "props",
+  "mysteryBox_default": "props",
+  "powerups_coinMultiplier": "props",
+  "powerups_coinMultiplier_arrow": "props",
+  "currency_coin": "props",
+  "currency_key": "props",
+  "toprunBronze": "props",
+  "toprunSilver": "props",
+  "toprunGold": "props",
+  "can_diamond": "props",
+  "can_gold": "props",
+  "can_silver": "props",
+  "can_bronze": "props",
+  "toprunCheckmark": "props",
+  "toprun10": "props",
+  "toprun9": "props",
+  "toprun8": "props",
+  "toprun7": "props",
+  "toprun6": "props",
+  "toprun5": "props",
+  "toprun4": "props",
+  "toprunDiamond": "props",
+  "headstartToken": "props",
+  "adRemoval_icon": "props",
+  "sapphireRing": "props",
+  "emeraldRing": "props",
+  "rubyRing": "props",
+  "diamondRing": "props",
+  "goldHeadPhones": "props",
+  "discoBall": "props",
+  "tape_green": "props",
+  "tape_red": "props",
+  "tape_yellow": "props",
+  "tape_blue": "props",
+  "tape_white": "props",
+  "tape_black": "props",
+  "lp_green": "props",
+  "lp_yellow": "props",
+  "lp_red": "props",
+  "lp_black": "props",
+  "lp_blue": "props",
+  "lp_white": "props",
+  "goldChain": "props",
+  "goldChainCross": "props",
+  "goldChainDollar": "props",
+  "goldChainClock": "props",
+  "gold": "props",
+  "sapphire": "props",
+  "ruby": "props",
+  "moneyBag": "props",
+  "emerald": "props",
+  "diamond": "props",
+  "unlocker_fresh": "props",
+  "unlocker_spike": "props",
+  "unlocker_tricky": "props",
+  "unlocker_yutani": "props",
+  "ScoreBooster": "props",
+  "microphone": "props",
+  "antlers": "props",
+  "boost1": "props",
+  "boost2": "props",
+  "goldSkull": "props",
+  "bronze_star": "props",
+  "silver_star": "props",
+  "gold_star": "props",
+  "gold_medal": "props",
+  "silver_medal": "props",
+  "bronze_medal": "props",
+  "A_Golden": "props",
+  "B_Golden": "props",
+  "C_Golden": "props",
+  "D_Golden": "props",
+  "E_Golden": "props",
+  "F_Golden": "props",
+  "G_Golden": "props",
+  "H_Golden": "props",
+  "I_Golden": "props",
+  "J_Golden": "props",
+  "K_Golden": "props",
+  "L_Golden": "props",
+  "M_Golden": "props",
+  "N_Golden": "props",
+  "O_Golden": "props",
+  "P_Golden": "props",
+  "Q_Golden": "props",
+  "R_Golden": "props",
+  "S_Golden": "props",
+  "T_Golden": "props",
+  "U_Golden": "props",
+  "V_Golden": "props",
+  "W_Golden": "props",
+  "X_Golden": "props",
+  "Y_Golden": "props",
+  "Z_Golden": "props",
+  "A": "props",
+  "B": "props",
+  "C": "props",
+  "D": "props",
+  "E": "props",
+  "F": "props",
+  "G": "props",
+  "H": "props",
+  "I": "props",
+  "J": "props",
+  "K": "props",
+  "L": "props",
+  "M": "props",
+  "N": "props",
+  "O": "props",
+  "P": "props",
+  "Q": "props",
+  "R": "props",
+  "S": "props",
+  "T": "props",
+  "U": "props",
+  "V": "props",
+  "W": "props",
+  "X": "props",
+  "Y": "props",
+  "Z": "props",
+  "confetti_R": "props",
+  "confetti_G": "props",
+  "confetti_B": "props",
+  "confetti_Y": "props",
+  "note_2": "props",
+  "note_1": "props",
+  "star5": "props",
+  "star7": "props",
+  "pow": "props",
+  "powBlue": "props",
+  "powBoost_old": "props",
+  "powRing": "props",
+  "powBoost": "props",
+  "powRevive": "props",
+  "lightCone": "props",
+  "teleboardWarp": "props",
+  "HollowStar": "props",
+  "rocketJumpArrow": "props",
+  "doubleJumper_thruster_green": "props",
+  "doubleJumper_thruster": "props",
+  "feather": "props",
+  "leaf": "props",
+  "shadowPlane": "props",
+  "star_solid": "props",
+  "jetpackCloud": "props",
+  "shadowPlane_blob": "props",
+  "speedStripes": "props",
+  "speedVignet": "props",
+  "arrow": "props",
+  "altRouteVignet_1": "props",
+  "altRouteVignet_2": "props",
+  "altRouteVignet_3": "props",
+  "glitter": "props",
+  "skateparkCelebration": "props",
+  "Dizzystar": "props",
+  "grindSpark": "props",
+  "wind": "props",
+  "Dizzytrail": "props",
+  "Sheep1": "sheep",
+  "train_cargo01_low": "trains-full",
+  "train_cargo02_low": "trains-full",
+  "train_freight_low": "trains-full",
+  "train_light_freight": "trains-full",
+  "train_light_standard": "trains-full",
+  "train_light_sub": "trains-full",
+  "train_ramp_low": "trains-full",
+  "train_standard": "trains-full",
+  "train_standard_low": "trains-full",
+  "train_standard_wagon": "trains-full",
+  "train_standard_wagon_low": "trains-full",
+  "train_sub": "trains-full",
+  "train_sub_low": "trains-full",
+  "train_sub_wagon_low": "trains-full"
+ },
+ "materialNameByHash": {
+  "med_02_left": "environment",
+  "track": "environment",
+  "train_freight_LOD0": "trains_shadow",
+  "train_freight_LOD0.001": "environment",
+  "train_ramp_LOD0": "trains_shadow",
+  "train_ramp_LOD0.001": "environment",
+  "train_sub_wagon_LOD0": "trains_shadow",
+  "train_sub_wagon_LOD0.001": "environment",
+  "train_cargo01_LOD0": "trains_shadow",
+  "train_cargo01_LOD0.001": "environment",
+  "train_cargo02_LOD0": "trains_shadow",
+  "train_cargo02_LOD0.001": "environment",
+  "train_start": "bag",
+  "train_start.001": "environment",
+  "train_start.002": "trainstart",
+  "train_start.003": "trains_shadow",
+  "blocker_jump": "shadow",
+  "blocker_jump.001": "environment",
+  "blocker_roll": "shadow",
+  "blocker_roll.001": "environment",
+  "blocker_standard": "shadow",
+  "blocker_standard.001": "environment",
+  "gates_base": "environment",
+  "gates_mid": "environment",
+  "med_02_right": "environment",
+  "sl_monument_1": "glow",
+  "Boat1": "environment",
+  "Boat1_line": "environment",
+  "Boat1_reflection": "environment",
+  "Extra_01": "environment_glow",
+  "Extra_01.001": "environment",
+  "Extra_02": "environment",
+  "Extra_03": "environment_glow",
+  "Extra_03.001": "environment",
+  "Flag_01": "environment",
+  "Flag_02": "environment",
+  "Flag_03": "environment",
+  "Flag_04": "environment",
+  "Flag_05": "environment",
+  "Flag_06": "environment",
+  "Flag_07": "environment",
+  "Flag_08": "environment",
+  "Gas_sign": "environment",
+  "Guard_ad": "environment",
+  "Monkey_On_SkateBoard": "environment",
+  "bush_1": "shadow",
+  "bush_1.001": "environment",
+  "dumpster": "shadow",
+  "dumpster.001": "environment",
+  "epic_end": "environment",
+  "epic_mid": "environment",
+  "epic_start": "water",
+  "epic_start.001": "environment",
+  "gates_left": "environment",
+  "gates_right": "environment",
+  "gates_sides": "environment",
+  "ground": "environment",
+  "ground_shadow_end": "environment",
+  "ground_shadow_mid": "environment",
+  "ground_shadow_start": "environment",
+  "ground_shadow_start_end": "environment",
+  "high_01_left": "environment",
+  "high_01_left_var2": "environment",
+  "high_01_right": "environment",
+  "high_01_right_var1": "environment",
+  "high_01_right_var2": "environment",
+  "high_01_right_var3": "environment",
+  "high_02_left": "environment",
+  "high_02_left_var1": "environment",
+  "high_02_left_var2": "environment",
+  "high_02_right": "environment",
+  "high_02_right_var1": "environment",
+  "high_02_right_var2": "environment",
+  "high_03_left": "environment",
+  "high_03_right": "environment",
+  "lightSignal": "shadow",
+  "lightSignal.001": "environment",
+  "low_01_left": "environment",
+  "low_01_left_var01": "environment",
+  "low_01_left_var02": "environment",
+  "low_01_right": "environment",
+  "low_01_right_var01": "environment",
+  "low_01_right_var02": "environment",
+  "low_02_left": "environment",
+  "low_02_left_var01": "environment",
+  "low_02_right": "environment",
+  "low_02_right_var01": "environment",
+  "low_02_right_var02": "environment",
+  "med_01_left": "environment",
+  "med_01_right": "environment",
+  "med_01_right_var01": "environment",
+  "med_01_right_var02": "environment",
+  "med_03_left": "environment",
+  "med_03_right": "environment",
+  "pillar": "environment",
+  "pillars_end": "environment",
+  "pillars_mid": "environment",
+  "pillars_start": "environment",
+  "powerBox": "shadow",
+  "powerBox.001": "environment",
+  "station_end": "environment",
+  "station_mid": "environment",
+  "station_mid_var01": "environment",
+  "station_mid_var02": "environment",
+  "station_platforms": "environment",
+  "station_start": "environment",
+  "track_gates": "environment",
+  "track_shadow_end": "environment",
+  "track_shadow_mid": "environment",
+  "track_shadow_short_end": "rails",
+  "track_shadow_short_end.001": "environment",
+  "track_shadow_short_start": "rails",
+  "track_shadow_short_start.001": "environment",
+  "track_shadow_start": "environment",
+  "track_shadow_start_end": "environment",
+  "tube_end": "environment_foam",
+  "tube_end.001": "environment",
+  "tube_mid": "environment_water",
+  "tube_mid.001": "environment",
+  "tube_start": "environment",
+  "Sheep1": "environment",
+  "train_cargo01_LOD1": "environment",
+  "train_cargo02_LOD1": "environment",
+  "train_freight_LOD1": "environment",
+  "train_light_freight": "environment",
+  "train_light_standard": "environment",
+  "train_light_sub": "trains",
+  "train_ramp_LOD1": "environment",
+  "train_standard_LOD0": "trains_shadow",
+  "train_standard_LOD0.001": "environment",
+  "train_standard_LOD1": "environment",
+  "train_standard_wagon_LOD0": "trains_shadow",
+  "train_standard_wagon_LOD0.001": "environment",
+  "train_standard_wagon_LOD1": "environment",
+  "train_sub_LOD0": "trains_shadow",
+  "train_sub_LOD0.001": "trains",
+  "train_sub_LOD0.002": "trains_glass",
+  "train_sub_LOD1": "trains",
+  "train_sub_wagon_LOD1": "environment"
+ },
+ "maps": [
+  "splash",
+  "environment-tex",
+  "props-tex",
+  "train-start",
+  "trains-tex",
+  "caustic",
+  "default-particle",
+  "effects-tex",
+  "enemies",
+  "character_shadow",
+  "fountain",
+  "grindSpark",
+  "halo",
+  "jetpack-flame",
+  "fog",
+  "jetpack-puff2",
+  "jetpack-trail",
+  "pogo-cloud",
+  "rainbow",
+  "reflection",
+  "jetpack-puff",
+  "river",
+  "river2",
+  "shadow",
+  "smoke",
+  "vfx_spark",
+  "trains_bag",
+  "spark",
+  "spray-splash",
+  "waterdrop",
+  "waterfall",
+  "waterspray",
+  "wave_noise",
+  "waves",
+  "jake-tex",
+  "jake-tex-2",
+  "board-greatwhite-tex",
+  "jake-tex-1",
+  "board-bigkahuna-tex",
+  "board-bouncer-tex",
+  "board-daredevil-tex",
+  "board-hoverboard-tex",
+  "board-hotrod-tex",
+  "board-lowrider-tex",
+  "board-lumberjack-tex",
+  "board-monster-tex",
+  "board-starboard-tex",
+  "board-skullfire-tex",
+  "board-scoot-tex",
+  "notepad-panel",
+  "highscorescreen-bg",
+  "doubleup-module-panel",
+  "prizescreen-bg",
+  "freestuff-module-panel",
+  "upgrade-panel-bottom",
+  "front-icon-top-run",
+  "tutorial-arrow",
+  "background-stripes-hq",
+  "upgrade-panel-middle",
+  "mystery-box-icon",
+  "front-icon-me",
+  "consent-characters-header",
+  "background-splat",
+  "upgrade-panel-top",
+  "missions-splat",
+  "icon-white-awards",
+  "upgrades-slot",
+  "front-icon-shop",
+  "boost-headstart",
+  "jackpot-coins-1",
+  "boost-multiplier",
+  "xl-navigation-button-light-green",
+  "icon-white-top-run",
+  "hoverboard-large",
+  "box-fill-blue",
+  "scoreboard",
+  "icon-triangle",
+  "base-blurry",
+  "jackpot-coins-2",
+  "icon-double-jump",
+  "shine-effect",
+  "base-grey",
+  "base-long",
+  "box-border-grey",
+  "box-border-grey-small",
+  "abc-graffiti-icon",
+  "icon-king",
+  "front-icon-mytour",
+  "base-item-flat",
+  "icon-zap-sideways",
+  "base-item-large",
+  "celebration-stripe",
+  "icon-coin",
+  "box-fill-orange",
+  "icon-sound",
+  "large-navigation-button-light-green",
+  "splash-new",
+  "coin-pouch-icon",
+  "box-fill-green",
+  "icon-character",
+  "spraycan-big-bronze",
+  "item-duration-full-bar",
+  "checkmark-icon",
+  "trophy-fresh-token",
+  "btn-base",
+  "icon-info",
+  "spraycan-big-diamond",
+  "spraycan-big-gold",
+  "base-item",
+  "spraycan-big-silver",
+  "icon-tv",
+  "icon-board-powerup",
+  "navigation-button-blu",
+  "navigation-button-green",
+  "icon-key-white",
+  "btn-close",
+  "navigation-button-grey",
+  "navigation-button-red",
+  "background-superglow",
+  "icon-item-scorebooster",
+  "icon-item-super-mystery-box",
+  "clock-base",
+  "coin-pouch-stroke",
+  "icon-key-large",
+  "stars",
+  "clock-fill",
+  "thumb-generic",
+  "icon-board",
+  "base-short",
+  "base-slice",
+  "icon-outfit",
+  "arrow-down-hint",
+  "button-arrow-down",
+  "icon-white-piggy",
+  "trophy-headphones-stroke",
+  "base-blue",
+  "diagonal",
+  "icon-white-house",
+  "icon-white-back",
+  "box-border-white",
+  "coin-pouches-stroke",
+  "icon-white-coins",
+  "trophy-spike-token",
+  "icon-boards",
+  "icon-item-magnet",
+  "icon-item-hoverboard",
+  "icon-speed-up",
+  "icon-stay-low",
+  "icon-white-high-scores",
+  "word-hunt-icon",
+  "mission-completed-checkmark",
+  "icon-item-headstart",
+  "icon-white-upgrades",
+  "icon-item-mystery-box",
+  "icon-item-jetpack",
+  "icon-key",
+  "icon-item-multiplier",
+  "trophy-tricky-token",
+  "btn-base-small",
+  "icon-lock-outfit",
+  "icon-user",
+  "icon-item-mini-mystery-box",
+  "icon-white-collect-coins",
+  "icon-white-weekly-hunt",
+  "trophy-yutani-token",
+  "icon-settings",
+  "icon-coin-large",
+  "icon-pause",
+  "notification-icon",
+  "mission-multiplier-reward",
+  "icon-white-missions",
+  "icon-item-sneakers",
+  "spraycan-bronze",
+  "icon-smooth-drift",
+  "icon-owned",
+  "spraycan-diamond",
+  "spraycan-empty",
+  "icon-pink-trail",
+  "spraycan-gold",
+  "spraycan-outline",
+  "spraycan-silver",
+  "icon-selected",
+  "timer-empty-icon",
+  "icon-star-trail",
+  "icon-star",
+  "icon-super-jump",
+  "icon-item-mysterybox",
+  "board-windglider-tex",
+  "board-sunset-tex",
+  "board-superhero-tex",
+  "board-teleporter-tex",
+  "tricky-tex",
+  "yutani-tex",
+  "tricky-tex-2",
+  "tricky-tex-1",
+  "tagbot-tex",
+  "lucy-tex-2",
+  "lucy-tex-1",
+  "lucy-tex",
+  "yutani-tex-1",
+  "yutani-tex-2",
+  "ninja-tex",
+  "tagbot-tex-2",
+  "tagbot-tex-1",
+  "tasha-tex",
+  "ninja-tex-1",
+  "ninja-tex-2",
+  "tasha-tex-1",
+  "king-tex",
+  "tasha-tex-2",
+  "king-tex-1",
+  "king-tex-2",
+  "brody-tex-1",
+  "brody-tex-2",
+  "brody-tex",
+  "loading_wheel",
+  "preview-costa",
+  "preview-boombot",
+  "preview-brody",
+  "preview-charlie",
+  "preview-cleo",
+  "preview-dino",
+  "preview-dylan",
+  "preview-electra",
+  "preview-ella",
+  "preview-finn",
+  "preview-danunder",
+  "preview-frank",
+  "preview-fresh",
+  "preview-izzy",
+  "preview-jake",
+  "preview-kim",
+  "preview-king",
+  "preview-koral",
+  "preview-jenny",
+  "preview-kedi",
+  "preview-lily",
+  "preview-lucy",
+  "preview-missmaia",
+  "preview-lauren",
+  "preview-olivia",
+  "preview-noel",
+  "preview-nick",
+  "preview-ninja",
+  "preview-rudyrascal",
+  "preview-phoenix",
+  "preview-princek",
+  "preview-tricky",
+  "preview-tasha",
+  "preview-sandy",
+  "preview-spike",
+  "preview-tagbot",
+  "preview-yutani",
+  "preview-zoe",
+  "preview-vittorio"
+ ],
+ "scenes": [
+  "board-hoverboard",
+  "board-superhero",
+  "environment-idle",
+  "board-hotrod",
+  "model-guard",
+  "model-dog",
+  "board-greatwhite",
+  "board-scoot",
+  "board-monster",
+  "board-daredevil",
+  "board-teleporter",
+  "board-windglider",
+  "props-start",
+  "pogostick",
+  "catch",
+  "trains-basic",
+  "board-sunset",
+  "avatar_jake",
+  "trains-idle",
+  "hoverboards",
+  "idle",
+  "environment-basic",
+  "enemy-guard-movement",
+  "board-bouncer",
+  "board-bigkahuna",
+  "board-starboard",
+  "jetpack",
+  "enemy-guard-catch",
+  "character-props",
+  "movement",
+  "mystery-box",
+  "board-lumberjack",
+  "board-skullfire",
+  "enemy-dog-movement",
+  "enemy-dog-catch",
+  "board-lowrider",
+  "environment-full",
+  "jetpack-flame",
+  "props-extra",
+  "props",
+  "sheep",
+  "trains-full",
+  "avatar_tricky",
+  "avatar_yutani",
+  "avatar_lucy",
+  "avatar_ninja",
+  "avatar_tasha",
+  "avatar_king",
+  "avatar_brody",
+  "avatar_tagbot"
+ ]
+}

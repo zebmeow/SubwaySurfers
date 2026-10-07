@@ -1,0 +1,2202 @@
+{
+ "source": "deobfuscated.js m_ (54399) boards, g_ (54826) boosts, __ (54928) characters, v_ (55959) roster",
+ "boards": [
+  {
+   "id": "hoverboard",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-hoverboard-tex",
+   "root": "board_default",
+   "features": [
+    "board_default_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 0,
+   "currency": "coins",
+   "powerups": []
+  },
+  {
+   "id": "starboard",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-starboard-tex",
+   "root": "board_star",
+   "features": [
+    "board_star_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 0,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "star-trail",
+     "cost": 0,
+     "colors": [
+      "#516709",
+      "#fff82e"
+     ],
+     "features": [
+      "board_star_starTrail"
+     ],
+     "currency": "keys",
+     "available": false,
+     "purchased": false
+    },
+    {
+     "id": "double-jump",
+     "cost": 90,
+     "colors": [
+      "#3689be",
+      "#0e3650"
+     ],
+     "features": [
+      "board_star_doubleJump"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "lumberjack",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-lumberjack-tex",
+   "root": "board_lumberJack",
+   "features": [
+    "board_lumberJack"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 1500,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "double-jump",
+     "cost": 90,
+     "colors": [
+      "#851897",
+      "#ffe934"
+     ],
+     "features": [
+      "board_lumberJack_doubleJump"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    },
+    {
+     "id": "stay-low",
+     "cost": 130,
+     "colors": [
+      "#3689be",
+      "#0e3650"
+     ],
+     "features": [
+      "board_lumberJack_stayLow"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "superhero",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-superhero-tex",
+   "root": "board_superhero",
+   "features": [
+    "board_superhero_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 1500,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "zap-sideways",
+     "cost": 80,
+     "colors": [
+      "#005d72",
+      "#26edff"
+     ],
+     "features": [
+      "board_superhero_zapSideways"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    },
+    {
+     "id": "super-jump",
+     "cost": 110,
+     "colors": [
+      "#3689be",
+      "#0e3650"
+     ],
+     "features": [
+      "board_superhero_superJump"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "sunset",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-sunset-tex",
+   "root": "board_sunset",
+   "features": [
+    "board_sunset_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 4800,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "pink-trail",
+     "cost": 60,
+     "colors": [
+      "#e84a95",
+      "#ffb9d9"
+     ],
+     "features": [
+      "board_sunset_pinkTrail"
+     ],
+     "currency": "keys",
+     "available": false,
+     "purchased": false
+    },
+    {
+     "id": "smooth-drift",
+     "cost": 150,
+     "colors": [
+      "#197b49",
+      "#00ff8a"
+     ],
+     "features": [
+      "board_sunset_smoothDrift",
+      "board_sunset_smoothDrift",
+      "board_sunset_smoothDrift_FrontWing_L",
+      "board_sunset_smoothDrift_FrontWing_R",
+      "board_sunset_smoothDrift_wing_L",
+      "board_sunset_smoothDrift_wing_R"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "greatwhite",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-greatwhite-tex",
+   "root": "board_greatWhite",
+   "features": [
+    "board_greatWhite_base",
+    "board_greatWhite_base_wings"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 17000,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "speed-up",
+     "cost": 100,
+     "colors": [
+      "#b11b1b",
+      "#ffef39"
+     ],
+     "features": [
+      "board_greatWhite_speedUp",
+      "board_greatWhite_speedUp_propeller"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    },
+    {
+     "id": "smooth-drift",
+     "cost": 150,
+     "colors": [
+      "#197b49",
+      "#00ff8a"
+     ],
+     "features": [
+      "board_greatWhite_smoothDrift_wing_L",
+      "board_greatWhite_smoothDrift_wing_R"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "monster",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-monster-tex",
+   "root": "board_monster",
+   "features": [
+    "board_monster_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 25000,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "speed-up",
+     "cost": 100,
+     "colors": [
+      "#b11b1b",
+      "#ffef39"
+     ],
+     "features": [
+      "board_monster_speedUp"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    },
+    {
+     "id": "super-jump",
+     "cost": 110,
+     "colors": [
+      "#3689be",
+      "#0e3650"
+     ],
+     "features": [
+      "board_monster_superJump"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "scoot",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-scoot-tex",
+   "root": "board_scoot",
+   "features": [
+    "board_scoot_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 30000,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "zap-sideways",
+     "cost": 80,
+     "colors": [
+      "#005d72",
+      "#26edff"
+     ],
+     "features": [
+      "board_scoot_zapSideways"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    },
+    {
+     "id": "speed-up",
+     "cost": 100,
+     "colors": [
+      "#b11b1b",
+      "#ffef39"
+     ],
+     "features": [
+      "board_scoot_speedUp"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "bigkahuna",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-bigkahuna-tex",
+   "root": "board_bigKahuna",
+   "features": [
+    "board_bigKahuna_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 55000,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "stay-low",
+     "cost": 130,
+     "colors": [
+      "#3266b3",
+      "#bfff51"
+     ],
+     "features": [
+      "board_bigKahuna_stayLow"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    },
+    {
+     "id": "smooth-drift",
+     "cost": 150,
+     "colors": [
+      "#197b49",
+      "#00ff8a"
+     ],
+     "features": [
+      "board_bigKahuna_smoothDrift_wing_L",
+      "board_bigKahuna_smoothDrift_wing_R"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "skullfire",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-skullfire-tex",
+   "root": "board_skullfire",
+   "features": [
+    "board_skullfire_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 65000,
+   "currency": "coins",
+   "powerups": [
+    {
+     "id": "double-jump",
+     "cost": 90,
+     "colors": [
+      "#851897",
+      "#ffe934"
+     ],
+     "features": [
+      "board_skullfire_doubleJump",
+      "board_skullfire_doubleJump_thrusters"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    },
+    {
+     "id": "speed-up",
+     "cost": 100,
+     "colors": [
+      "#b11b1b",
+      "#ffef39"
+     ],
+     "features": [
+      "board_skullfire_speedUp",
+      "board_skullfire_speedUp_thrusters"
+     ],
+     "currency": "keys",
+     "available": true,
+     "purchased": false
+    }
+   ]
+  },
+  {
+   "id": "daredevil",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-daredevil-tex",
+   "root": "board_daredevil",
+   "features": [
+    "board_daredevil_base",
+    "board_daredevil_thruster"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 75000,
+   "currency": "coins",
+   "powerup": "speed-up",
+   "powerups": []
+  },
+  {
+   "id": "teleporter",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-teleporter-tex",
+   "root": "board_teleporter",
+   "features": [
+    "board_teleporter_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 190000,
+   "currency": "coins",
+   "powerup": "zap-sideways",
+   "powerups": []
+  },
+  {
+   "id": "bouncer",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-bouncer-tex",
+   "root": "board_bouncer",
+   "features": [
+    "board_bouncer_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 240000,
+   "currency": "coins",
+   "powerup": "super-jump",
+   "powerups": []
+  },
+  {
+   "id": "hotrod",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-hotrod-tex",
+   "root": "board_hotRod",
+   "features": [
+    "board_hotRod_base",
+    "board_hotRod_thruster"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 240000,
+   "currency": "coins",
+   "powerup": "speed-up",
+   "powerups": []
+  },
+  {
+   "id": "lowrider",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-lowrider-tex",
+   "root": "board_lowrider",
+   "features": [
+    "board_lowrider_base"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 270000,
+   "currency": "coins",
+   "powerup": "stay-low",
+   "powerups": []
+  },
+  {
+   "id": "windglider",
+   "colors": [
+    "#3689be",
+    "#0e3650"
+   ],
+   "texture": "board-windglider-tex",
+   "root": "board_windGlider",
+   "features": [
+    "board_windGlider_base",
+    "board_windGlider_wing_L",
+    "board_windGlider_wing_R"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 300000,
+   "currency": "coins",
+   "powerup": "smooth-drift",
+   "powerups": []
+  }
+ ],
+ "boosts": [
+  {
+   "id": "jetpack",
+   "available": true,
+   "currency": "coins",
+   "levels": [
+    {
+     "cost": 500
+    },
+    {
+     "cost": 1500
+    },
+    {
+     "cost": 3000
+    },
+    {
+     "cost": 10000
+    },
+    {
+     "cost": 30000
+    },
+    {
+     "cost": 60000
+    }
+   ]
+  },
+  {
+   "id": "sneakers",
+   "available": true,
+   "currency": "coins",
+   "levels": [
+    {
+     "cost": 500
+    },
+    {
+     "cost": 1500
+    },
+    {
+     "cost": 3000
+    },
+    {
+     "cost": 10000
+    },
+    {
+     "cost": 30000
+    },
+    {
+     "cost": 60000
+    }
+   ]
+  },
+  {
+   "id": "magnet",
+   "available": true,
+   "currency": "coins",
+   "levels": [
+    {
+     "cost": 500
+    },
+    {
+     "cost": 1500
+    },
+    {
+     "cost": 3000
+    },
+    {
+     "cost": 10000
+    },
+    {
+     "cost": 30000
+    },
+    {
+     "cost": 60000
+    }
+   ]
+  },
+  {
+   "id": "multiplier",
+   "available": true,
+   "currency": "coins",
+   "levels": [
+    {
+     "cost": 500
+    },
+    {
+     "cost": 1500
+    },
+    {
+     "cost": 3000
+    },
+    {
+     "cost": 10000
+    },
+    {
+     "cost": 30000
+    },
+    {
+     "cost": 60000
+    }
+   ]
+  }
+ ],
+ "characters": [
+  {
+   "id": "jake",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "jake-tex",
+   "features": [
+    "Default_Material",
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": true,
+   "cost": 0,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "jake-outfit-1",
+     "colors": [
+      "#39466a",
+      "#afa693"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "jake-tex-1",
+     "features": [
+      "Default_Material",
+      "eye_shader",
+      "jake_outfit1_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "jake-outfit-2",
+     "colors": [
+      "#D91B16",
+      "#F4CD2E"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "jake-tex-2",
+     "features": [
+      "Default_Material",
+      "eye_shader",
+      "jake_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "tricky",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "tricky-tex",
+   "features": [
+    "tricky_shader",
+    "Fbx Default Material 6"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 3,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "tricky-outfit-1",
+     "colors": [
+      "#DCC089",
+      "#91901C"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "tricky-tex-1",
+     "features": [
+      "tricky_outfit1_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "tricky-outfit-2",
+     "colors": [
+      "#9741B8",
+      "#F43862"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "tricky-tex-2",
+     "features": [
+      "tricky_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "fresh",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "fresh-tex",
+   "features": [
+    "eye_shader",
+    "lambert2"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "fresh-outfit-1",
+     "colors": [
+      "#87DB2A",
+      "#BB23A3"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "fresh-tex-1",
+     "features": [
+      "eye_shader",
+      "lambert2",
+      "fresh_outfit1_shader",
+      "fresh_outfit2_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "fresh-outfit-2",
+     "colors": [
+      "#711612",
+      "#EBD4BB"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "fresh-tex-2",
+     "features": [
+      "eye_shader",
+      "lambert2",
+      "fresh_outfit1_shader",
+      "fresh_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "spike",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "spike-tex",
+   "features": [
+    "eye_shader",
+    "Default_Material",
+    "spike_outfit1_shader",
+    "spike_outfit2_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 200,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "spike-outfit-1",
+     "colors": [
+      "#30517A",
+      "#141010"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "spike-tex-1",
+     "features": [
+      "eye_shader",
+      "Default_Material",
+      "spike_outfit1_shader",
+      "spike_outfit2_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "spike-outfit-2",
+     "colors": [
+      "#141010",
+      "#B3231C"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "spike-tex-2",
+     "features": [
+      "eye_shader",
+      "Default_Material",
+      "spike_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "yutani",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "yutani-tex",
+   "features": [
+    "eye_shader",
+    "lambert3"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 500,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "lucy",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "lucy-tex",
+   "features": [
+    "eye_shader",
+    "lambert2"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 7000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "lucy-outfit-1",
+     "colors": [
+      "#000000",
+      "#F10C1A"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "lucy-tex-1",
+     "features": [
+      "eye_shader",
+      "lambert2",
+      "lucy_outfit1_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "lucy-outfit-2",
+     "colors": [
+      "#592F06",
+      "#84A521"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "lucy-tex-2",
+     "features": [
+      "eye_shader",
+      "lambert2",
+      "lucy_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "tagbot",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "tagbot-tex",
+   "features": [
+    "Default_Material"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 12000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "tagbot-outfit-1",
+     "colors": [
+      "#C8B69B",
+      "#154D9A"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "tagbot-tex-1",
+     "features": [
+      "Default_Material",
+      "tagbot_outfit1_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "tagbot-outfit-2",
+     "colors": [
+      "#7BA63A",
+      "#B30E15"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "tagbot-tex-2",
+     "features": [
+      "Default_Material",
+      "tagbot_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "ninja",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "ninja-tex",
+   "features": [
+    "eye_shader",
+    "lambert3"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 20000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "ninja-outfit-1",
+     "colors": [
+      "#BDAB99",
+      "#EAE4DD"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "ninja-tex-1",
+     "features": [
+      "eye_shader",
+      "lambert3"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "ninja-outfit-2",
+     "colors": [
+      "#306BC8",
+      "#614736"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "ninja-tex-2",
+     "features": [
+      "eye_shader",
+      "lambert3"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "tasha",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "tasha-tex",
+   "features": [
+    "eye_shader",
+    "lambert3"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 30000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "tasha-outfit-1",
+     "colors": [
+      "#45376D",
+      "#D951DC"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "tasha-tex-1",
+     "features": [
+      "eye_shader",
+      "lambert3",
+      "tasha_outfit1_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "tasha-outfit-2",
+     "colors": [
+      "#39384E",
+      "#E54F4E"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "tasha-tex-2",
+     "features": [
+      "eye_shader",
+      "lambert3",
+      "tasha_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "king-tex",
+   "features": [
+    "eye_shader",
+    "lambert3"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 80000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "king-outfit-1",
+     "colors": [
+      "#000000",
+      "#BF1D1A"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "king-tex-1",
+     "features": [
+      "eye_shader",
+      "lambert3",
+      "king_outfit1_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "king-outfit-2",
+     "colors": [
+      "#779C24",
+      "#980E0C"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "king-tex-2",
+     "features": [
+      "eye_shader",
+      "lambert3",
+      "king_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "frizzy",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "frizzy-tex",
+   "features": [
+    "eye_shader",
+    "lambert2",
+    "frizzy_outfit1_shader"
+   ],
+   "available": false,
+   "purchased": false,
+   "cost": 150000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "frizzy-outfit-1",
+     "colors": [
+      "#F99B2B",
+      "#137E27"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "frizzy-tex-1",
+     "features": [
+      "eye_shader",
+      "lambert2",
+      "frizzy_outfit1_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "frizzy-outfit-2",
+     "colors": [
+      "#67382E",
+      "#F0B930"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "frizzy-tex-2",
+     "features": [
+      "eye_shader",
+      "lambert2",
+      "frizzy_outfit1_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "brody",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "brody-tex",
+   "features": [
+    "brody_head1",
+    "brody_default"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 350000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "brody-outfit-1",
+     "colors": [
+      "#171211",
+      "#72483F"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "brody-tex-1",
+     "features": [
+      "brody_outfit1_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "brody-outfit-2",
+     "colors": [
+      "#2C3D69",
+      "#80C525"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "brody-tex-2",
+     "features": [
+      "brody_outfit2_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "ella",
+   "colors": [
+    "#D1231F",
+    "#10364f"
+   ],
+   "texture": "ella-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 150000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "ella-outfit-1",
+     "colors": [
+      "#38343C",
+      "#D1231F"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "ella-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "ella-outfit-2",
+     "colors": [
+      "#7DD904",
+      "#38343C"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "ella-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "zoe",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "zoe-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 120000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "zoe-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "zoe-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "zoe-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "zoe-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "princek",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "princek-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 400000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "princek-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "princek-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "princek-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "princek-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "izzy",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "izzy-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 500000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "izzy-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "izzy-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "izzy-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "izzy-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "jenny",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "jenny-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 600000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "jenny-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "jenny-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "jenny-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "jenny-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "kim",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "kim-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 700000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "kim-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "kim-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "kim-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "kim-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "lauren",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "lauren-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 800000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "lauren-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "lauren-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "lauren-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "lauren-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "nick",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "nick-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 1000000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "nick-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "nick-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "nick-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "nick-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "dylan",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "dylan-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "dylan-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "dylan-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "dylan-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "dylan-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "olivia",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "olivia-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "olivia-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "olivia-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "olivia-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "olivia-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "cleo",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "cleo-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "cleo-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "cleo-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "cleo-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "cleo-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "phoenix",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "phoenix-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "phoenix-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "phoenix-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "phoenix-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "phoenix-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "charlie",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "charlie-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "costa",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "costa-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "danunder",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "danunder-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "electra",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "electra-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "finn",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "finn-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "kedi",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "kedi-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "koral",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "koral-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "koral-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "koral-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "koral-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "koral-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "lily",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "lily-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "lily-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "lily-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "noel",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "noel-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "noel-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "noel-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "rudyrascal",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "rudyrascal-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "sandy",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "sandy-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "sandy-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "sandy-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "vittorio",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "vittorio-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "frank",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "frank-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": [
+    {
+     "id": "frank-outfit-1",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "frank-tex-1",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 2,
+     "currency": "keys"
+    },
+    {
+     "id": "frank-outfit-2",
+     "colors": [
+      "#3b8abc",
+      "#10364f"
+     ],
+     "available": true,
+     "purchased": false,
+     "texture": "frank-tex-2",
+     "features": [
+      "eye_shader"
+     ],
+     "cost": 30,
+     "currency": "keys"
+    }
+   ]
+  },
+  {
+   "id": "dino",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "dino-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "boombot",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "boombot-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "missmaia",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "missmaia-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  },
+  {
+   "id": "pridemissmaia",
+   "colors": [
+    "#3b8abc",
+    "#10364f"
+   ],
+   "texture": "pridemissmaia-tex",
+   "features": [
+    "eye_shader"
+   ],
+   "available": true,
+   "purchased": false,
+   "cost": 50000,
+   "currency": "coins",
+   "outfits": []
+  }
+ ],
+ "roster": [
+  "jake",
+  "tricky",
+  "yutani",
+  "lucy",
+  "tagbot",
+  "ninja",
+  "tasha",
+  "king",
+  "brody"
+ ]
+}

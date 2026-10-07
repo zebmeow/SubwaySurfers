@@ -1,0 +1,1938 @@
+{
+ "id": "bali",
+ "displayName": "Bali",
+ "atmosphere": {
+  "_source": "measured in the running original (docs/rendering.md): setClearColor(0x87CEEB) 49954; Gn.group uFogColor/uFogNear/uFogFar 4255",
+  "skyColor": "#87CEEB",
+  "fogColorLinear": [
+   0.454,
+   0.894,
+   0.917
+  ],
+  "fogNear": 400,
+  "fogFar": 900
+ },
+ "textures": {
+  "_source": "library maps (yb scene -> map) and the bundle manifest bundles/bali/manifest.json",
+  "environment": "bundles/bali/game-idle/environment-tex@2x.webp",
+  "trainStart": "bundles/bali/game-idle/train-start.png",
+  "trains": "assets/game-idle/trains-tex.webp",
+  "props": "assets/game-idle/props-tex.webp"
+ },
+ "fillerConfig": {
+  "objects": [
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [
+         {
+          "activationProbability": 1,
+          "children": [],
+          "materialName": "Bali_environment_low",
+          "matrix": [
+           0.7814103960990906,
+           0.0587114542722702,
+           0.6212494373321533,
+           -0.074924036860466,
+           0.9971892237663269,
+           -7.450580596923828e-09,
+           -0.6195032596588135,
+           -0.04654650017619133,
+           0.7836129665374756,
+           -42.70000076293945,
+           2.309999942779541,
+           13.800000190734863
+          ],
+          "meshName": "Flag_01",
+          "name": "Bali_Flag_01",
+          "scripts": [],
+          "texName": "Bali_environment"
+         },
+         {
+          "activationProbability": 1,
+          "children": [],
+          "materialName": "Bali_environment_low",
+          "matrix": [
+           0.9017909169197083,
+           -0.04620109871029854,
+           0.4296959638595581,
+           0.04263870045542717,
+           0.9989297986030579,
+           0.0179207194596529,
+           -0.4300640821456909,
+           0.002160932868719101,
+           0.9027957916259766,
+           -46.20000076293945,
+           2.5999999046325684,
+           124.9000015258789
+          ],
+          "meshName": "Flag_02",
+          "name": "Bali_Flag_02",
+          "scripts": [],
+          "texName": "Bali_environment"
+         }
+        ],
+        "name": "var01",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [
+         {
+          "activationProbability": 1,
+          "children": [],
+          "materialName": "Bali_environment",
+          "matrix": [
+           0.7718371748924255,
+           0.06299843639135361,
+           0.6326915621757507,
+           -0.08135087043046951,
+           0.9966855049133301,
+           3.725290298461914e-09,
+           -0.6305945515632629,
+           -0.05147000402212143,
+           0.7744039297103882,
+           -42.099998474121094,
+           4,
+           12.699999809265137
+          ],
+          "meshName": "Flag_04",
+          "name": "Bali_Flag_04",
+          "scripts": [],
+          "texName": "Bali_environment"
+         },
+         {
+          "activationProbability": 1,
+          "children": [],
+          "materialName": "Bali_environment_low",
+          "matrix": [
+           0.7729472517967224,
+           0.04747733101248741,
+           0.632691502571106,
+           -0.06130821630358696,
+           0.9981188774108887,
+           -1.862645149230957e-09,
+           -0.631501317024231,
+           -0.038789182901382446,
+           0.774403989315033,
+           -42,
+           4,
+           76.69999694824219
+          ],
+          "meshName": "Flag_05",
+          "name": "Bali_Flag_05",
+          "scripts": [],
+          "texName": "Bali_environment"
+         }
+        ],
+        "name": "var02",
+        "scripts": []
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 0.699999988079071,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "high_01_left",
+    "name": "Bali_high_01_left",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_01_right_var1",
+        "name": "Bali_high_01_right_var1",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_01_right_var2",
+        "name": "Bali_high_01_right_var2",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_01_right_var3",
+        "name": "Bali_high_01_right_var3",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_high_01_right",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_02_left_var1",
+        "name": "Bali_high_02_left_var1",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_02_left_var2",
+        "name": "Bali_high_02_left_var2",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_high_02_left",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_02_right_var1",
+        "name": "Bali_high_02_right_var1",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_02_right_var2",
+        "name": "Bali_high_02_right_var2",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_high_02_right",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_02_left_var1",
+        "name": "Bali_high_02_left_var1",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_02_left_var2",
+        "name": "Bali_high_02_left_var2",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_high_03_left",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_01_right_var1",
+        "name": "Bali_high_01_right_var1",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_01_right_var2",
+        "name": "Bali_high_01_right_var2",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_01_right_var3",
+        "name": "Bali_high_01_right_var3",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_02_right_var1",
+        "name": "Bali_high_02_right_var1",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "high_02_right_var2",
+        "name": "Bali_high_02_right_var2",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_high_03_right",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "low_01_left_var01",
+        "name": "Bali_low_01_left_var01",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "low_01_left_var02",
+        "name": "Bali_low_01_left_var02",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_low_01_left",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "low_01_right_var01",
+        "name": "Bali_low_01_right_var01",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "low_01_right_var02",
+        "name": "Bali_low_01_right_var02",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_low_01_right",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "low_01_left_var01",
+        "name": "Bali_low_01_left_var01",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "low_02_left_var01",
+        "name": "Bali_low_02_left_var01",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_low_02_left",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "low_02_right_var01",
+        "name": "Bali_low_02_right_var01",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "low_02_right_var02",
+        "name": "Bali_low_02_right_var02",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "name": "Bali_low_02_right",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "med_01_left",
+    "name": "Bali_med_01_left",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [
+         {
+          "activationProbability": 1,
+          "children": [],
+          "materialName": "Bali_environment_low",
+          "matrix": [
+           0.995021402835846,
+           0.09966007620096207,
+           0.0004970291629433632,
+           -0.09966113418340683,
+           0.9949977993965149,
+           0.006857283879071474,
+           0.0001888543920358643,
+           -0.006872678641229868,
+           0.9999763369560242,
+           45,
+           25.100000381469727,
+           47.099998474121094
+          ],
+          "meshName": "Gas_sign",
+          "name": "Bali_Gas_sign",
+          "scripts": [],
+          "texName": "Bali_environment"
+         }
+        ],
+        "materialName": "Bali_environment",
+        "meshName": "med_01_right_var01",
+        "name": "Bali_med_01_right_var01",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "med_01_right_var02",
+        "name": "Bali_med_01_right_var02",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "med_01_right",
+    "name": "Bali_med_01_right",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "med_02_left",
+    "name": "Bali_med_02_left",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "materialName": "Bali_environment_low",
+      "matrix": [
+       0.5527739524841309,
+       0.01734546199440956,
+       -0.08360683172941208,
+       -0.017150402069091797,
+       0.5590609908103943,
+       0.002593990648165345,
+       0.08364704996347427,
+       2.604583215770617e-10,
+       0.5530399680137634,
+       62.900001525878906,
+       39.29999923706055,
+       158.1999969482422
+      ],
+      "meshName": "Guard_ad",
+      "name": "Bali_Guard_ad",
+      "scripts": [],
+      "texName": "Bali_environment"
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "med_02_right",
+    "name": "Bali_med_02_right",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "med_03_left",
+    "name": "Bali_med_03_left",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "med_03_right",
+    "name": "Bali_med_03_right",
+    "scripts": [],
+    "texName": "Bali_environment"
+   }
+  ]
+ },
+ "specialConfig": {
+  "objects": [
+   {
+    "activationProbability": 1,
+    "children": [],
+    "name": "Bali_epic_end",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "name": "Bali_epic_mid",
+    "scripts": []
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -91.5999984741211,
+         0,
+         366.1000061035156
+        ],
+        "name": "SwampFog",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         93.69999694824219,
+         0,
+         415.79998779296875
+        ],
+        "name": "SwampFog (1)",
+        "scripts": []
+       }
+      ],
+      "name": "Fog",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "epic_start",
+    "name": "Bali_epic_start",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "gates_base",
+    "name": "Bali_gates_base",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "materialName": "Bali_environment_low",
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0.800000011920929,
+       0,
+       0,
+       111.4000015258789
+      ],
+      "meshName": "blocker_standard",
+      "name": "Bali_blocker_standard",
+      "scripts": [],
+      "texName": "Bali_environment"
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "materialName": "Bali_environment_low",
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0.800000011920929,
+       20,
+       0,
+       111.4000015258789
+      ],
+      "meshName": "blocker_standard",
+      "name": "Bali_blocker_standard (1)",
+      "scripts": [],
+      "texName": "Bali_environment"
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -27.899999618530273,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -10.5,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System (1)",
+        "scripts": []
+       }
+      ],
+      "name": "Sparks",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "gates_left",
+    "name": "Bali_gates_left",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "materialName": "Bali_environment_low",
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0.800000011920929,
+       20,
+       0,
+       111.4000015258789
+      ],
+      "meshName": "blocker_standard",
+      "name": "Bali_blocker_standard",
+      "scripts": [],
+      "texName": "Bali_environment"
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "materialName": "Bali_environment_low",
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0.800000011920929,
+       -20,
+       0,
+       111.4000015258789
+      ],
+      "meshName": "blocker_standard",
+      "name": "Bali_blocker_standard (1)",
+      "scripts": [],
+      "texName": "Bali_environment"
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -27.899999618530273,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -10.5,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System (1)",
+        "scripts": []
+       }
+      ],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       20,
+       0,
+       0
+      ],
+      "name": "Bali_gates_Sparks",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "gates_mid",
+    "name": "Bali_gates_mid",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "materialName": "Bali_environment_low",
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0.800000011920929,
+       0,
+       0,
+       111.4000015258789
+      ],
+      "meshName": "blocker_standard",
+      "name": "Bali_blocker_standard",
+      "scripts": [],
+      "texName": "Bali_environment"
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "materialName": "Bali_environment_low",
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0.800000011920929,
+       -20,
+       0,
+       111.4000015258789
+      ],
+      "meshName": "blocker_standard",
+      "name": "Bali_blocker_standard (1)",
+      "scripts": [],
+      "texName": "Bali_environment"
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -27.899999618530273,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -10.5,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System (1)",
+        "scripts": []
+       }
+      ],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       40,
+       0,
+       0
+      ],
+      "name": "Bali_gates_Sparks",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "gates_right",
+    "name": "Bali_gates_right",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "materialName": "Bali_environment_low",
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0.800000011920929,
+       0,
+       0,
+       111.4000015258789
+      ],
+      "meshName": "blocker_standard",
+      "name": "Bali_blocker_standard (1)",
+      "scripts": [],
+      "texName": "Bali_environment"
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -27.899999618530273,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -10.5,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System (1)",
+        "scripts": []
+       }
+      ],
+      "name": "Bali_gates_Sparks",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -27.899999618530273,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -10.5,
+         20.100000381469727,
+         185.1999969482422
+        ],
+        "name": "Particle System (1)",
+        "scripts": []
+       }
+      ],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       40,
+       0,
+       0
+      ],
+      "name": "Bali_gates_Sparks (1)",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "gates_sides",
+    "name": "Bali_gates_sides",
+    "scripts": [],
+    "texName": "Bali_environment"
+   }
+  ]
+ },
+ "tunnelConfig": {
+  "objects": [
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "pillar",
+    "name": "Bali_pillar",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       48.70000076293945,
+       0
+      ],
+      "name": "RoofCollider",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       45
+      ],
+      "name": "CameraModifier_1F",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "pillars_end",
+    "name": "Bali_pillars_end",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       48.79999923706055,
+       0
+      ],
+      "name": "RoofCollider",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       90
+      ],
+      "name": "CameraModifier_1F",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "pillars_mid",
+    "name": "Bali_pillars_mid",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       48.79999923706055,
+       0
+      ],
+      "name": "RoofCollider",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       10.5,
+       -1
+      ],
+      "name": "RoofCollider Front",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       45
+      ],
+      "name": "CameraModifier_1F",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "pillars_start",
+    "name": "Bali_pillars_start",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment_low",
+        "meshName": "Boat1_line",
+        "name": "Bali_Boat1_line",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment_low",
+        "meshName": "Boat1",
+        "name": "Bali_Boat1",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment_low",
+        "meshName": "Boat1_reflection",
+        "name": "Bali_Boat1_reflection",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "matrix": [
+       0.8820136785507202,
+       0,
+       -0.5790793299674988,
+       0,
+       1.0551213026046753,
+       0,
+       0.5790793299674988,
+       0,
+       0.8820136785507202,
+       71,
+       0,
+       20.700000762939453
+      ],
+      "name": "Bali_Boat1",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       47.79999923706055,
+       0
+      ],
+      "name": "RoofCollider",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       45
+      ],
+      "name": "CameraModifier_1F",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -102.5,
+         0,
+         45
+        ],
+        "name": "SwampFog",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         88.5,
+         0,
+         45
+        ],
+        "name": "SwampFog (1)",
+        "scripts": []
+       }
+      ],
+      "name": "Fog",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "station_end",
+    "name": "Bali_station_end",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       47.79999923706055,
+       0
+      ],
+      "name": "RoofCollider",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       45
+      ],
+      "name": "CameraModifier_1F",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "station_mid_var01",
+        "name": "Bali_station_mid_var01",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment_low",
+        "meshName": "station_mid_var02",
+        "name": "Bali_station_mid_var02",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "random",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -102.5,
+         0,
+         86.9000015258789
+        ],
+        "name": "SwampFog",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         98.80000305175781,
+         0,
+         86.9000015258789
+        ],
+        "name": "SwampFog (1)",
+        "scripts": []
+       }
+      ],
+      "name": "fog",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "station_mid",
+    "name": "Bali_station_mid",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "station_platforms",
+    "name": "Bali_station_platforms",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       47.79999923706055,
+       0
+      ],
+      "name": "RoofCollider",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       -13,
+       -3
+      ],
+      "name": "RoofCollider Start",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       45
+      ],
+      "name": "CameraModifier_1F",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         -102.5,
+         0,
+         45
+        ],
+        "name": "SwampFog",
+        "scripts": []
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "matrix": [
+         1,
+         0,
+         0,
+         0,
+         -1.1920928955078125e-07,
+         -1.0000001192092896,
+         0,
+         1.0000001192092896,
+         -1.1920928955078125e-07,
+         88.5,
+         0,
+         45
+        ],
+        "name": "SwampFog (1)",
+        "scripts": []
+       }
+      ],
+      "name": "Fog",
+      "scripts": []
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "station_start",
+    "name": "Bali_station_start",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "tube_end",
+    "name": "Bali_tube_end",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       96,
+       90
+      ],
+      "name": "Coin_Line_6_over_150",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       -1.2000000476837158,
+       0
+      ],
+      "name": "RoofCollider",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [],
+      "matrix": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       90
+      ],
+      "name": "CameraModifier_1F",
+      "scripts": []
+     },
+     {
+      "activationProbability": 1,
+      "children": [
+       {
+        "activationProbability": 1,
+        "children": [
+         {
+          "activationProbability": 1,
+          "children": [],
+          "materialName": "Bali_environment",
+          "matrix": [
+           0.8815507292747498,
+           0,
+           0.4720892608165741,
+           0,
+           1,
+           0,
+           -0.4720892608165741,
+           0,
+           0.8815507292747498,
+           70.86000061035156,
+           108.51000213623047,
+           124.62000274658203
+          ],
+          "meshName": "Monkey_On_SkateBoard",
+          "name": "Bali_Monkey_On_Skateboard",
+          "scripts": [],
+          "texName": "Bali_environment"
+         }
+        ],
+        "materialName": "Bali_environment",
+        "meshName": "Extra_01",
+        "name": "Bali_Extra_01",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "Extra_02",
+        "name": "Bali_Extra_02",
+        "scripts": [],
+        "texName": "Bali_environment"
+       },
+       {
+        "activationProbability": 1,
+        "children": [],
+        "materialName": "Bali_environment",
+        "meshName": "Extra_03",
+        "name": "Bali_Extra_03",
+        "scripts": [],
+        "texName": "Bali_environment"
+       }
+      ],
+      "name": "Random",
+      "scripts": [
+       {
+        "activationProbability": 1,
+        "name": "RandomChildRandomizer"
+       }
+      ]
+     }
+    ],
+    "materialName": "Bali_environment",
+    "meshName": "tube_mid",
+    "name": "Bali_tube_mid",
+    "scripts": [],
+    "texName": "Bali_environment"
+   },
+   {
+    "activationProbability": 1,
+    "children": [],
+    "materialName": "Bali_environment",
+    "meshName": "tube_start",
+    "name": "Bali_tube_start",
+    "scripts": [],
+    "texName": "Bali_environment"
+   }
+  ]
+ }
+}

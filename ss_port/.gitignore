@@ -1,0 +1,11 @@
+# build output and packages (cargo builds into ../bevy_port/target)
+/target/
+/dist/
+# the player's local save
+/save/
+# screen recordings
+*.mov
+*.mp4
+# OS / tool clutter
+.DS_Store
+__pycache__/

@@ -1,0 +1,691 @@
+{
+ "jake": {
+  "body": [
+   "jake_Mesh",
+   "jake_outfit1",
+   "jake_outfit2",
+   "jake_zombie",
+   "jake_zombie_joker"
+  ],
+  "outfits": [
+   [
+    "jake_Mesh"
+   ],
+   [
+    "jake_Mesh",
+    "jake_outfit1"
+   ],
+   [
+    "jake_Mesh",
+    "jake_outfit2"
+   ]
+  ]
+ },
+ "tricky": {
+  "body": [
+   "tricky_Mesh",
+   "tricky_outfit_default",
+   "tricky_outfit1",
+   "tricky_outfit2",
+   "tricky_xmas",
+   "tricky_xmas_outfit1"
+  ],
+  "outfits": [
+   [
+    "tricky_Mesh",
+    "tricky_outfit_default"
+   ],
+   [
+    "tricky_Mesh",
+    "tricky_outfit1"
+   ],
+   [
+    "tricky_Mesh",
+    "tricky_outfit2"
+   ]
+  ]
+ },
+ "yutani": {
+  "body": [
+   "yutani_Mesh",
+   "yutani_outfit1"
+  ],
+  "outfits": [
+   [
+    "yutani_Mesh"
+   ],
+   [
+    "yutani_outfit1"
+   ]
+  ]
+ },
+ "lucy": {
+  "body": [
+   "lucy_Mesh",
+   "lucy_outfit1",
+   "lucy_outfit2"
+  ],
+  "outfits": [
+   [
+    "lucy_Mesh"
+   ],
+   [
+    "lucy_Mesh",
+    "lucy_outfit1"
+   ],
+   [
+    "lucy_Mesh",
+    "lucy_outfit2"
+   ]
+  ]
+ },
+ "tagbot": {
+  "body": [
+   "tagbot_Mesh",
+   "tagbot_head",
+   "tag_outfit_default",
+   "tag_outfit1",
+   "tag_outfit2",
+   "tagbot_outfit0",
+   "tagbot_outfit1",
+   "tagbot_outfit2",
+   "TagBot_head_prop_Outfit1",
+   "TagBot_head_prop_Outfit2",
+   "TagBotMeshesEXP_tagBot_head_prop_Outfit0",
+   "TagBotMeshesEXP_tagBot_propHat_Outfit0"
+  ],
+  "outfits": [
+   [
+    "tagbot_Mesh",
+    "tagbot_head",
+    "tagbot_outfit0"
+   ],
+   [
+    "tagbot_Mesh",
+    "tagbot_head",
+    "tagbot_outfit1"
+   ],
+   [
+    "tagbot_Mesh",
+    "tagbot_head",
+    "tagbot_outfit2"
+   ]
+  ]
+ },
+ "ninja": {
+  "body": [
+   "ninja_Mesh",
+   "ninja_outfit_default",
+   "ninja_outfit1"
+  ],
+  "outfits": [
+   [
+    "ninja_Mesh",
+    "ninja_outfit_default"
+   ],
+   [
+    "ninja_Mesh",
+    "ninja_outfit1"
+   ],
+   [
+    "ninja_Mesh",
+    "ninja_outfit_default"
+   ]
+  ]
+ },
+ "tasha": {
+  "body": [
+   "tasha_Mesh",
+   "tasha_outfit_default",
+   "tasha_outfit1",
+   "tasha_outfit2"
+  ],
+  "outfits": [
+   [
+    "tasha_Mesh",
+    "tasha_outfit_default"
+   ],
+   [
+    "tasha_Mesh",
+    "tasha_outfit1"
+   ],
+   [
+    "tasha_Mesh",
+    "tasha_outfit2"
+   ]
+  ]
+ },
+ "king": {
+  "body": [
+   "king_Mesh",
+   "king_outfit_default",
+   "king_outfit1",
+   "king_outfit2"
+  ],
+  "outfits": [
+   [
+    "king_Mesh",
+    "king_outfit_default"
+   ],
+   [
+    "king_Mesh",
+    "king_outfit1"
+   ],
+   [
+    "king_Mesh",
+    "king_outfit2"
+   ]
+  ]
+ },
+ "brody": {
+  "body": [
+   "brody_Mesh",
+   "brody_outfit_default",
+   "brody_outfit1",
+   "brody_outfit2"
+  ],
+  "outfits": [
+   [
+    "brody_Mesh",
+    "brody_outfit_default"
+   ],
+   [
+    "brody_Mesh",
+    "brody_outfit1"
+   ],
+   [
+    "brody_Mesh",
+    "brody_outfit2"
+   ]
+  ]
+ },
+ "ella": {
+  "body": [
+   "frizzy_Mesh",
+   "frizzy_outfit1",
+   "frizzy_outfit2",
+   "frizzy_outfit_default"
+  ],
+  "outfits": [
+   [
+    "frizzy_Mesh",
+    "frizzy_outfit_default"
+   ],
+   [
+    "frizzy_Mesh",
+    "frizzy_outfit1"
+   ],
+   [
+    "frizzy_Mesh",
+    "frizzy_outfit2"
+   ]
+  ]
+ },
+ "izzy": {
+  "body": [
+   "Izzy_Mesh",
+   "Izzy_outfit1",
+   "Izzy_outfit2"
+  ],
+  "outfits": [
+   [
+    "Izzy_Mesh"
+   ],
+   [
+    "Izzy_Mesh",
+    "Izzy_outfit1"
+   ],
+   [
+    "Izzy_Mesh",
+    "Izzy_outfit2"
+   ]
+  ]
+ },
+ "jenny": {
+  "body": [
+   "sanFran_Mesh",
+   "sanFran_outfit1",
+   "sanFran_outfit2"
+  ],
+  "outfits": [
+   [
+    "sanFran_Mesh"
+   ],
+   [
+    "sanFran_Mesh",
+    "sanFran_outfit1"
+   ],
+   [
+    "sanFran_Mesh",
+    "sanFran_outfit2"
+   ]
+  ]
+ },
+ "kim": {
+  "body": [
+   "sydney_Mesh",
+   "sydney_outfit1",
+   "sydney_outfit2"
+  ],
+  "outfits": [
+   [
+    "sydney_Mesh"
+   ],
+   [
+    "sydney_Mesh",
+    "sydney_outfit1"
+   ],
+   [
+    "sydney_Mesh",
+    "sydney_outfit2"
+   ]
+  ]
+ },
+ "lauren": {
+  "body": [
+   "washington_mesh",
+   "washington_outfit2"
+  ],
+  "outfits": [
+   [
+    "washington_mesh"
+   ],
+   [
+    "washington_mesh"
+   ],
+   [
+    "washington_mesh",
+    "washington_outfit2"
+   ]
+  ]
+ },
+ "nick": {
+  "body": [
+   "miami_Mesh",
+   "miami_outfit1",
+   "miami_outfit2"
+  ],
+  "outfits": [
+   [
+    "miami_Mesh"
+   ],
+   [
+    "miami_Mesh",
+    "miami_outfit1"
+   ],
+   [
+    "miami_Mesh",
+    "miami_outfit2"
+   ]
+  ]
+ },
+ "princek": {
+  "body": [
+   "princek_Mesh",
+   "princek_outfit2"
+  ],
+  "outfits": [
+   [
+    "princek_Mesh"
+   ],
+   [
+    "princek_Mesh"
+   ],
+   [
+    "princek_Mesh",
+    "princek_outfit2"
+   ]
+  ]
+ },
+ "zoe": {
+  "body": [
+   "zoe_Mesh",
+   "zoe_outfit1",
+   "zoe_outfit2",
+   "zoe_outfit_default"
+  ],
+  "outfits": [
+   [
+    "zoe_Mesh",
+    "zoe_outfit_default"
+   ],
+   [
+    "zoe_Mesh",
+    "zoe_outfit1"
+   ],
+   [
+    "zoe_Mesh",
+    "zoe_outfit2"
+   ]
+  ]
+ },
+ "dylan": {
+  "body": [
+   "Dylan_Mesh",
+   "Dylan_outfit1",
+   "Dylan_outfit2"
+  ],
+  "outfits": [
+   [
+    "Dylan_Mesh"
+   ],
+   [
+    "Dylan_Mesh",
+    "Dylan_outfit1"
+   ],
+   [
+    "Dylan_Mesh",
+    "Dylan_outfit2"
+   ]
+  ]
+ },
+ "olivia": {
+  "body": [
+   "Olivia_Mesh",
+   "Olivia_outfit1",
+   "Olivia_outfit2"
+  ],
+  "outfits": [
+   [
+    "Olivia_Mesh"
+   ],
+   [
+    "Olivia_Mesh",
+    "Olivia_outfit1"
+   ],
+   [
+    "Olivia_Mesh",
+    "Olivia_outfit2"
+   ]
+  ]
+ },
+ "cleo": {
+  "body": [
+   "Cleo_Mesh",
+   "Cleo_outfit1",
+   "Cleo_outfit2"
+  ],
+  "outfits": [
+   [
+    "Cleo_Mesh"
+   ],
+   [
+    "Cleo_Mesh",
+    "Cleo_outfit1"
+   ],
+   [
+    "Cleo_Mesh",
+    "Cleo_outfit2"
+   ]
+  ]
+ },
+ "phoenix": {
+  "body": [
+   "Phoenix_Mesh",
+   "Phoenix_Outfit1",
+   "Phoenix_Outfit2"
+  ],
+  "outfits": [
+   [
+    "Phoenix_Mesh"
+   ],
+   [
+    "Phoenix_Mesh",
+    "Phoenix_Outfit1"
+   ],
+   [
+    "Phoenix_Mesh",
+    "Phoenix_Outfit2"
+   ]
+  ]
+ },
+ "charlie": {
+  "body": [
+   "Charlie_mesh",
+   "Charlie_outfit1",
+   "Charlie_outfit2"
+  ],
+  "outfits": [
+   [
+    "Charlie_mesh"
+   ]
+  ]
+ },
+ "costa": {
+  "body": [
+   "Costa_Mesh"
+  ],
+  "outfits": [
+   [
+    "Costa_Mesh"
+   ]
+  ]
+ },
+ "danunder": {
+  "body": [
+   "DanUnder_Mesh"
+  ],
+  "outfits": [
+   [
+    "DanUnder_Mesh"
+   ]
+  ]
+ },
+ "electra": {
+  "body": [
+   "Electra_Mesh"
+  ],
+  "outfits": [
+   [
+    "Electra_Mesh"
+   ]
+  ]
+ },
+ "finn": {
+  "body": [
+   "Finn_Mesh"
+  ],
+  "outfits": [
+   [
+    "Finn_Mesh"
+   ]
+  ]
+ },
+ "kedi": {
+  "body": [
+   "Kedi_Mesh"
+  ],
+  "outfits": [
+   [
+    "Kedi_Mesh"
+   ]
+  ]
+ },
+ "koral": {
+  "body": [
+   "Koral_Mesh",
+   "Koral_outfit01",
+   "Koral_outfit02"
+  ],
+  "outfits": [
+   [
+    "Koral_Mesh"
+   ],
+   [
+    "Koral_Mesh"
+   ],
+   [
+    "Koral_Mesh"
+   ]
+  ]
+ },
+ "lily": {
+  "body": [
+   "Lily_Mesh",
+   "Lily_Outfit1_Mesh"
+  ],
+  "outfits": [
+   [
+    "Lily_Mesh"
+   ],
+   [
+    "Lily_Mesh"
+   ]
+  ]
+ },
+ "noel": {
+  "body": [
+   "Noel_Mesh",
+   "Noel_outfit01"
+  ],
+  "outfits": [
+   [
+    "Noel_Mesh"
+   ],
+   [
+    "Noel_Mesh"
+   ]
+  ]
+ },
+ "rudyrascal": {
+  "body": [
+   "RudyRascal_Mesh"
+  ],
+  "outfits": [
+   [
+    "RudyRascal_Mesh"
+   ]
+  ]
+ },
+ "sandy": {
+  "body": [
+   "Sandy_Mesh",
+   "Sandy_Outfit1"
+  ],
+  "outfits": [
+   [
+    "Sandy_Mesh"
+   ],
+   [
+    "Sandy_Mesh",
+    "Sandy_Outfit1"
+   ]
+  ]
+ },
+ "vittorio": {
+  "body": [
+   "Vittorio_Mesh"
+  ],
+  "outfits": [
+   [
+    "Vittorio_Mesh"
+   ]
+  ]
+ },
+ "fresh": {
+  "body": [
+   "fresh_Mesh",
+   "fresh_outfit1",
+   "fresh_outfit2",
+   "fresh_Ingame_Mesh",
+   "fresh_Ingame_outfit",
+   "fresh_Ingame_outfit1",
+   "fresh_Ingame_outfit2"
+  ],
+  "outfits": [
+   [
+    "fresh_Mesh"
+   ],
+   [
+    "fresh_outfit1"
+   ],
+   [
+    "fresh_outfit2"
+   ]
+  ]
+ },
+ "spike": {
+  "body": [
+   "spike_Mesh",
+   "spike_outfit1",
+   "spike_outfit2",
+   "spike_outfit_default"
+  ],
+  "outfits": [
+   [
+    "spike_Mesh",
+    "spike_outfit_default"
+   ],
+   [
+    "spike_Mesh",
+    "spike_outfit1"
+   ],
+   [
+    "spike_Mesh",
+    "spike_outfit2"
+   ]
+  ]
+ },
+ "frank": {
+  "body": [
+   "frank_Mesh",
+   "frank_outfit1",
+   "frank_outfit2",
+   "frank_outfit_default"
+  ],
+  "outfits": [
+   [
+    "frank_Mesh",
+    "frank_outfit_default"
+   ],
+   [
+    "frank_Mesh",
+    "frank_outfit1"
+   ],
+   [
+    "frank_Mesh",
+    "frank_outfit2"
+   ]
+  ]
+ },
+ "dino": {
+  "body": [
+   "facebook_Mesh"
+  ],
+  "outfits": [
+   [
+    "facebook_Mesh"
+   ]
+  ]
+ },
+ "boombot": {
+  "body": [
+   "Boomie_mesh"
+  ],
+  "outfits": [
+   [
+    "Boomie_mesh"
+   ]
+  ]
+ },
+ "missmaia": {
+  "body": [
+   "MissMaia_Mesh"
+  ],
+  "outfits": [
+   [
+    "MissMaia_Mesh"
+   ]
+  ]
+ },
+ "pridemissmaia": {
+  "body": [
+   "MissMaia_Mesh"
+  ],
+  "outfits": [
+   [
+    "MissMaia_Mesh"
+   ]
+  ]
+ }
+}

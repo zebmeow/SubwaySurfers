@@ -1,0 +1,252 @@
+{
+ "tiers": {
+  "award-collect-coins-single-run": {
+   "bronze": {
+    "goal": 30,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 120,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 810,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 2012,
+    "reward": 10
+   }
+  },
+  "award-complete-missions": {
+   "bronze": {
+    "goal": 7,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 50,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 210,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 300,
+    "reward": 10
+   }
+  },
+  "award-missions-in-one-run": {
+   "bronze": {
+    "goal": 2,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 3,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 6,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 9,
+    "reward": 10
+   }
+  },
+  "award-open-mystery-boxes": {
+   "bronze": {
+    "goal": 3,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 160,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 320,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 1000,
+    "reward": 10
+   }
+  },
+  "award-own-boards": {
+   "bronze": {
+    "goal": 2,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 4,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 6,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 8,
+    "reward": 10
+   }
+  },
+  "award-own-characters": {
+   "bronze": {
+    "goal": 2,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 4,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 6,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 8,
+    "reward": 10
+   }
+  },
+  "award-own-outfits": {
+   "bronze": {
+    "goal": 2,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 4,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 6,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 8,
+    "reward": 10
+   }
+  },
+  "award-pickup-powerups": {
+   "bronze": {
+    "goal": 100,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 1200,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 5000,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 10000,
+    "reward": 10
+   }
+  },
+  "award-score-no-change-lanes": {
+   "bronze": {
+    "goal": 100,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 5000,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 10000,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 20000,
+    "reward": 10
+   }
+  },
+  "award-score-no-coins": {
+   "bronze": {
+    "goal": 100,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 5000,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 10000,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 20000,
+    "reward": 10
+   }
+  },
+  "award-score-no-jump": {
+   "bronze": {
+    "goal": 100,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 5000,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 10000,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 20000,
+    "reward": 10
+   }
+  },
+  "award-super-sneakers-minutes": {
+   "bronze": {
+    "goal": 1,
+    "reward": 3
+   },
+   "silver": {
+    "goal": 2,
+    "reward": 5
+   },
+   "gold": {
+    "goal": 3,
+    "reward": 8
+   },
+   "diamond": {
+    "goal": 4,
+    "reward": 10
+   }
+  }
+ },
+ "text": {
+  "awards": "Awards",
+  "award-collect": "Collect Award",
+  "award-complete": "complete",
+  "award-completed": "Completed!",
+  "award-complete-missions": "It takes skill to be a good agent!",
+  "award-complete-missions-desc": "Complete {{x}} missions.",
+  "award-own-characters": "Everybody loves a big party!",
+  "award-own-characters-desc": "Own {{x}} characters.",
+  "award-daily-challenges": "Practise the ABC!",
+  "award-daily-challenges-desc": "Complete daily challenges {{x}} days ina row.",
+  "award-own-boards": "Fill your collection, ride in style!",
+  "award-own-boards-desc": "Own {{x}} boards.",
+  "award-pickup-powerups": "Boost your run and show off!",
+  "award-pickup-powerups-desc": "Pick up {{x}} powerups.",
+  "award-own-outfits": "Dress up to look your best!",
+  "award-own-outfits-desc": "Own {{x}} outfits!",
+  "award-score-no-coins": "Gold is useless!",
+  "award-score-no-coins-desc": "Score {{x}} in one run without collecting coins.",
+  "award-missions-in-one-run": "Surf with a higher purpose!",
+  "award-missions-in-one-run-desc": "Complete {{x}} missions in one run.",
+  "award-super-sneakers-minutes": "Run like a kangaroo!",
+  "award-super-sneakers-minutes-desc": "Wear Super Sneakers {{x}} minutes in a row.",
+  "award-collect-coins-single-run": "Timing is everything!",
+  "award-collect-coins-single-run-desc": "Collect exactly {{x}} Coins in one run.",
+  "award-open-mystery-boxes": "Unwrap your luck in the Subway!",
+  "award-open-mystery-boxes-desc": "Open {{x}} Mystery Boxes.",
+  "award-score-no-jump": "No jumping!",
+  "award-score-no-jump-desc": "Score {{x}} in one run without jumping or rolling.",
+  "award-score-no-change-lanes": "Keep calm and stay in line!",
+  "award-score-no-change-lanes-desc": "Score {{x}} without changing lanes."
+ }
+}

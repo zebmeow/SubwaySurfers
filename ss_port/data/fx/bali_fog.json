@@ -1,0 +1,308 @@
+{
+ "main": {
+  "duration": 1,
+  "loop": true,
+  "startDelay": 0,
+  "playOnAwake": true,
+  "startLifetime": {
+   "mode": 0,
+   "values": [
+    4
+   ],
+   "range": 1
+  },
+  "startSpeed": {
+   "mode": 0,
+   "values": [
+    3
+   ],
+   "range": 1
+  },
+  "startSize": {
+   "mode": 0,
+   "values": [
+    85
+   ],
+   "range": 1
+  },
+  "startRotation": {
+   "mode": 3,
+   "values": [
+    -0.5235987901687622,
+    0.5235987901687622
+   ],
+   "range": 1
+  },
+  "startRotation3D": false,
+  "startRotationX": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "startRotationY": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "startRotationZ": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "gravityModifier": {
+   "mode": 0,
+   "values": [
+    0
+   ],
+   "range": 1
+  },
+  "startColor": {
+   "mode": 0,
+   "colors": [
+    {
+     "r": 0.40392157435417175,
+     "g": 1,
+     "b": 0.8549019694328308,
+     "a": 1
+    }
+   ],
+   "gradients": []
+  },
+  "simulationSpeed": 1,
+  "maxParticles": 30
+ },
+ "emission": {
+  "enabled": true,
+  "rateOverTime": {
+   "mode": 0,
+   "values": [
+    7
+   ],
+   "range": 1
+  },
+  "bursts": []
+ },
+ "shape": {
+  "enabled": true,
+  "shapeType": 18,
+  "angle": 25,
+  "radius": 1,
+  "radiusThickness": 1,
+  "donutRadius": 0.20000000298023224,
+  "position": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "rotation": {
+   "x": 0,
+   "y": 0,
+   "z": 0
+  },
+  "scale": {
+   "x": 100,
+   "y": 500,
+   "z": 50
+  },
+  "mesh": "",
+  "meshShapeType": 0,
+  "meshSpawnMode": 0
+ },
+ "velocityOverLifetime": {
+  "enabled": false,
+  "linear": [
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   }
+  ],
+  "orbital": [
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   }
+  ],
+  "orbitalOffset": [
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   },
+   {
+    "mode": 0,
+    "values": [],
+    "range": 0
+   }
+  ]
+ },
+ "limitVelocityOverLifetime": {
+  "enabled": false,
+  "speed": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "dampen": 0,
+  "drag": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "multiplyDragByParticleSize": false,
+  "multiplyDragByParticleVelocity": false
+ },
+ "colorOverLifetime": {
+  "enabled": true,
+  "color": {
+   "mode": 1,
+   "colors": [],
+   "gradients": [
+    {
+     "fixedGradient": false,
+     "colorTimes": [
+      0,
+      1
+     ],
+     "colorValues": [
+      {
+       "r": 0.16,
+       "g": 1,
+       "b": 0.73,
+       "a": 1
+      },
+      {
+       "r": 0.16,
+       "g": 1,
+       "b": 0.73,
+       "a": 1
+      }
+     ],
+     "alphaTimes": [
+      0,
+      0.21765469014644623,
+      1
+     ],
+     "alphaValues": [
+      0,
+      0.3294117748737335,
+      0
+     ]
+    }
+   ]
+  }
+ },
+ "sizeOverLifetime": {
+  "enabled": false,
+  "size": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  }
+ },
+ "rotationOverLifetime": {
+  "enabled": false,
+  "separateAxes": false,
+  "x": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "y": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "z": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  }
+ },
+ "noise": {
+  "enabled": false,
+  "strength": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "frequency": 0,
+  "damping": false,
+  "quality": 0,
+  "positionAmount": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  }
+ },
+ "renderer": {
+  "mode": 0,
+  "alignment": 0,
+  "meshes": [],
+  "cameraScale": 0,
+  "speedScale": 0,
+  "lengthScale": 0,
+  "materialName": "Bali_FX_fog (Instance)"
+ },
+ "subEmitters": {
+  "subEmitters": []
+ },
+ "textureSheetAnimation": {
+  "enabled": false,
+  "mode": 0,
+  "uvChannelMask": 0,
+  "numTilesX": 0,
+  "numTilesY": 0,
+  "animation": 0,
+  "frameOverTime": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "frameOverTimeMultiplier": 0,
+  "startFrame": {
+   "mode": 0,
+   "values": [],
+   "range": 0
+  },
+  "startFrameMultiplier": 0,
+  "cycleCount": 0,
+  "rowMode": 0,
+  "rowIndex": 0,
+  "timeMode": 0,
+  "fps": 0,
+  "speedRange": {
+   "x": 0,
+   "y": 0
+  },
+  "flipU": false,
+  "flipV": false,
+  "spriteCount": 0
+ }
+}
