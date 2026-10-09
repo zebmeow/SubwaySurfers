@@ -6,7 +6,7 @@
 //! | screen | subject | framing |
 //! |---|---|---|
 //! | New High Score (`Xv`, 61132) | the hero running `run_HighScore_main` at 0.35x | `Jv` |
-//! | results notepad (`Wv` `_v`, 60778) | the hero idling (`popupIdle`) | `uv` |
+//! | results notepad (`Wv` `_v`, 60778) | the hero idling (its own idles, [`crate::char_idle`]) | `uv` |
 //! | Me panel, characters (`hy` `_v`, 61724) | the focused character and outfit idling, turned by dragging | `uv` |
 //! | Me panel, boards (`_v` board mode) | the selected character on the focused board: one trick, then `h_run` | `mv` |
 //! | prize screen (`Dy`, 63632) | `mysteryBox_default` / `_super`: bobbing, then spinning away | `Ey` |
@@ -14,15 +14,18 @@
 //! The camera: fov 30, aspect 1, at `(cx + sin(yaw) cos(pitch) dist, cy +
 //! sin(pitch) dist, cz + cos(yaw) cos(pitch) dist)` looking at (cx, cy, cz);
 //! transparent clear, MSAA, no bend or fog. The characters stand on
-//! `ensureFloorShadow` (`pv`). Characters are avatars posed through Jake's
-//! skeleton and clips.
+//! `ensureFloorShadow` (`pv`). The high score run and the board preview pose
+//! the avatar through Jake's skeleton and clips.
 //!
-//! Differences: the original's Me-panel idle is a "breathe" loop with
-//! random gestures from per-character `idle-<id>.pk` files the captured build
-//! does not contain (the offline original shows a broken pose); the port
-//! loops `popupIdle` (the results' declared idle). Dragging the Me-panel
-//! preview to turn it is a port addition. The prize's own model (`prizeThumb`)
-//! stays the atlas icon.
+//! The idles are each character's own (`idle-<id>.pk`, a breathe clip and
+//! random gestures, [`crate::char_idle`]) on its own skeleton, with its
+//! props. The site capture lacked those files; they were fetched from the
+//! same CDN path.
+//!
+//! Differences: the idles' eye and blendshape tracks (`V_`: eye texture
+//! switches, facial morphs) are not applied, so faces keep their rest look.
+//! Dragging the Me-panel preview to turn it is a port addition. The prize's
+//! own model (`prizeThumb`) stays the atlas icon.
 
 use crate::anim::{Action, Animator};
 use crate::render::{RenderBlend, RenderCache, SubwayMaterial};
@@ -70,7 +73,6 @@ pub const EY: Framing = Framing { cx: 0.0, cy: 0.05, cz: 0.0, dist: 0.45, near: 
 /// `qv`: the high score run's speed.
 const HS_SPEED: f64 = 0.35;
 const HS_CLIP: &str = "run_HighScore_main";
-const IDLE_CLIP: &str = "popupIdle";
 const BOARD_RUN: &str = "h_run";
 /// `gv`: the board preview's tricks.
 const TRICKS: [&str; 5] = ["h_jump4_360_flip", "h_jump5_Impossible_flip", "h_jump11_fs_salto", "h_jump3_bs360grab", "h_jump10_heel360_flip"];
@@ -288,7 +290,8 @@ pub fn subject(g: &crate::game::Game, hero: &ActiveCharacter) -> Option<Subject>
 }
 
 enum Model {
-    Avatar { model: Arc<SkinModel>, parts: Vec<Part> },
+    /// `props`: (`char_idle::props` index, rigid mesh index, entity).
+    Avatar { model: Arc<SkinModel>, parts: Vec<Part>, props: Vec<(usize, usize, Entity)>, id: String, outfit: usize },
     Box { parts: Vec<Prop> },
 }
 
@@ -316,9 +319,10 @@ pub struct MenuStage {
 #[derive(Component)]
 pub struct StageCamera;
 
-/// Jake's animator for the stage's clips (`Rc`s: main thread only).
+/// Jake's animator for the stage's clips, and the idling character's
+/// player (`Rc`s: main thread only).
 #[derive(Default)]
-pub struct StageAnimator(Option<Animator>);
+pub struct StageAnimator(Option<Animator>, Option<crate::char_idle::IdlePlayer>);
 
 pub struct MenuStagePlugin;
 
@@ -430,7 +434,10 @@ fn spawn_shadow(commands: &mut Commands, sim: &Sim, meshes: &mut Assets<Mesh>, m
 
 fn despawn(commands: &mut Commands, m: Model) {
     match m {
-        Model::Avatar { parts, .. } => parts.into_iter().for_each(|p| commands.entity(p.entity).despawn()),
+        Model::Avatar { parts, props, .. } => {
+            parts.into_iter().for_each(|p| commands.entity(p.entity).despawn());
+            props.into_iter().for_each(|(_, _, e)| commands.entity(e).despawn());
+        }
         Model::Box { parts } => parts.into_iter().for_each(|p| commands.entity(p.entity).despawn()),
     }
 }
@@ -560,7 +567,8 @@ fn sync_stage(
         let thumb = Some(Thumb { far: FAR, layer: LAYER });
         let theme = g.theme.clone();
         match &subj {
-            Subject::Character { id, outfit, board, .. } => {
+            Subject::Character { id, outfit, board, motion, .. } => {
+                anim.1 = None;
                 state.model = Some({
                     let (aid, outfit) = (id.clone(), *outfit);
                     let model = if aid == "jake" {
@@ -583,7 +591,25 @@ fn sync_stage(
                     };
                     let mut images = |map: &str| cache.image(&asset_server, &theme, map);
                     let parts = build_hero_parts(&mut commands, &sim, &model, &aid, outfit, &mut meshes, &mut mats, &mut images, thumb);
-                    Model::Avatar { model, parts }
+                    // idles: the character's own clips and props
+                    let mut props = Vec::new();
+                    if matches!(motion, Motion::Idle) {
+                        let site = crate::install::Install::locate().site;
+                        let seed = (time.elapsed_secs_f64() * 1e6) as u64;
+                        match crate::char_idle::IdlePlayer::new(&site, &model, &aid, seed) {
+                            Ok(p) => anim.1 = Some(p),
+                            Err(e) => error!("[Menu3D] {aid} idle: {e}"),
+                        }
+                        let defs = crate::char_idle::props(&aid);
+                        let names: Vec<&str> = defs.iter().map(|d| d.node.as_str()).collect();
+                        for (ri, e) in crate::render_actors::build_rigid_parts(&mut commands, &sim, &model, &aid, outfit, &names, &mut meshes, &mut mats, &mut images, thumb) {
+                            let name = &model.nodes[model.rigid[ri].node].name;
+                            if let Some(k) = defs.iter().position(|d| &d.node == name) {
+                                props.push((k, ri, e));
+                            }
+                        }
+                    }
+                    Model::Avatar { model, parts, props, id: aid.clone(), outfit }
                 });
                 if let Some((bid, powers)) = board {
                     let mut images = |map: &str| cache.image(&asset_server, &theme, map);
@@ -657,12 +683,42 @@ fn sync_stage(
             }
             return;
         }
+        Subject::Character { motion: Motion::Idle, .. } => {
+            // the character's own idle on its own skeleton (`_v.setup3D`):
+            // it faces the camera on the shadow; plus the Me panel's turn
+            let Some(Model::Avatar { model, parts, props, id, outfit }) = &state.model else { return };
+            let Some(player) = anim.1.as_mut() else { return };
+            player.advance(time.delta_secs_f64());
+            let (bone_locals, node_locals) = player.pose(model);
+            let root = DMat4::from_rotation_y(spin.yaw);
+            let bones = model.bone_worlds_posed(root, &node_locals, &bone_locals);
+            let defs = crate::char_idle::props(id);
+            let attach: Vec<Option<DMat4>> = defs.iter().map(|d| model.node_index(&d.attach).map(|n| model.node_world_posed(root, n, &node_locals))).collect();
+            let (shown, hidden) = crate::char_idle::prop_visibility(id, *outfit, false, &bones, &attach);
+            for p in parts {
+                let m = &model.meshes[p.mesh_index];
+                let show = !hidden.contains(&model.nodes[m.node].name);
+                set(&mut vis, p.entity, show);
+                if show {
+                    let pos = model.skin(p.mesh_index, &bones, &m.default_influences);
+                    if let Some(mut mesh) = meshes.get_mut(&p.mesh) {
+                        mesh.insert_attribute(Mesh::ATTRIBUTE_POSITION, pos);
+                    }
+                }
+            }
+            for &(k, _, e) in props {
+                set(&mut vis, e, shown[k]);
+                if let Some(at) = attach[k] {
+                    commands.entity(e).insert(Transform::from_matrix(at.as_mat4()));
+                }
+            }
+        }
         Subject::Character { motion, board, .. } => {
             // the clip and its time
             let animator = anim.0.get_or_insert_with(|| Animator::new(assets.jake_clips.clone(), &assets.jake, true, "jake-"));
             let (clip, t) = match motion {
                 Motion::HighScore { ticks } => (HS_CLIP, clip_time((ticks + blend.as_ref().map_or(1.0, |b| b.alpha as f64) - 1.0).max(0.0))),
-                Motion::Idle => (IDLE_CLIP, state.t),
+                Motion::Idle => return,
                 Motion::Board => {
                     let trick = TRICKS[state.trick];
                     let dur = animator.clip_index(trick).map_or(0.0, |c| animator.lib.clips[c].duration);
@@ -676,11 +732,10 @@ fn sync_stage(
             animator.actions.clear();
             animator.actions.insert(c, a);
             animator.active = vec![c];
-            // The original's idle and board scenes face the camera and stand on
-            // the shadow; the port poses the run skeleton (the idle frames
-            // face -z and drift away from the origin): idles turned by pi and
-            // kept with the hips over the shadow, the board preview centred on
-            // its first frame. Plus the Me panel's turn (port addition).
+            // The original's board scene faces the camera and stands on the
+            // shadow; the port poses the run skeleton (whose frames drift
+            // away from the origin): the board preview centred on its first
+            // frame. Plus the Me panel's turn (port addition).
             let root = if matches!(motion, Motion::HighScore { .. }) {
                 DMat4::IDENTITY
             } else {
@@ -690,16 +745,12 @@ fn sync_stage(
                     let b = jake.bone_worlds_posed(DMat4::IDENTITY, &jake_nodes, &bone_locals);
                     b.first().map_or(DVec3::ZERO, |m| DVec3::new(m.w_axis.x, 0.0, m.w_axis.z))
                 };
-                let (c, turn) = if matches!(motion, Motion::Idle) {
-                    (hips(animator), PI)
-                } else {
-                    (*state.centre.get_or_insert_with(|| hips(animator)), 0.0)
-                };
-                DMat4::from_rotation_y(turn + spin.yaw) * DMat4::from_translation(-c)
+                let c = *state.centre.get_or_insert_with(|| hips(animator));
+                DMat4::from_rotation_y(spin.yaw) * DMat4::from_translation(-c)
             };
             let mut attach: Option<DMat4> = None;
             match &state.model {
-                Some(Model::Avatar { model, parts }) => {
+                Some(Model::Avatar { model, parts, .. }) => {
                     let jake = &assets.jake;
                     let (bone_locals, jake_nodes) = animator.pose(jake);
                     let node_locals: Vec<crate::skin::Trs> =

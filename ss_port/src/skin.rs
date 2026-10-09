@@ -81,6 +81,9 @@ pub struct SkinModel {
     /// The node under whose (first) skinned mesh the root bones hang.
     pub attach_node: usize,
     pub meshes: Vec<SkinMesh>,
+    /// Unskinned meshes (props, e.g. `Meshes/Props/Jake_sandwich`), in
+    /// their node's space (no joints).
+    pub rigid: Vec<SkinMesh>,
 }
 
 fn mat(b: Option<&Buffer>) -> Option<DMat4> {
@@ -234,9 +237,11 @@ impl SkinModel {
         let geoms = m["geometry"].as_array().ok_or("pk: no geometry")?;
         let materials = m["materials"].as_array();
         let mut meshes = Vec::new();
+        let mut rigid = Vec::new();
         let mut attach_node = None;
         for (ni, n) in nodes.iter().enumerate() {
-            let (Some(g), Some(_)) = (n.geometry, n.skin) else { continue };
+            let Some(g) = n.geometry else { continue };
+            let skinned = n.skin.is_some();
             let geo = &geoms[g];
             let default_influences: Vec<f32> = geo["weights"].as_array().into_iter().flatten().filter_map(Value::as_f64).map(|x| x as f32).collect();
             for (pi, p) in geo["primitives"].as_array().into_iter().flatten().enumerate() {
@@ -251,7 +256,8 @@ impl SkinModel {
                     let mi = p["material"].as_u64().unwrap_or(pi as u64) as usize;
                     materials.and_then(|ms| ms.get(mi)).and_then(|mm| mm["name"].as_str()).unwrap_or("").to_string()
                 };
-                meshes.push(SkinMesh {
+                let list = if skinned { &mut meshes } else { &mut rigid };
+                list.push(SkinMesh {
                     name,
                     node: ni,
                     positions: pos.chunks_exact(3).map(|c| [c[0] * scale, c[1] * scale, c[2] * scale]).collect(),
@@ -267,10 +273,12 @@ impl SkinModel {
                         .collect(),
                     default_influences: default_influences.clone(),
                 });
-                attach_node.get_or_insert(ni);
+                if skinned {
+                    attach_node.get_or_insert(ni);
+                }
             }
         }
-        Ok(Self { nodes, joints, joint_parent, inverse_bind, rest, attach_node: attach_node.ok_or("pk: no skinned mesh")?, meshes })
+        Ok(Self { nodes, joints, joint_parent, inverse_bind, rest, attach_node: attach_node.ok_or("pk: no skinned mesh")?, meshes, rigid })
     }
 
     /// `lp` (38650): re-bind `mesh` of `other` to this skeleton by bone name

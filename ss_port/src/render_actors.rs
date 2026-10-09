@@ -303,6 +303,35 @@ pub(crate) fn build_hero_parts(
     parts
 }
 
+/// The avatar's unskinned meshes named in `nodes` (props, `H_`), with the
+/// hero's material: (rigid mesh index, entity), hidden until placed.
+#[allow(clippy::too_many_arguments)]
+pub(crate) fn build_rigid_parts(
+    commands: &mut Commands,
+    sim: &Sim,
+    model: &SkinModel,
+    id: &str,
+    outfit: usize,
+    nodes: &[&str],
+    meshes: &mut Assets<Mesh>,
+    mats: &mut Assets<SubwayMaterial>,
+    images: &mut impl FnMut(&str) -> Option<Handle<Image>>,
+    thumb: Option<Thumb>,
+) -> Vec<(usize, Entity)> {
+    let map = if outfit == 0 { format!("{id}-tex") } else { format!("{id}-tex-{outfit}") };
+    let mat = thumb_mat(mats, subway_material(&sim.game.theme, &character_material(&map, true), images(&map), None), thumb);
+    let mut out = Vec::new();
+    for (ri, m) in model.rigid.iter().enumerate() {
+        if !nodes.contains(&model.nodes[m.node].name.as_str()) {
+            continue;
+        }
+        let (_, entity) = spawn_skinned(commands, meshes, &mat, m);
+        thumb_layer(commands, entity, thumb);
+        out.push((ri, entity));
+    }
+    out
+}
+
 /// A library group (`$.library.getEntity(name, {map})`) as static meshes
 /// with the library's material rules. `drop_child`: remove that child of
 /// the entity container first (the magnet's `removeChild(children[1])`).

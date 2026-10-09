@@ -1,0 +1,2093 @@
+{
+ "jake": {
+  "idle": {
+   "source": "idle-jake",
+   "fps": 25,
+   "breathe": [
+    1,
+    93
+   ],
+   "flavors": [
+    {
+     "name": "look_01",
+     "frames": [
+      500,
+      579
+     ]
+    },
+    {
+     "name": "come_on",
+     "frames": [
+      580,
+      655
+     ]
+    },
+    {
+     "name": "look_02",
+     "frames": [
+      663,
+      755
+     ]
+    },
+    {
+     "name": "eating_sandwich",
+     "frames": [
+      760,
+      995
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "Jake_sandwich",
+    "attach": "attachPoint3"
+   },
+   {
+    "node": "Jake_sprayCan",
+    "attach": "attachPoint2"
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "jake_Mesh",
+    "jake_outfit1",
+    "jake_outfit2",
+    "jake_zombie",
+    "jake_zombie_joker"
+   ],
+   "outfits": [
+    [
+     "jake_Mesh"
+    ],
+    [
+     "jake_Mesh",
+     "jake_outfit1"
+    ],
+    [
+     "jake_Mesh",
+     "jake_outfit2"
+    ]
+   ]
+  }
+ },
+ "tricky": {
+  "idle": {
+   "source": "idle-tricky",
+   "fps": 25,
+   "breathe": [
+    0,
+    40
+   ],
+   "flavors": [
+    {
+     "name": "look_around",
+     "frames": [
+      60,
+      154
+     ]
+    },
+    {
+     "name": "head_spin",
+     "frames": [
+      200,
+      620
+     ]
+    },
+    {
+     "name": "smart",
+     "frames": [
+      700,
+      835
+     ]
+    },
+    {
+     "name": "break_dance",
+     "frames": [
+      850,
+      955
+     ]
+    },
+    {
+     "name": "air_kiss",
+     "frames": [
+      995,
+      1095
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "tricky_Mesh",
+    "tricky_outfit_default",
+    "tricky_outfit1",
+    "tricky_outfit2",
+    "tricky_xmas",
+    "tricky_xmas_outfit1"
+   ],
+   "outfits": [
+    [
+     "tricky_Mesh",
+     "tricky_outfit_default"
+    ],
+    [
+     "tricky_Mesh",
+     "tricky_outfit1"
+    ],
+    [
+     "tricky_Mesh",
+     "tricky_outfit2"
+    ]
+   ]
+  }
+ },
+ "yutani": {
+  "idle": {
+   "source": "idle-yutani",
+   "fps": 24,
+   "breathe": [
+    0,
+    40
+   ],
+   "flavors": [
+    {
+     "name": "jump",
+     "frames": [
+      80,
+      152
+     ]
+    },
+    {
+     "name": "giggle",
+     "frames": [
+      175,
+      220
+     ]
+    },
+    {
+     "name": "silly",
+     "frames": [
+      240,
+      340
+     ]
+    },
+    {
+     "name": "worm",
+     "frames": [
+      350,
+      540
+     ]
+    },
+    {
+     "name": "look",
+     "frames": [
+      600,
+      683
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "yutani_Mesh",
+    "yutani_outfit1"
+   ],
+   "outfits": [
+    [
+     "yutani_Mesh"
+    ],
+    [
+     "yutani_outfit1"
+    ]
+   ]
+  }
+ },
+ "lucy": {
+  "idle": {
+   "source": "idle-lucy",
+   "fps": 24,
+   "breathe": [
+    0,
+    40
+   ],
+   "flavors": [
+    {
+     "name": "look",
+     "frames": [
+      60,
+      155
+     ]
+    },
+    {
+     "name": "hair",
+     "frames": [
+      180,
+      212
+     ]
+    },
+    {
+     "name": "turn",
+     "frames": [
+      225,
+      308
+     ]
+    },
+    {
+     "name": "giggle",
+     "frames": [
+      325,
+      427
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "lucy_Mesh",
+    "lucy_outfit1",
+    "lucy_outfit2"
+   ],
+   "outfits": [
+    [
+     "lucy_Mesh"
+    ],
+    [
+     "lucy_Mesh",
+     "lucy_outfit1"
+    ],
+    [
+     "lucy_Mesh",
+     "lucy_outfit2"
+    ]
+   ]
+  }
+ },
+ "tagbot": {
+  "idle": {
+   "source": "idle-tagbot",
+   "fps": 24,
+   "breathe": [
+    800,
+    864
+   ],
+   "flavors": [
+    {
+     "name": "dribble",
+     "frames": [
+      920,
+      1059
+     ]
+    },
+    {
+     "name": "foot_look",
+     "frames": [
+      1100,
+      1291
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "TagBotMeshesEXP_tagBot_head_prop_Outfit0",
+    "attach": "attachPoint1",
+    "replaces": [
+     "tagbot_head"
+    ],
+    "outfits": [
+     0
+    ]
+   },
+   {
+    "node": "TagBotMeshesEXP_tagBot_propHat_Outfit0",
+    "attach": "attachPoint3",
+    "replaces": [
+     "tagbot_outfit0"
+    ],
+    "outfits": [
+     0
+    ]
+   },
+   {
+    "node": "TagBot_head_prop_Outfit1",
+    "attach": "attachPoint1",
+    "replaces": [
+     "tagbot_head"
+    ],
+    "outfits": [
+     1
+    ]
+   },
+   {
+    "node": "TagBot_head_prop_Outfit2",
+    "attach": "attachPoint1",
+    "replaces": [
+     "tagbot_head"
+    ],
+    "outfits": [
+     2
+    ]
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "tagbot_Mesh",
+    "tagbot_head",
+    "tag_outfit_default",
+    "tag_outfit1",
+    "tag_outfit2",
+    "tagbot_outfit0",
+    "tagbot_outfit1",
+    "tagbot_outfit2",
+    "TagBot_head_prop_Outfit1",
+    "TagBot_head_prop_Outfit2",
+    "TagBotMeshesEXP_tagBot_head_prop_Outfit0",
+    "TagBotMeshesEXP_tagBot_propHat_Outfit0"
+   ],
+   "outfits": [
+    [
+     "tagbot_Mesh",
+     "tagbot_head",
+     "tagbot_outfit0"
+    ],
+    [
+     "tagbot_Mesh",
+     "tagbot_head",
+     "tagbot_outfit1"
+    ],
+    [
+     "tagbot_Mesh",
+     "tagbot_head",
+     "tagbot_outfit2"
+    ]
+   ]
+  }
+ },
+ "ninja": {
+  "idle": {
+   "source": "idle-ninja",
+   "fps": 25,
+   "breathe": [
+    250,
+    310
+   ],
+   "flavors": [
+    {
+     "name": "crazy_moves",
+     "frames": [
+      0,
+      232
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "ninja_Mesh",
+    "ninja_outfit_default",
+    "ninja_outfit1"
+   ],
+   "outfits": [
+    [
+     "ninja_Mesh",
+     "ninja_outfit_default"
+    ],
+    [
+     "ninja_Mesh",
+     "ninja_outfit1"
+    ],
+    [
+     "ninja_Mesh",
+     "ninja_outfit_default"
+    ]
+   ]
+  }
+ },
+ "tasha": {
+  "idle": {
+   "source": "idle-tasha",
+   "fps": 24,
+   "breathe": [
+    0,
+    30
+   ],
+   "flavors": [
+    {
+     "name": "breathe_relaxed",
+     "frames": [
+      61,
+      180
+     ]
+    },
+    {
+     "name": "aerobic",
+     "frames": [
+      200,
+      320
+     ]
+    },
+    {
+     "name": "cross",
+     "frames": [
+      360,
+      475
+     ]
+    },
+    {
+     "name": "stretchy",
+     "frames": [
+      509,
+      710
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "tasha_Mesh",
+    "tasha_outfit_default",
+    "tasha_outfit1",
+    "tasha_outfit2"
+   ],
+   "outfits": [
+    [
+     "tasha_Mesh",
+     "tasha_outfit_default"
+    ],
+    [
+     "tasha_Mesh",
+     "tasha_outfit1"
+    ],
+    [
+     "tasha_Mesh",
+     "tasha_outfit2"
+    ]
+   ]
+  }
+ },
+ "king": {
+  "idle": {
+   "source": "idle-king",
+   "fps": 24,
+   "breathe": [
+    0,
+    44
+   ],
+   "flavors": [
+    {
+     "name": "salute",
+     "frames": [
+      60,
+      150
+     ]
+    },
+    {
+     "name": "superman",
+     "frames": [
+      170,
+      229
+     ]
+    },
+    {
+     "name": "roundhouse_kick",
+     "frames": [
+      250,
+      345
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "king_Mesh",
+    "king_outfit_default",
+    "king_outfit1",
+    "king_outfit2"
+   ],
+   "outfits": [
+    [
+     "king_Mesh",
+     "king_outfit_default"
+    ],
+    [
+     "king_Mesh",
+     "king_outfit1"
+    ],
+    [
+     "king_Mesh",
+     "king_outfit2"
+    ]
+   ]
+  }
+ },
+ "brody": {
+  "idle": {
+   "source": "idle-brody",
+   "fps": 24,
+   "breathe": [
+    50,
+    100
+   ],
+   "flavors": [
+    {
+     "name": "look",
+     "frames": [
+      110,
+      234
+     ]
+    },
+    {
+     "name": "cool",
+     "frames": [
+      500,
+      679
+     ]
+    },
+    {
+     "name": "what_up",
+     "frames": [
+      694,
+      790
+     ]
+    },
+    {
+     "name": "push_up",
+     "frames": [
+      800,
+      912
+     ]
+    },
+    {
+     "name": "surfer_pose",
+     "frames": [
+      930,
+      1030
+     ]
+    },
+    {
+     "name": "surfing",
+     "frames": [
+      250,
+      430
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "brody_Mesh",
+    "brody_outfit_default",
+    "brody_outfit1",
+    "brody_outfit2"
+   ],
+   "outfits": [
+    [
+     "brody_Mesh",
+     "brody_outfit_default"
+    ],
+    [
+     "brody_Mesh",
+     "brody_outfit1"
+    ],
+    [
+     "brody_Mesh",
+     "brody_outfit2"
+    ]
+   ]
+  }
+ },
+ "ella": {
+  "idle": {
+   "source": "idle-ella",
+   "fps": 24,
+   "breathe": [
+    0,
+    40
+   ],
+   "flavors": [
+    {
+     "name": "look",
+     "frames": [
+      60,
+      140
+     ]
+    },
+    {
+     "name": "hair",
+     "frames": [
+      160,
+      280
+     ]
+    },
+    {
+     "name": "ohno",
+     "frames": [
+      300,
+      411
+     ]
+    },
+    {
+     "name": "bobit",
+     "frames": [
+      438,
+      520
+     ]
+    },
+    {
+     "name": "brush",
+     "frames": [
+      540,
+      584
+     ]
+    },
+    {
+     "name": "comeon",
+     "frames": [
+      610,
+      655
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "frizzy_Mesh",
+    "frizzy_outfit1",
+    "frizzy_outfit2",
+    "frizzy_outfit_default"
+   ],
+   "outfits": [
+    [
+     "frizzy_Mesh",
+     "frizzy_outfit_default"
+    ],
+    [
+     "frizzy_Mesh",
+     "frizzy_outfit1"
+    ],
+    [
+     "frizzy_Mesh",
+     "frizzy_outfit2"
+    ]
+   ]
+  }
+ },
+ "izzy": {
+  "idle": {
+   "source": "idle-izzy",
+   "fps": 30,
+   "breathe": [
+    1,
+    169
+   ],
+   "flavors": [
+    {
+     "name": "breath",
+     "frames": [
+      170,
+      245
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Izzy_Mesh",
+    "Izzy_outfit1",
+    "Izzy_outfit2"
+   ],
+   "outfits": [
+    [
+     "Izzy_Mesh"
+    ],
+    [
+     "Izzy_Mesh",
+     "Izzy_outfit1"
+    ],
+    [
+     "Izzy_Mesh",
+     "Izzy_outfit2"
+    ]
+   ]
+  }
+ },
+ "jenny": {
+  "idle": {
+   "source": "idle-jenny",
+   "fps": 25,
+   "breathe": [
+    1,
+    51
+   ],
+   "flavors": [
+    {
+     "name": "swim",
+     "frames": [
+      119,
+      495
+     ]
+    },
+    {
+     "name": "armwaves",
+     "frames": [
+      707,
+      930
+     ]
+    },
+    {
+     "name": "stop",
+     "frames": [
+      1201,
+      1297
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "sanFran_Mesh",
+    "sanFran_outfit1",
+    "sanFran_outfit2"
+   ],
+   "outfits": [
+    [
+     "sanFran_Mesh"
+    ],
+    [
+     "sanFran_Mesh",
+     "sanFran_outfit1"
+    ],
+    [
+     "sanFran_Mesh",
+     "sanFran_outfit2"
+    ]
+   ]
+  }
+ },
+ "kim": {
+  "idle": {
+   "source": "idle-kim",
+   "fps": 25,
+   "breathe": [
+    140,
+    194
+   ],
+   "flavors": [
+    {
+     "name": "meditate",
+     "frames": [
+      210,
+      355
+     ]
+    },
+    {
+     "name": "wheel",
+     "frames": [
+      370,
+      450
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "sydney_Mesh",
+    "sydney_outfit1",
+    "sydney_outfit2"
+   ],
+   "outfits": [
+    [
+     "sydney_Mesh"
+    ],
+    [
+     "sydney_Mesh",
+     "sydney_outfit1"
+    ],
+    [
+     "sydney_Mesh",
+     "sydney_outfit2"
+    ]
+   ]
+  }
+ },
+ "lauren": {
+  "idle": {
+   "source": "idle-lauren",
+   "fps": 25,
+   "breathe": [
+    1,
+    100
+   ],
+   "flavors": [
+    {
+     "name": "pull",
+     "frames": [
+      201,
+      449
+     ]
+    },
+    {
+     "name": "dance",
+     "frames": [
+      801,
+      955
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "washington_mesh",
+    "washington_outfit2"
+   ],
+   "outfits": [
+    [
+     "washington_mesh"
+    ],
+    [
+     "washington_mesh"
+    ],
+    [
+     "washington_mesh",
+     "washington_outfit2"
+    ]
+   ]
+  }
+ },
+ "nick": {
+  "idle": {
+   "source": "idle-nick",
+   "fps": 25,
+   "breathe": [
+    0,
+    29
+   ],
+   "flavors": [
+    {
+     "name": "sprinkler",
+     "frames": [
+      50,
+      180
+     ]
+    },
+    {
+     "name": "hook",
+     "frames": [
+      200,
+      273
+     ]
+    },
+    {
+     "name": "shuffle",
+     "frames": [
+      300,
+      417
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "miami_Mesh",
+    "miami_outfit1",
+    "miami_outfit2"
+   ],
+   "outfits": [
+    [
+     "miami_Mesh"
+    ],
+    [
+     "miami_Mesh",
+     "miami_outfit1"
+    ],
+    [
+     "miami_Mesh",
+     "miami_outfit2"
+    ]
+   ]
+  }
+ },
+ "princek": {
+  "idle": {
+   "source": "idle-princek",
+   "fps": 25,
+   "breathe": [
+    0,
+    40
+   ],
+   "flavors": [
+    {
+     "name": "look",
+     "frames": [
+      100,
+      220
+     ]
+    },
+    {
+     "name": "swag",
+     "frames": [
+      265,
+      520
+     ]
+    },
+    {
+     "name": "freeze",
+     "frames": [
+      600,
+      687
+     ]
+    },
+    {
+     "name": "turban",
+     "frames": [
+      700,
+      762
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "princek_Mesh",
+    "princek_outfit2"
+   ],
+   "outfits": [
+    [
+     "princek_Mesh"
+    ],
+    [
+     "princek_Mesh"
+    ],
+    [
+     "princek_Mesh",
+     "princek_outfit2"
+    ]
+   ]
+  }
+ },
+ "zoe": {
+  "idle": {
+   "source": "idle-zoe",
+   "fps": 25,
+   "breathe": [
+    0,
+    80
+   ],
+   "flavors": [
+    {
+     "name": "look",
+     "frames": [
+      140,
+      313
+     ]
+    },
+    {
+     "name": "take",
+     "frames": [
+      336,
+      453
+     ]
+    },
+    {
+     "name": "idlethriller",
+     "frames": [
+      490,
+      714
+     ]
+    },
+    {
+     "name": "idlegrab",
+     "frames": [
+      1000,
+      1175
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "zoe_Mesh",
+    "zoe_outfit1",
+    "zoe_outfit2",
+    "zoe_outfit_default"
+   ],
+   "outfits": [
+    [
+     "zoe_Mesh",
+     "zoe_outfit_default"
+    ],
+    [
+     "zoe_Mesh",
+     "zoe_outfit1"
+    ],
+    [
+     "zoe_Mesh",
+     "zoe_outfit2"
+    ]
+   ]
+  }
+ },
+ "dylan": {
+  "idle": {
+   "source": "idle-dylan",
+   "fps": 25,
+   "breathe": [
+    1,
+    94
+   ],
+   "flavors": [
+    {
+     "name": "boardflip",
+     "frames": [
+      369,
+      419
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Dylan_Mesh",
+    "Dylan_outfit1",
+    "Dylan_outfit2"
+   ],
+   "outfits": [
+    [
+     "Dylan_Mesh"
+    ],
+    [
+     "Dylan_Mesh",
+     "Dylan_outfit1"
+    ],
+    [
+     "Dylan_Mesh",
+     "Dylan_outfit2"
+    ]
+   ]
+  }
+ },
+ "olivia": {
+  "idle": {
+   "source": "idle-olivia",
+   "fps": 25,
+   "breathe": [
+    0,
+    50
+   ],
+   "flavors": [
+    {
+     "name": "idle01",
+     "frames": [
+      100,
+      260
+     ]
+    },
+    {
+     "name": "idle02",
+     "frames": [
+      285,
+      525
+     ]
+    },
+    {
+     "name": "idle03",
+     "frames": [
+      542,
+      798
+     ]
+    },
+    {
+     "name": "idle04",
+     "frames": [
+      810,
+      960
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Olivia_Mesh",
+    "Olivia_outfit1",
+    "Olivia_outfit2"
+   ],
+   "outfits": [
+    [
+     "Olivia_Mesh"
+    ],
+    [
+     "Olivia_Mesh",
+     "Olivia_outfit1"
+    ],
+    [
+     "Olivia_Mesh",
+     "Olivia_outfit2"
+    ]
+   ]
+  }
+ },
+ "cleo": {
+  "idle": {
+   "source": "idle-cleo",
+   "fps": 24,
+   "breathe": [
+    1,
+    50
+   ],
+   "flavors": [
+    {
+     "name": "idlehearts",
+     "frames": [
+      700,
+      800
+     ]
+    },
+    {
+     "name": "idlebekind",
+     "frames": [
+      900,
+      1050
+     ]
+    },
+    {
+     "name": "idledance",
+     "frames": [
+      300,
+      555
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Cleo_Mesh",
+    "Cleo_outfit1",
+    "Cleo_outfit2"
+   ],
+   "outfits": [
+    [
+     "Cleo_Mesh"
+    ],
+    [
+     "Cleo_Mesh",
+     "Cleo_outfit1"
+    ],
+    [
+     "Cleo_Mesh",
+     "Cleo_outfit2"
+    ]
+   ]
+  }
+ },
+ "phoenix": {
+  "idle": {
+   "source": "idle-phoenix",
+   "fps": 24,
+   "breathe": [
+    10,
+    58
+   ],
+   "flavors": [
+    {
+     "name": "rollercircle",
+     "frames": [
+      68,
+      221
+     ]
+    },
+    {
+     "name": "spinning",
+     "frames": [
+      236,
+      343
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Phoenix_Mesh",
+    "Phoenix_Outfit1",
+    "Phoenix_Outfit2"
+   ],
+   "outfits": [
+    [
+     "Phoenix_Mesh"
+    ],
+    [
+     "Phoenix_Mesh",
+     "Phoenix_Outfit1"
+    ],
+    [
+     "Phoenix_Mesh",
+     "Phoenix_Outfit2"
+    ]
+   ]
+  }
+ },
+ "charlie": {
+  "idle": {
+   "source": "idle-charlie",
+   "fps": 24,
+   "breathe": [
+    240,
+    296
+   ],
+   "flavors": [
+    {
+     "name": "idle_01",
+     "frames": [
+      340,
+      604
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "Charlie_SprayCan",
+    "attach": "attachPoint3"
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "Charlie_mesh",
+    "Charlie_outfit1",
+    "Charlie_outfit2"
+   ],
+   "outfits": [
+    [
+     "Charlie_mesh"
+    ]
+   ]
+  }
+ },
+ "costa": {
+  "idle": {
+   "source": "idle-costa",
+   "fps": 30,
+   "breathe": [
+    0,
+    105
+   ],
+   "flavors": [
+    {
+     "name": "breath",
+     "frames": [
+      105,
+      215
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Costa_Mesh"
+   ],
+   "outfits": [
+    [
+     "Costa_Mesh"
+    ]
+   ]
+  }
+ },
+ "danunder": {
+  "idle": {
+   "source": "idle-danunder",
+   "fps": 30,
+   "breathe": [
+    0,
+    154
+   ],
+   "flavors": [
+    {
+     "name": "breath",
+     "frames": [
+      155,
+      278
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "DanUnder_Snake",
+    "attach": "attachPoint4"
+   },
+   {
+    "node": "DanUnder_Bird",
+    "attach": "attachPoint3"
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "DanUnder_Mesh"
+   ],
+   "outfits": [
+    [
+     "DanUnder_Mesh"
+    ]
+   ]
+  }
+ },
+ "electra": {
+  "idle": {
+   "source": "idle-electra",
+   "fps": 24,
+   "breathe": [
+    1,
+    50
+   ],
+   "flavors": []
+  },
+  "outfitMeshes": {
+   "body": [
+    "Electra_Mesh"
+   ],
+   "outfits": [
+    [
+     "Electra_Mesh"
+    ]
+   ]
+  }
+ },
+ "finn": {
+  "idle": {
+   "source": "idle-finn",
+   "fps": 30,
+   "breathe": [
+    0,
+    346
+   ],
+   "flavors": [
+    {
+     "name": "breath",
+     "frames": [
+      347,
+      466
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Finn_Mesh"
+   ],
+   "outfits": [
+    [
+     "Finn_Mesh"
+    ]
+   ]
+  }
+ },
+ "kedi": {
+  "idle": {
+   "source": "idle-kedi",
+   "fps": 25,
+   "breathe": [
+    1,
+    48
+   ],
+   "flavors": [
+    {
+     "name": "phasing",
+     "frames": [
+      50,
+      114
+     ]
+    },
+    {
+     "name": "parkour",
+     "frames": [
+      120,
+      238
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Kedi_Mesh"
+   ],
+   "outfits": [
+    [
+     "Kedi_Mesh"
+    ]
+   ]
+  }
+ },
+ "koral": {
+  "idle": {
+   "source": "idle-koral",
+   "fps": 30,
+   "breathe": [
+    500,
+    521
+   ],
+   "flavors": [
+    {
+     "name": "idle01",
+     "frames": [
+      1,
+      488
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "Koral_tail",
+    "attach": "attachPoint3"
+   },
+   {
+    "node": "Koral_board",
+    "attach": "attachPoint4"
+   },
+   {
+    "node": "Koral_trash",
+    "attach": "attachPoint5"
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "Koral_Mesh",
+    "Koral_outfit01",
+    "Koral_outfit02"
+   ],
+   "outfits": [
+    [
+     "Koral_Mesh"
+    ],
+    [
+     "Koral_Mesh"
+    ],
+    [
+     "Koral_Mesh"
+    ]
+   ]
+  }
+ },
+ "lily": {
+  "idle": {
+   "source": "idle-lily",
+   "fps": 30,
+   "breathe": [
+    26,
+    201
+   ],
+   "flavors": [
+    {
+     "name": "breath",
+     "frames": [
+      0,
+      25
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Lily_Mesh",
+    "Lily_Outfit1_Mesh"
+   ],
+   "outfits": [
+    [
+     "Lily_Mesh"
+    ],
+    [
+     "Lily_Mesh"
+    ]
+   ]
+  }
+ },
+ "noel": {
+  "idle": {
+   "source": "idle-noel",
+   "fps": 24,
+   "breathe": [
+    301,
+    351
+   ],
+   "flavors": [
+    {
+     "name": "idle_fly",
+     "frames": [
+      401,
+      761
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "Noel_Top",
+    "attach": "attachPoint1"
+   },
+   {
+    "node": "Noel_Base",
+    "attach": "attachPoint2"
+   },
+   {
+    "node": "Noel_wing1Fly",
+    "attach": "attachPoint3"
+   },
+   {
+    "node": "Noel_bodyFly",
+    "attach": "attachPoint4"
+   },
+   {
+    "node": "Noel_wing2Fly",
+    "attach": "attachPoint5"
+   },
+   {
+    "node": "Noel_tongue",
+    "attach": "attachPoint6"
+   },
+   {
+    "node": "Noel_stripes",
+    "attach": "attachPoint7"
+   },
+   {
+    "node": "Noel_Glass",
+    "attach": "attachPoint8"
+   },
+   {
+    "node": "Noel_Water",
+    "attach": "attachPoint9"
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "Noel_Mesh",
+    "Noel_outfit01"
+   ],
+   "outfits": [
+    [
+     "Noel_Mesh"
+    ],
+    [
+     "Noel_Mesh"
+    ]
+   ]
+  }
+ },
+ "rudyrascal": {
+  "idle": {
+   "source": "idle-rudyrascal",
+   "fps": 30,
+   "breathe": [
+    120,
+    445
+   ],
+   "flavors": [
+    {
+     "name": "breath",
+     "frames": [
+      0,
+      119
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "RudyRascal_Can1",
+    "attach": "attachPoint3"
+   },
+   {
+    "node": "RudyRascal_Can2",
+    "attach": "attachPoint4"
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "RudyRascal_Mesh"
+   ],
+   "outfits": [
+    [
+     "RudyRascal_Mesh"
+    ]
+   ]
+  }
+ },
+ "sandy": {
+  "idle": {
+   "source": "idle-sandy",
+   "fps": 30,
+   "breathe": [
+    50,
+    100
+   ],
+   "flavors": [
+    {
+     "name": "idle",
+     "frames": [
+      101,
+      213
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Sandy_Mesh",
+    "Sandy_Outfit1"
+   ],
+   "outfits": [
+    [
+     "Sandy_Mesh"
+    ],
+    [
+     "Sandy_Mesh",
+     "Sandy_Outfit1"
+    ]
+   ]
+  }
+ },
+ "vittorio": {
+  "idle": {
+   "source": "idle-vittorio",
+   "fps": 30,
+   "breathe": [
+    0,
+    99
+   ],
+   "flavors": [
+    {
+     "name": "breath",
+     "frames": [
+      100,
+      203
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "Vittorio_Mesh"
+   ],
+   "outfits": [
+    [
+     "Vittorio_Mesh"
+    ]
+   ]
+  }
+ },
+ "fresh": {
+  "idle": {
+   "source": "idle-fresh",
+   "fps": 24,
+   "breathe": [
+    200,
+    237
+   ],
+   "flavors": [
+    {
+     "name": "bb_pickup",
+     "frames": [
+      250,
+      602
+     ]
+    },
+    {
+     "name": "basket_01",
+     "frames": [
+      615,
+      741
+     ]
+    },
+    {
+     "name": "basket_02",
+     "frames": [
+      900,
+      1047
+     ]
+    },
+    {
+     "name": "hair_fix",
+     "frames": [
+      1100,
+      1183
+     ]
+    },
+    {
+     "name": "sneaker_fix",
+     "frames": [
+      1240,
+      1374
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "Fresh_BasketBall",
+    "attach": "attachPoint8"
+   },
+   {
+    "node": "Fresh_BoomBox",
+    "attach": "attachPoint9"
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "fresh_Mesh",
+    "fresh_outfit1",
+    "fresh_outfit2",
+    "fresh_Ingame_Mesh",
+    "fresh_Ingame_outfit",
+    "fresh_Ingame_outfit1",
+    "fresh_Ingame_outfit2"
+   ],
+   "outfits": [
+    [
+     "fresh_Mesh"
+    ],
+    [
+     "fresh_outfit1"
+    ],
+    [
+     "fresh_outfit2"
+    ]
+   ]
+  }
+ },
+ "spike": {
+  "idle": {
+   "source": "idle-spike",
+   "fps": 24,
+   "breathe": [
+    0,
+    40
+   ],
+   "flavors": [
+    {
+     "name": "air_guitar_02",
+     "frames": [
+      230,
+      317
+     ]
+    },
+    {
+     "name": "air_guitar_01",
+     "frames": [
+      120,
+      218
+     ]
+    },
+    {
+     "name": "look",
+     "frames": [
+      440,
+      520
+     ]
+    },
+    {
+     "name": "in_your_face",
+     "frames": [
+      50,
+      110
+     ]
+    },
+    {
+     "name": "scroll_bar",
+     "frames": [
+      536,
+      536
+     ]
+    },
+    {
+     "name": "breath_02",
+     "frames": [
+      540,
+      580
+     ]
+    },
+    {
+     "name": "air_guitar_03",
+     "frames": [
+      670,
+      772
+     ]
+    },
+    {
+     "name": "air_guitar_04",
+     "frames": [
+      780,
+      870
+     ]
+    },
+    {
+     "name": "look_02",
+     "frames": [
+      990,
+      1070
+     ]
+    },
+    {
+     "name": "in_your_face_02",
+     "frames": [
+      600,
+      660
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "spike_Mesh",
+    "spike_outfit1",
+    "spike_outfit2",
+    "spike_outfit_default"
+   ],
+   "outfits": [
+    [
+     "spike_Mesh",
+     "spike_outfit_default"
+    ],
+    [
+     "spike_Mesh",
+     "spike_outfit1"
+    ],
+    [
+     "spike_Mesh",
+     "spike_outfit2"
+    ]
+   ]
+  }
+ },
+ "frank": {
+  "idle": {
+   "source": "idle-frank",
+   "fps": 24,
+   "breathe": [
+    0,
+    50
+   ],
+   "flavors": [
+    {
+     "name": "squats",
+     "frames": [
+      60,
+      110
+     ]
+    },
+    {
+     "name": "pushups",
+     "frames": [
+      150,
+      240
+     ]
+    },
+    {
+     "name": "look",
+     "frames": [
+      246,
+      280
+     ]
+    },
+    {
+     "name": "time",
+     "frames": [
+      285,
+      314
+     ]
+    }
+   ]
+  },
+  "outfitMeshes": {
+   "body": [
+    "frank_Mesh",
+    "frank_outfit1",
+    "frank_outfit2",
+    "frank_outfit_default"
+   ],
+   "outfits": [
+    [
+     "frank_Mesh",
+     "frank_outfit_default"
+    ],
+    [
+     "frank_Mesh",
+     "frank_outfit1"
+    ],
+    [
+     "frank_Mesh",
+     "frank_outfit2"
+    ]
+   ]
+  }
+ },
+ "dino": {
+  "idle": {
+   "source": "idle-dino",
+   "fps": 25,
+   "breathe": [
+    2000,
+    2196
+   ],
+   "flavors": [
+    {
+     "name": "idle1kick",
+     "frames": [
+      436,
+      594
+     ]
+    },
+    {
+     "name": "idle2stomp",
+     "frames": [
+      736,
+      1000
+     ]
+    },
+    {
+     "name": "idle3anticipate",
+     "frames": [
+      1136,
+      1364
+     ]
+    },
+    {
+     "name": "idle4grab",
+     "frames": [
+      1500,
+      1722
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "facebook_building",
+    "attach": "attachPoint1"
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "facebook_Mesh"
+   ],
+   "outfits": [
+    [
+     "facebook_Mesh"
+    ]
+   ]
+  }
+ },
+ "boombot": {
+  "idle": {
+   "source": "idle-boombot",
+   "fps": 25,
+   "breathe": [
+    1,
+    93
+   ],
+   "flavors": [
+    {
+     "name": "break_dance_01",
+     "frames": [
+      300,
+      812
+     ]
+    },
+    {
+     "name": "break_dance_02",
+     "frames": [
+      850,
+      967
+     ]
+    },
+    {
+     "name": "robot",
+     "frames": [
+      209,
+      300
+     ]
+    }
+   ]
+  },
+  "props": [
+   {
+    "node": "Boomie_lidUp_R",
+    "attach": "attachPoint2"
+   },
+   {
+    "node": "Boomie_lidLow_R",
+    "attach": "attachPoint3"
+   },
+   {
+    "node": "Boomie_lidUp_L",
+    "attach": "attachPoint4"
+   },
+   {
+    "node": "Boomie_lidLow_L",
+    "attach": "attachPoint5"
+   },
+   {
+    "node": "Boomie_Prop_eyes",
+    "attach": "attachPoint8"
+   },
+   {
+    "node": "Boomie_Prop_head",
+    "attach": "attachPoint9",
+    "replaces": [
+     "Boomie_head",
+     "Boomie_Idle_head"
+    ]
+   }
+  ],
+  "outfitMeshes": {
+   "body": [
+    "Boomie_mesh"
+   ],
+   "outfits": [
+    [
+     "Boomie_mesh"
+    ]
+   ]
+  }
+ },
+ "missmaia": {
+  "idle": {
+   "source": "idle-missmaia",
+   "fps": 30,
+   "breathe": [
+    0,
+    707
+   ],
+   "flavors": []
+  },
+  "outfitMeshes": {
+   "body": [
+    "MissMaia_Mesh"
+   ],
+   "outfits": [
+    [
+     "MissMaia_Mesh"
+    ]
+   ]
+  }
+ },
+ "pridemissmaia": {
+  "idle": {
+   "source": "idle-pridemissmaia",
+   "fps": 30,
+   "breathe": [
+    0,
+    707
+   ],
+   "flavors": []
+  },
+  "outfitMeshes": {
+   "body": [
+    "MissMaia_Mesh"
+   ],
+   "outfits": [
+    [
+     "MissMaia_Mesh"
+    ]
+   ]
+  }
+ }
+}

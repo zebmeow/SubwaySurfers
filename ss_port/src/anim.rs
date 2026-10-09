@@ -176,7 +176,14 @@ const HELPERS: [&str; 4] = ["blendshape_meta", "eye_switch_meta_grp", "maya_eye_
 
 /// Where an animation source file lives under the site.
 fn source_path(site: &Path, file: &str) -> std::path::PathBuf {
-    let dir = if file == "idle" { "animations-idle" } else { "animations-basic" };
+    let dir = if file == "idle" {
+        "animations-idle"
+    } else if file.starts_with("idle-") {
+        // a character's own idles (the Me panel, `crate::char_idle`)
+        "animations-character-idle"
+    } else {
+        "animations-basic"
+    };
     site.join("assets").join(dir).join(format!("{file}.pk"))
 }
 
@@ -207,7 +214,7 @@ impl ClipLib {
             for t in &master.tracks {
                 dur = dur.max(*t.times.last().unwrap() as f64);
             }
-            let src_dur = if file == "idle" && dur > 0.0 { dur } else { dur.max(max_end) };
+            let src_dur = if (file == "idle" || file.starts_with("idle-")) && dur > 0.0 { dur } else { dur.max(max_end) };
             // filterClipTargets + normalizeRigRootScale
             let keep = |t: &&RawTrack| !HELPERS.contains(&t.target.as_str());
             let mut tracks: Vec<RawTrack> = master.tracks.iter().filter(keep).filter(|t| targets.contains(&t.target)).cloned().collect();

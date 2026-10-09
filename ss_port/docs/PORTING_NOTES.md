@@ -200,13 +200,23 @@ current screen shows. The UI draws that texture as the original's sprite.
 | screen | subject | framing | placement |
 |---|---|---|---|
 | New High Score (`Xv`) | the hero running `run_HighScore_main` at 0.35x | `Jv` | the sliding view |
-| results notepad (`Wv` `_v`) | the saved character idling (`popupIdle`) | `uv` | anchor (0.5, 1), 36 below the notepad's centre, x -190 |
+| results notepad (`Wv` `_v`) | the saved character idling (its own idles) | `uv` | anchor (0.5, 1), 36 below the notepad's centre, x -190 |
 | Me panel, Characters (`hy` `_v`) | the focused character and outfit idling | `uv` | anchor (0.5, 1) at (-170, 75), x1.3 |
 | Me panel, Boards | the selected character on the focused board and powers: one random trick (`gv`), then `h_run` | `mv` | same |
 | prize screen (`Dy`) | `mysteryBox_default` / `_super` | `Ey` | anchor (0.5, 1) at the centre + 296; 2D shadow `Z_` at + 200 |
 
-- **Characters** stand on `ensureFloorShadow`. Avatars are posed through
-  Jake's skeleton. The board hangs on `attachPoint1` turned -pi/2 (`ev`).
+- **Characters** stand on `ensureFloorShadow`. The idles (`_v.setup3D`,
+  `src/char_idle.rs`) play each character's own `idle-<id>.pk`
+  (`animations-character-idle`) on its own skeleton (`Y_`: the tracks of
+  the avatar's nodes, `Root.scale` normalized). They're cut into a breathe
+  clip and gesture flavors (`Ep`, extracted to `data/character_idles.json`).
+  The director `ov` plays a random gesture, then one breathe, then another
+  gesture, without cross-fades. Props (`H_`), such as Jake's sandwich and
+  spray can or Tagbot's head, are the avatar's unskinned meshes placed on
+  their attach point. They're hidden by outfit, and their replaced nodes
+  hide while they show. The board preview poses the avatar through Jake's
+  skeleton (`h_run` and the tricks). The board hangs on `attachPoint1`
+  turned -pi/2 (`ev`).
 - **The box** follows `Dy.tween(1)`: ry 0.25, rx -0.56, rz -0.125, x0.008,
   y 0.02 <-> 0.045 and the shadow 1 <-> 0.5, over 1.5 s, yoyo,
   `Power1.easeOut`. Then `tween(2)` on the open press: y -> 0.04 in 0.3 s;
@@ -219,12 +229,12 @@ current screen shows. The UI draws that texture as the original's sprite.
 
 Differences:
 
-- **Idle animation.** The original's Me-panel idle is a breathe loop with
-  random gestures from per-character `idle-<id>.pk` files. The captured
-  build does not have those files (the offline original shows a broken
-  pose), so the port loops `popupIdle`, the results' declared idle.
-- **Pose fix-up.** Those frames face -z and drift. The port turns them by pi
-  and keeps the hips over the shadow.
+- **Idle files.** The site capture lacked `assets/animations-character-idle/`
+  (the offline original shows a broken pose there). The 40 `idle-<id>.pk`
+  files were fetched later from the same CDN path as the rest of
+  `oracle/site`.
+- **Faces in the idles.** The idles' eye-switch and blendshape tracks (`V_`)
+  aren't applied, so faces keep their rest look while idling.
 - **Drag to turn.** Dragging the Me-panel preview horizontally turns the
   character (0.01 rad/px). This is a port addition, and the turn resets
   when the focus changes.
@@ -727,9 +737,22 @@ the mouse wheel, arrows and Space.
 - Untested by the trace (ported from the code, unvalidated): jumps beyond
   `tests/hero_jump.rs`, SLOPE/TOP/BOTTOM hits, queued lane changes, wall
   bumps, tunnel camera (`lowCamera` gate triggers), trigger exits.
-- Rendering: the Me panel's thumb strip in 3D
-  (static images), the per-character idle gestures (the build lacks
-  `idle-<id>.pk`).
+- Rendering: the Me panel's thumb strip in 3D (static images), and the
+  idles' eye and blendshape tracks (`V_`).
 - Themes: this build ships only Bali (the only bundle the original
   downloads); `ThemeRegistry` discovers `data/theme_<id>.json` files, so
   another city needs its file plus its bundle and theme class.
+
+## Reported, but as the original
+
+Behaviours reported as bugs that the web original shares (checked against
+the deobfuscated bundle):
+
+- **The magnet isn't held up.** The original attaches the magnet model to
+  `R_Hand_jnt` (`If.addMagnetModel`, 37518) and keeps the normal run
+  animation. Its `hold_magnet` clip (movement frames 280-281) is defined
+  but never played. The arm-up pose is the mobile game's.
+- **Board trails (star trail, pink trail).** The original's board data marks
+  the `star-trail` and `pink-trail` upgrades `available: false`, so the
+  shop hides them (`setPowerups` shows only available ones). No code draws
+  a trail for them.

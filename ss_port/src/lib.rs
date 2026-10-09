@@ -10,6 +10,7 @@ pub mod audio;
 pub mod awards;
 pub mod boosts;
 pub mod celebration;
+pub mod char_idle;
 pub mod camera;
 pub mod data;
 pub mod describe;

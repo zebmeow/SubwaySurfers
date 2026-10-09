@@ -406,6 +406,14 @@ fn build_sim_at(paths: &DataPaths, args: &Args, start: bool) -> (Sim, KeyQueue) 
     if args.replay.is_none() && args.screenshot.is_none() {
         let save = Install::locate().save_file();
         sim.game.flow.user = ss_port::flow::UserData::load(&save);
+        // a character this build does not have (a save from a version with
+        // extra characters): back to Jake
+        let u = &mut sim.game.flow.user;
+        if !ss_port::shop::Catalog::get().roster.contains(&u.selected_character) {
+            info!("[Save] Selected character {:?} is not in this build: Jake", u.selected_character);
+            u.selected_character = "jake".into();
+            u.selected_outfit = 0;
+        }
         sim.game.flow.save_path = Some(save);
         // the missions' saved progress (`prepareMissions`), tracked from the
         // start; `stats.missionMultiplier` as the stats' reset reads it

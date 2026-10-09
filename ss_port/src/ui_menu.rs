@@ -23,8 +23,9 @@ const NAVY: u32 = 0x033B71;
 const GREEN: u32 = 0x41972A;
 
 /// Rough Lilita / Titan text width (em-relative), for right-aligned tags.
-fn text_w(s: &str, size: f32) -> f32 {
-    s.chars().count() as f32 * size * 0.52
+/// The width of `s` in units at `size` (the font's advance widths).
+fn text_w(font: UiFont, s: &str, size: f32) -> f32 {
+    crate::ui::measure(font, size, s)
 }
 
 /// `Am` (44395): white (w+10)x(h+10) r10 frame, coloured w x h r5 fill, icon.
@@ -79,8 +80,8 @@ pub(crate) fn notepad(b: &mut Builder, buttons: &[(&str, &str, &str, Click)]) {
 pub(crate) fn currencies(b: &mut Builder, right: f32, y: f32, keys: i64, coins: i64) {
     let s = b.s;
     let (ks, cs) = (keys.to_string(), coins.to_string());
-    let kw = 27.0 + 6.0 + text_w(&ks, 30.0);
-    let cw = 39.0 + 6.0 + text_w(&cs, 30.0);
+    let kw = 27.0 + 6.0 + text_w(UiFont::Lilita, &ks, 30.0);
+    let cw = 39.0 + 6.0 + text_w(UiFont::Lilita, &cs, 30.0);
     let bw = kw + cw + 30.0;
     let left = right - bw;
     let (bx, by) = b.c(left, y - 21.0);
@@ -357,7 +358,9 @@ fn me_panel(b: &mut Builder, g: &Game, m: &MeState) {
         b.text(&label, UiFont::Titan, 40.0 * k, raw(WHITE, alpha), tx, ty, 0.5, 0.5, None);
         if let Some(cur) = currency {
             let icon = if cur == "keys" { "icon-key" } else { "icon-coin" };
-            let (ix, iy) = b.c(lx + text_w(&label, 36.0) / 2.0 + 15.0, cy);
+            // (`iy`: the icon at label.width / 2 + 15 from the button's
+            // centre, the label moved 15 left)
+            let (ix, iy) = b.c(cx + text_w(UiFont::Titan, &label, 40.0 * k) / 2.0 + 15.0, cy);
             b.frame_c(icon, ix, iy, 0.9, Color::WHITE);
         }
         if alpha == 1.0 {
@@ -595,7 +598,7 @@ fn boost_card(b: &mut Builder, g: &Game, i: usize, cy: f32, h: f32, open: bool, 
             b.rect(fx, fy, w * s, 70.0 * s, raw(GREEN, 1.0), 12.0 * s);
             let (bx, by) = b.c(bcx - (w + 24.0) / 2.0 + 5.0, bcy - 48.0 + 6.0);
             b.sliced("box-border-grey", bx, by, (w + 24.0) * s, 96.0 * s, 15.0, 15.0, 25.0, 25.0);
-            let tw = text_w(&txt, 35.0);
+            let tw = text_w(UiFont::Lilita, &txt, 35.0);
             let (ix, iy) = b.c(bcx - tw / 2.0 - 5.0, bcy);
             b.frame_c("icon-coin", ix, iy, 0.75, Color::WHITE);
             let (tx, ty) = b.c(bcx + 18.0, bcy + 2.0);
