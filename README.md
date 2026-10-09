@@ -1,4 +1,4 @@
-# Subway Surfers — vanilla Rust / Bevy port
+# Subway Surfers Rust / Bevy port
 
 Everything is in this folder:
 
